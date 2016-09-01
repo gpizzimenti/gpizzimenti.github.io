@@ -1,0 +1,108 @@
+<html>
+
+ <head>
+	<title>#ODS16 | Leaflet | GeoJSON</title>
+     <meta charset="utf-8" />
+
+	<link rel="stylesheet" href="../lib/leaflet.css" />
+	<script src="../lib/leaflet.js"></script> 
+	<script src="../lib/jquery-3.1.0.min.js"></script> 
+ </head>
+ 
+ <body>
+
+	<div id="mapContainer" style="width: 100%; height: 100%"></div>
+
+	<script>
+	
+		var mappa = L.map('mapContainer')
+				   .setView([38.19941,15.55602], 16); // LAT, LONG
+						
+					L.tileLayer(
+						'http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', 
+						{
+							attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a>',
+							maxZoom: 18,
+						}
+					   )
+					 .addTo(mappa);	
+	
+		/*-------------------------------------------------------------*/	
+		
+		var $req = $.ajax({
+			dataType: "json",
+			url: 'https://gpizzimenti.github.io/ODS16 Leaflet Workshop/07 - GeoJSON/monumentsinmessina.overpass.geojson'
+		});	
+		
+		/*-------------------------------------------------------------*/		
+		
+		$.when($req)
+		.then(elaboraDati, gestisciErrore);
+
+		/*-------------------------------------------------------------*/
+		
+		var geojsonMarkerStyle = {
+			radius: 12,
+			fillColor: "blue",
+			color: "#000",
+			weight: 1,
+			opacity: 1,
+			fillOpacity: 0.5
+		};
+		
+		/*-------------------------------------------------------------*/
+		
+		var cannonIcon = L.icon({
+			iconUrl: 'cannon.png',
+			iconSize: [32, 32],
+			iconAnchor: [16, 37],
+			popupAnchor: [0, -28]
+		});
+		
+		/*-------------------------------------------------------------*/
+		
+		function elaboraDati(data) { 
+			var layerMonumenti = L
+									.geoJson(data, {
+													   style: function(feature) {
+														if (feature.geometry.type == "Polygon") {
+															return {
+																	color: "red",
+																	fillColor: "gold",
+																	fillOpacity: 0.5
+																   }
+															}
+														},
+														pointToLayer: function (feature, latlng) {
+															if (feature.properties && feature.properties.name && feature.properties.name == "Monumento alla Batteria Masotto") {
+																return L.marker(latlng, {icon: cannonIcon});
+															} else {
+																return L.circleMarker(latlng, geojsonMarkerStyle);
+															}
+														},
+														onEachFeature: function (feature, layer) {
+															if (feature.properties && feature.properties.name) {
+																layer.bindPopup(feature.properties.name);
+															}
+
+														},
+														filter: function(feature, layer) {
+																return (feature.geometry.type == "Polygon" || feature.geometry.coordinates[0] > 15.50);
+															}														
+												   })
+									.addTo(mappa);
+		};
+	
+		/*-------------------------------------------------------------*/	
+		
+		function gestisciErrore() {
+			alert("Si è verificato un errore!");
+		};
+		
+		
+	</script>
+
+
+ </body>
+
+</html>

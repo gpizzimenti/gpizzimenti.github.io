@@ -1,0 +1,51 @@
+<html>
+
+ <head>
+	<title>#ODS16 | Leaflet | Popups</title>
+     <meta charset="utf-8" />
+
+	<link rel="stylesheet" href="../lib/leaflet.css" />
+	<script src="../lib/leaflet.js"></script> 
+
+ </head>
+ 
+ <body>
+
+	<div id="mapContainer" style="width: 100%; height: 100%"></div>
+
+	<script>
+			var mappa = L.map('mapContainer')
+						.setView([38.19941,15.55602], 16); // LAT, LONG
+							
+						L.tileLayer(
+							'http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', 
+						    {
+								attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a>',
+								maxZoom: 18,
+							}
+						   )
+						 .addTo(mappa);
+						 
+ 			/*-------------------------------------------------------------*/						
+						 
+			var markerCospecs = L.marker([38.19941,15.55602])
+								 .addTo(mappa);			    
+
+			var markerMarina = L.marker([38.19943,15.55889])
+								 .addTo(mappa);	
+								 
+ 			/*-------------------------------------------------------------*/						
+
+			    markerCospecs
+				.bindPopup("<b>COSPECS</b><br><i>Voi siete qui</i>")
+				.openPopup();	
+
+			    markerMarina
+				.bindPopup("<b>Marina del Nettuno</b><br><i>Stasera si va qui</i>");					
+			  
+	</script>
+
+
+ </body>
+
+</html>

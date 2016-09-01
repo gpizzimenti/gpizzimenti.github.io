@@ -1,0 +1,130 @@
+<html>
+
+ <head>
+	<title>#ODS16 | Leaflet | Layer groups</title>
+     <meta charset="utf-8" />
+
+	<link rel="stylesheet" href="../lib/leaflet.css" />
+	<script src="../lib/leaflet.js"></script> 
+
+ </head>
+ 
+ <body>
+
+	<div id="mapContainer" style="width: 100%; height: 100%"></div>
+
+	<script>
+			var mappa = L.map('mapContainer')
+						.setView([38.19941,15.55602], 16); // LAT, LONG
+						
+			/*-------------------------------------------------------------*/						
+							
+			var baseOpenStreetMap = L.tileLayer(
+							'http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', 
+						    {
+								attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a>',
+								maxZoom: 18
+								
+							}
+						   )
+						   .addTo(mappa);
+						   
+			/*-------------------------------------------------------------*/						
+			
+			var baseOpenTopoMap = L.tileLayer(
+							'http://{s}.tile.opentopomap.org/{z}/{x}/{y}.png', 
+							{
+								attribution: 'Map data: &copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>, <a href="http://viewfinderpanoramas.org">SRTM</a> | Map style: &copy; <a href="https://opentopomap.org">OpenTopoMap</a> (<a href="https://creativecommons.org/licenses/by-sa/3.0/">CC-BY-SA</a>)',
+								maxZoom: 18
+						    }
+						   );		
+						   
+			/*-------------------------------------------------------------*/						
+			
+			var baseEsriWorldImageryMap = L.tileLayer(
+							'http://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', 
+							{
+							    attribution: 'Tiles &copy; Esri &mdash; Source: Esri, i-cubed, USDA, USGS, AEX, GeoEye, Getmapping, Aerogrid, IGN, IGP, UPR-EGP, and the GIS User Communit',
+								maxZoom: 18
+							}
+							);						   
+
+			/*-------------------------------------------------------------*/						
+			
+			var markerCospecs = L.marker([38.19941,15.55602]);			    
+
+			var markerMarina = L.marker([38.19943,15.55889]);	
+			
+			/*-------------------------------------------------------------*/						
+			
+			var percorso = L.polyline([
+										[38.19941,15.55602],
+										[38.199037,15.555988],
+										[38.198927,15.558060],
+										[38.199636,15.558178],
+										[38.19943,15.55889]
+									  ],
+									  {
+										color: 'blue',
+										weight: 7,
+										opacity: .7,
+										dashArray: '20,15',
+										lineJoin: 'round'
+									  });								 
+
+			/*-------------------------------------------------------------*/						
+			
+			var polyCospecs = L.polygon([
+									[38.199863 , 15.556016],
+									[38.199827 , 15.556423],
+									[38.199106 , 15.556257],
+									[38.199135 , 15.556021],
+								], 
+								{
+									color: 'green',
+									fillColor: 'lightgreen',
+									fillOpacity: 0.5
+								});
+								
+			/*-------------------------------------------------------------*/						
+			
+			var circleMarina = L.circle([38.19943,15.55889], 10, //raggio in mt.
+								{
+									color: 'red',
+									fillColor: '#FFF',
+									fillOpacity: 0.5
+								});
+			
+			/*-------------------------------------------------------------*/						
+			
+			var shapes = L.layerGroup([percorso, polyCospecs, circleMarina]);								
+			
+			/*-------------------------------------------------------------*/						
+			
+			var markers = L.layerGroup([markerCospecs, markerMarina]);		
+
+			/*-------------------------------------------------------------*/						
+			
+			var baseLayers = {
+				"Strade": baseOpenStreetMap,
+				"Topografia": baseOpenTopoMap,
+				"Fotografica" : baseEsriWorldImageryMap 
+			};		
+			
+			var overlays = {
+				"Edifici & Percorsi": shapes,
+				"Entrate": markers
+			};		
+
+			/*-------------------------------------------------------------*/		
+			
+			L.control
+			 .layers(baseLayers,overlays)
+			 .addTo(mappa);					
+			  
+	</script>
+
+
+ </body>
+
+</html>

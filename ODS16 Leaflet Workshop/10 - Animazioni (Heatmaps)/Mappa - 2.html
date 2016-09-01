@@ -1,0 +1,121 @@
+<html>
+
+ <head>
+	<title>#ODS16 | Leaflet | Integrazioni (Heatmap.js)</title>
+     <meta charset="utf-8" />
+
+	<link rel="stylesheet" href="../lib/leaflet.css" />
+	<script src="../lib/leaflet.js"></script> 
+	<script src="../lib/heatmap-2.0.2.min.js"></script> 
+	<script src="../lib/heatmap-leaflet.min.js"></script> 
+	
+ </head>
+ 
+ <body>
+
+	<div id="mapContainer" style="width: 100%; height: 100%"></div>
+
+	<script>
+ 			/*-------------------------------------------------------------*/						
+
+			var mappa = L.map('mapContainer')
+				.setView([37.599994, 14.015356], 8);
+						
+
+ 			/*-------------------------------------------------------------*/						
+					   
+			var OpenStreetMap_Mapnik = L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+							minZoom: 6,
+							maxZoom: 18,							
+							attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+						}) 
+						.addTo(mappa);
+ 			/*-------------------------------------------------------------*/						
+
+			//configurazione heatmap	
+			
+			var cfg = {
+			  "radius": 0.2,
+			  "maxOpacity": .8, 
+			  "scaleRadius": true, 
+			  "useLocalExtrema": false, 
+			  "latField": 'lat',
+			  "lngField": 'lng',
+			  "valueField": 'val'
+			};		
+						
+			var heatmapLayer = new HeatmapOverlay(cfg);
+				heatmapLayer.addTo(mappa);				
+
+			var heatData = {
+					  max: 100,
+					  min: 0,
+					  data: [ 
+								{
+								  lat: 38.19941,
+								  lng: 15.55602,
+								  val: 0,
+								  ascending: true
+								}
+						]
+					};						
+
+ 			/*-------------------------------------------------------------*/			
+			
+			var pulsate =  function (pulse,ascending) 	{
+			
+				var increaseFactor = 2, 
+				    decreaseFactor = 1.5;
+
+					if (pulse > 100) {
+						pulse = 100;
+						ascending = false;
+					}
+					else if (pulse <= 0) {
+						pulse = 0;
+						ascending = true;
+					}
+					
+					if (ascending) { 
+						pulse = pulse + increaseFactor;
+					}		
+					else  { 
+						pulse = pulse - decreaseFactor;
+					}	
+					
+
+				return 	{ 
+						"pulse" : pulse,
+						"ascending" : ascending
+					}		
+	
+			};
+			
+ 			/*-------------------------------------------------------------*/			
+			
+			var eventPulsate =  function () 	{
+			
+				var data = heatData.data[0],
+					ret = pulsate(data.val,data.ascending);
+					
+				data.val = ret.pulse;		
+				data.ascending = ret.ascending;		
+
+				heatmapLayer.setData(heatData);
+								
+			};			
+ 			/*-------------------------------------------------------------*/						
+
+			setInterval(eventPulsate,10); //aggiorniamo ogni 10 millsecs			
+			
+			/*(function eventRepeat() { //aggiorniamo ogni volta che il motore di rendering del browser è "scarico"
+				eventPulsate();
+				requestAnimationFrame(eventRepeat);
+			})();*/			
+
+	</script>
+
+
+ </body>
+
+</html>
