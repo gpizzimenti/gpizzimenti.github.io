@@ -1,5 +1,11 @@
 # Giuseppe Pizzimenti (gpizzimenti.github.io)
 
+## Profiles:
+
+1. [Linkedin](https://www.linkedin.com/in/giuseppepizzimenti/)  
+2. [Twitter](https://twitter.com/gpizzimenti)  
+3. [Github](https://github.com/gpizzimenti/)  
+
 ## Personal projects:
 
 1.  [BookByNav](https://github.com/gpizzimenti/BookByNav)  
