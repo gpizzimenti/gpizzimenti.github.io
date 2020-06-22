@@ -26,7 +26,7 @@
 
 7. [2013 - CSS per Mobile - Lo Stretto digitale](https://www.slideshare.net/giuseppe.pizzimenti/css-per-mobile-lo-stretto-digitale)
 
-8. [2013 - Javascript per appplicazioni complesse - Lo Stretto digitale](https://www.slideshare.net/giuseppe.pizzimenti/javascript-per-applicazioni-complesse-lo-stretto-digitale)
+8. [2013 - Javascript per applicazioni complesse - Lo Stretto digitale](https://www.slideshare.net/giuseppe.pizzimenti/javascript-per-applicazioni-complesse-lo-stretto-digitale)
 
 
 
