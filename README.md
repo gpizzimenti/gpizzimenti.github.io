@@ -1,3 +1,5 @@
+# Giuseppe Pizzimenti (gpizzimenti.github.io)
+
 ## Personal projects:
 
 1.  [BookByNav](https://github.com/gpizzimenti/BookByNav)  
