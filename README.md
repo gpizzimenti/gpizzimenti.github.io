@@ -19,6 +19,10 @@
     _forked from [dimsemenov/PhotoSwipe](https://github.com/dimsemenov/PhotoSwipe), added thumbnails strip & .WEBP capability_
 2.  [Vanilla Calendar](https://github.com/gpizzimenti/vanilla-calendar)  
     _forked from [scottishstoater/vanilla-calendar](https://github.com/scottishstoater/vanilla-calendar), added custom events & labels configuration & auto-translation_
+    
+## Codepens:
+
+1. [CSS-only 1-element polymorph-polychrome  SVG icons (with optional border)](https://codepen.io/gpizzimenti/pen/ExPoKam)
 
 ## Presentations:
 
