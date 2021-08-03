@@ -24,6 +24,7 @@
 
 1. [CSS-only 1-element polymorph-polychrome  SVG icons (with optional border)](https://codepen.io/gpizzimenti/pen/ExPoKam)
 2. [Responsive tabs with animated sliding indicator](https://codepen.io/gpizzimenti/pen/RwVJzwP)
+3. [Responsive tabs with animated sliding indicator & momentum-scrolling](https://codepen.io/gpizzimenti/pen/yLbqxNZ)
 
 ## Presentations:
 
