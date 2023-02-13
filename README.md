@@ -8,10 +8,12 @@
 
 ## Personal projects:
 
-1.  [BookByNav](https://github.com/gpizzimenti/BookByNav)  
-    _A (very basic & rough) command-line utility to create an EPUB from online documentation._
-2.  [Vanilla Tagger](https://github.com/gpizzimenti/vanilla-tagger)  
+1. [Elezioni amministrative 2022 - Messina](https://gpizzimenti.github.io/MappeElezioni2022/)
+   _Mappe del voto per [Lettera Emme](https://www.letteraemme.it/eleme2022-la-mappa-del-voto-dove-e-quali-liste-hanno-vinto/)
+2. [Vanilla Tagger](https://github.com/gpizzimenti/vanilla-tagger)  
     _A responsive, extensible, declarative (or not), feature rich , framework-less WebComponent to annotate & tag images._
+3. [BookByNav](https://github.com/gpizzimenti/BookByNav)  
+    _A (very basic & rough) command-line utility to create an EPUB from online documentation._
 
 ## Customizations:
 
@@ -22,10 +24,11 @@
     
 ## Codepens:
 
-1. [CSS-only 1-element polymorph-polychrome  SVG icons (with optional border)](https://codepen.io/gpizzimenti/pen/ExPoKam)
-2. [Responsive tabs with animated sliding indicator](https://codepen.io/gpizzimenti/pen/RwVJzwP)
-3. [Responsive tabs with animated sliding indicator & momentum-scrolling](https://codepen.io/gpizzimenti/pen/yLbqxNZ)
-4. [Password field with strength meter + reveal toggler](https://codepen.io/gpizzimenti/pen/abwerBa)
+1. [Password field with strength meter + reveal toggler](https://codepen.io/gpizzimenti/pen/abwerBa)
+2. [Responsive tabs with animated sliding indicator & momentum-scrolling](https://codepen.io/gpizzimenti/pen/yLbqxNZ)
+3. [Responsive tabs with animated sliding indicator](https://codepen.io/gpizzimenti/pen/RwVJzwP)
+4. [CSS-only 1-element polymorph-polychrome  SVG icons (with optional border)](https://codepen.io/gpizzimenti/pen/ExPoKam)
+
 
 ## Presentations:
 
