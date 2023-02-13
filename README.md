@@ -8,7 +8,7 @@
 
 ## Personal projects:
 
-1. [Elezioni amministrative 2022 - Messina](https://gpizzimenti.github.io/MappeElezioni2022/)
+1. [Elezioni amministrative 2022 - Messina](https://gpizzimenti.github.io/MappeElezioni2022/)  
    _Mappe del voto per [Lettera Emme](https://www.letteraemme.it/eleme2022-la-mappa-del-voto-dove-e-quali-liste-hanno-vinto/)_
 2. [Vanilla Tagger](https://github.com/gpizzimenti/vanilla-tagger)  
     _A responsive, extensible, declarative (or not), feature rich , framework-less WebComponent to annotate & tag images._
