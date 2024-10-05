@@ -335,7 +335,7 @@
                 class="checkbox"
                 aria-label="Mostra o nascondi le tecnologie utilizzate in passato"
                 title="Mostra o nascondi le tecnologie utilizzate in passato"
-                for="togglerPastSkillsIt"
+                for="togglerPastSkills-it"
               >
                 <input
                   type="checkbox"
@@ -373,7 +373,7 @@
                 class="checkbox"
                 aria-label="Show or hide skills used in the past"
                 title="Show or hide skills used in the past"
-                for="togglerPastSkillsEn"
+                for="togglerPastSkills-en"
               >
                 <input
                   type="checkbox"
