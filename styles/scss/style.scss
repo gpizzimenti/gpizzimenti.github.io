@@ -1,0 +1,18 @@
+@import "modules/variables";
+@import "modules/fonts";
+@import "modules/icons";
+@import "modules/a11y";
+@import "modules/layout";
+@import "modules/form";
+@import "modules/checkbox";
+@import "modules/sectionsmenu";
+@import "modules/languageselector";
+@import "modules/colorpicker";
+@import "modules/animations";
+@import "modules/mediaqueries";
+
+
+body > main,
+body > footer {
+  visibility: visible !important;
+}

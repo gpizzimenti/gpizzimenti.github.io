@@ -1,0 +1,242 @@
+<form data-rel="cv" id="formCVIt">
+  <fieldset>
+    <legend>Scegli le sezioni da includere e trascinale per riordinarle</legend>
+    <ul class="cv">
+      <li>
+        <label class="checkbox" aria-label="Chi sono" title="Chi sono">
+          <input
+            type="checkbox"
+            checked
+            value="chisono"
+            disabled
+            data-rel="cv"
+          />Chi sono</label
+        >
+      </li>
+      <li class="drag-item" draggable="true">
+        <label class="checkbox" aria-label="Competenze" title="Competenze">
+          <input
+            type="checkbox"
+            checked
+            value="competenze"
+            data-rel="cv"
+          />Competenze</label
+        >
+      </li>
+      <li class="drag-item" draggable="true">
+        <label class="checkbox" aria-label="Esperienza" title="Esperienza">
+          <input
+            type="checkbox"
+            checked
+            value="esperienza"
+            disabled
+            data-rel="cv"
+          />Esperienza</label
+        >
+        <ul>
+          <li>
+            <label
+              class="checkbox"
+              aria-label="Con sommari"
+              title="Con sommari"
+            >
+              <input type="checkbox" checked value="sommari" />Con
+              sommari</label
+            >
+          </li>
+        </ul>
+      </li>
+      <li class="drag-item" draggable="true">
+        <label
+          class="checkbox"
+          aria-label="Competenze tecniche"
+          title="Competenze tecniche"
+        >
+          <input
+            type="checkbox"
+            checked
+            value="skills"
+            data-rel="cv"
+            disabled
+          />Competenze tecniche</label
+        >
+        <ul>
+          <li>
+            <label class="checkbox" aria-label="Frontend" title="Frontend">
+              <input
+                type="checkbox"
+                checked
+                disabled
+                value="frontend"
+                data-rel="skills"
+              />Frontend</label
+            >
+          </li>
+          <li>
+            <label class="checkbox" aria-label="Backend" title="Backend">
+              <input
+                type="checkbox"
+                checked
+                disabled
+                value="backend"
+                data-rel="skills"
+              />Backend</label
+            >
+          </li>
+          <li>
+            <label class="checkbox" aria-label="Mobile" title="Mobile">
+              <input
+                type="checkbox"
+                checked
+                disabled
+                value="mobile"
+                data-rel="skills"
+              />Mobile</label
+            >
+          </li>
+          <li>
+            <label class="checkbox" aria-label="Desktop" title="Desktop">
+              <input
+                type="checkbox"
+                checked
+                disabled
+                value="desktop"
+                data-rel="skills"
+              />Desktop</label
+            >
+          </li>
+          <li>
+            <label class="checkbox" aria-label="Database" title="Database">
+              <input
+                type="checkbox"
+                checked
+                disabled
+                value="database"
+                data-rel="skills"
+              />Database</label
+            >
+          </li>
+          <li>
+            <label class="checkbox" aria-label="Editors" title="Editors">
+              <input
+                type="checkbox"
+                checked
+                value="editors"
+                data-rel="skills"
+              />Editors</label
+            >
+          </li>
+          <li>
+            <label class="checkbox" aria-label="Tools" title="Tools">
+              <input
+                type="checkbox"
+                checked
+                value="tools"
+                data-rel="skills"
+              />Tools</label
+            >
+          </li>
+          <li>
+            <label class="checkbox" aria-label="Authoring" title="Authoring">
+              <input
+                type="checkbox"
+                checked
+                value="authoring"
+                data-rel="skills"
+              />Authoring</label
+            >
+          </li>
+        </ul>
+      </li>
+      <li class="drag-item" draggable="true">
+        <label
+          class="checkbox"
+          aria-label="Studi & Formazione"
+          title="Studi & Formazione"
+        >
+          <input
+            type="checkbox"
+            checked
+            value="formazione"
+            disabled
+            data-rel="cv"
+          />Studi & Formazione</label
+        >
+        <ul>
+          <li>
+            <label
+              class="checkbox"
+              aria-label="Includi corsi in presenza"
+              title="Includi corsi in presenza"
+            >
+              <input type="checkbox" checked value="inpresenza" />Includi gli
+              ultimi
+              <input
+                type="number"
+                min="2"
+                max="10"
+                value="5"
+                data-rel="inpresenza"
+                onchange="if (!this.value || !(this.checkValidity())) this.value=5;"
+              />
+              corsi in presenza</label
+            >
+          </li>
+          <li>
+            <label
+              class="checkbox"
+              aria-label="Includi corsi online"
+              title="Includi corsi online"
+            >
+              <input type="checkbox" checked value="online" />Includi gli ultimi
+              <input
+                type="number"
+                min="2"
+                max="10"
+                value="5"
+                data-rel="online"
+                onchange="if (!this.value || !(this.checkValidity())) this.value=5;"
+              />
+              corsi online</label
+            >
+          </li>
+        </ul>
+      </li>
+      <li class="drag-item" draggable="true">
+        <label class="checkbox" aria-label="Associazioni" title="Associazioni">
+          <input
+            type="checkbox"
+            checked
+            value="associazioni"
+            data-rel="cv"
+          />Associazioni</label
+        >
+      </li>
+      <li class="drag-item" draggable="true">
+        <label
+          class="checkbox"
+          aria-label="Pubblicazioni"
+          title="Pubblicazioni"
+        >
+          <input
+            type="checkbox"
+            checked
+            value="pubblicazioni"
+            data-rel="cv"
+          />Pubblicazioni</label
+        >
+      </li>
+      <li class="drag-item" draggable="true">
+        <label class="checkbox" aria-label="Lingue" title="Lingue">
+          <input
+            type="checkbox"
+            checked
+            value="lingue"
+            data-rel="cv"
+          />Lingue</label
+        >
+      </li>
+    </ul>
+    <br />
+  </fieldset>
+</form>

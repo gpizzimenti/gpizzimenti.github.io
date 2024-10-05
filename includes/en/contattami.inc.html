@@ -1,0 +1,57 @@
+<form
+  data-rel="contattami"
+  method="POST"
+  id="formContattamiEn"
+  action="https://api.web3forms.com/submit"
+>
+  <input
+    type="hidden"
+    name="access_key"
+    value="03bf83d5-2861-4634-a167-23f2cfcbec61"
+  />
+  <input
+    type="hidden"
+    name="subject"
+    value="Message from giuseppe.pizzimenti.dev"
+  />
+  <input type="hidden" name="from_name" value="Giuseppe Pizzimenti Site" />
+  <label for="txtName">
+    <span>Name</span>
+    <input
+      type="text"
+      name="name"
+      id="txtName"
+      minlength="3"
+      maxlength="500"
+      autocomplete="name"
+      required
+    />
+  </label>
+  <label for="txtEmail">
+    <span>E-Mail</span>
+    <input
+      type="email"
+      name="email"
+      id="txtEmail"
+      autocomplete="email"
+      required
+    />
+  </label>
+  <label for="txtMessage">
+    <span>Message</span>
+    <textarea
+      name="message"
+      id="txtMessage"
+      required
+      minlength="25"
+      maxlength="4000"
+    ></textarea>
+  </label>
+</form>
+<small>
+  * This site does not use cookies and does not collect users' personal data via
+  cookies, 3rd-party services or by any other means. If you decide to contact me
+  with this form, only the data you enter will be delivered via e-mail , used
+  for their intended purposes (tipically, for answering back your message) and
+  then immediately discarded.
+</small>

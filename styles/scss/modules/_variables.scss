@@ -1,0 +1,53 @@
+:root {
+    --fg-color: #333;
+    --fg-color-light: #7e7e7e;
+  
+    --border-color: rgb(200, 200, 200, 0.5);
+    --border-dark-color: rgb(150, 150, 150, 0.5);
+  
+    --base-color-H: 203;
+    --base-color-S: 92%;
+    --base-color-L: 19%;
+  
+    --base-color: hsl(
+      var(--base-color-H),
+      var(--base-color-S),
+      var(--base-color-L)
+    );
+    --lightest-color: hsl(
+      var(--base-color-H),
+      var(--base-color-S),
+      calc(var(--base-color-L) + 20%)
+    );
+    --light-color: hsl(
+      var(--base-color-H),
+      var(--base-color-S),
+      calc(var(--base-color-L) + 10%)
+    );
+    --dark-color: hsl(
+      var(--base-color-H),
+      var(--base-color-S),
+      calc(var(--base-color-L) - 5%)
+    );
+    --darkest-color: hsl(
+      var(--base-color-H),
+      calc(var(--base-color-S) - 5%),
+      calc(var(--base-color-L) - 20%)
+    );
+  
+    --inverted-color: fuchsia;
+  
+    --gradient: linear-gradient(
+      90deg,
+      var(--darkest-color) 0%,
+      var(--dark-color) 10%,
+      var(--base-color) 25%,
+      var(--light-color) 50%,
+      var(--base-color) 75%,
+      var(--dark-color) 90%,
+      var(--darkest-color) 100%
+    );
+  
+    --button-size: 44px;
+  }
+  

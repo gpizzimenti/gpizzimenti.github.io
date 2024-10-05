@@ -1,0 +1,15 @@
+{
+    "liveServer.settings.port": 5501,
+    "rome.requireConfiguration": false,
+    "MinifyAll.openMinifiedDocument": false,
+    "MinifyAll.minifyOnSaveToNewFile": true,
+    "MinifyAll.disableJavascriptReact": false,
+    "MinifyAll.PrefixOfNewMinifiedFiles": ".min",
+    "liveServer.settings.https":   
+    {
+    "enable": false, //set it true to enable the feature.  
+    "cert": "C:\\Users\\g.pizzimenti\\server.crt", //full path of the certificate  
+    "key": "C:\\Users\\g.pizzimenti\\server.key", //full path of the private key  
+    "passphrase": "giupizzi"  //test certificate
+    }      
+}

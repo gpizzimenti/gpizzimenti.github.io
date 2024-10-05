@@ -1,0 +1,355 @@
+/*icon font*/
+[class^="icon-"]:before,
+[class*=" icon-"]:before {
+  font-family: "gpizzimenti-glyphs";
+  font-style: normal;
+  font-weight: normal;
+  speak: never;
+
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: 0.2em;
+  text-align: center;
+  /* opacity: .8; */
+
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+
+  /* fix buttons height, for twitter bootstrap */
+  line-height: 1em;
+
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed */
+  margin-left: 0.2em;
+
+  /* you can be more comfortable with increased icons size */
+  /* font-size: 120%; */
+
+  /* Font smoothing. That was taken from TWBS */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+}
+
+.icon-plus-circle:before {
+  content: "\2295";
+} /* '⊕' */
+.icon-minus-circle:before {
+  content: "\2296";
+} /* '⊖' */
+.icon-search:before {
+  content: "\2315";
+} /* '⌕' */
+.icon-cancel-circle:before {
+  content: "\24e7";
+} /* 'ⓧ' */
+.icon-menu:before {
+  content: "\2630";
+} /* '☰' */
+.icon-right-circle:before {
+  content: "\27a1";
+} /* '➡' */
+.icon-left-circle:before {
+  content: "\2b05";
+} /* '⬅' */
+.icon-adult:before {
+  content: "\e800";
+} /* '' */
+.icon-award:before {
+  content: "\e801";
+} /* '' */
+.icon-calendar:before {
+  content: "\e802";
+} /* '' */
+.icon-industry:before {
+  content: "\f275";
+} /* '' */
+
+/* social */
+
+.email::before {
+  background-image: url("../../images/social/email.svg");
+}
+
+.facebook::before {
+  background-image: url("../../images/social/facebook.svg");
+}
+
+.linkedin::before {
+  background-image: url("../../images/social/linkedin.svg");
+}
+
+.lodash::before {
+  background-image: url("../../images/tech/lodash.svg");
+}
+
+.github::before {
+  background-image: url("../../images/tech/github.svg");
+}
+
+.twitter::before {
+  background-image: url("../../images/social/x.svg");
+}
+
+.slideshare::before {
+  background-image: url("../../images/social/slideshare.svg");
+}
+
+.instagram::before {
+  background-image: url("../../images/social/instagram.svg");
+}
+
+.threads::before {
+  background-image: url("../../images/social/threads.svg");
+}
+
+.anobii::before {
+  background-image: url("../../images/social/anobii.svg");
+}
+
+.gdevs::before {
+  background-image: url("../../images/social/gdevs.svg");
+}
+
+.codepen::before {
+  background-image: url("../../images/social/codepen.svg");
+}
+
+.quora::before {
+  background-image: url("../../images/social/quora.svg");
+}
+
+.udemy::before {
+  background-image: url("../../images/social/udemy.svg");
+}
+
+.mastodon::before {
+  background-image: url("../../images/social/mastodon.svg");
+}
+
+/* tech */
+
+.javascript::before {
+  background-image: url("../../images/tech/javascript.svg");
+}
+
+.css::before {
+  background-image: url("../../images/tech/css3.svg");
+}
+
+.html::before {
+  background-image: url("../../images/tech/html5.svg");
+}
+
+.java::before {
+  background-image: url("../../images/tech/java.svg");
+}
+
+.net::before {
+  background-image: url("../../images/tech/net.svg");
+}
+
+.vb::before {
+  background-image: url("../../images/tech/vb6.svg");
+}
+
+.delphi::before {
+  background-image: url("../../images/tech/delphi.svg");
+}
+
+.jquery::before {
+  background-image: url("../../images/tech/jquery.svg");
+}
+
+.jqueryui::before {
+  background-image: url("../../images/tech/jquery-ui.svg");
+}
+
+.backbone::before {
+  background-image: url("../../images/tech/backbone.svg");
+}
+
+.leaflet::before {
+  background-image: url("../../images/tech/leaflet.svg");
+}
+
+.gmaps::before {
+  background-image: url("../../images/tech/gmaps.svg");
+}
+
+.bootstrap::before {
+  background-image: url("../../images/tech/bootstrap.svg");
+}
+
+.sass::before {
+  background-image: url("../../images/tech/sass.svg");
+}
+
+.foundation::before {
+  background-image: url("../../images/tech/foundation.svg");
+}
+
+.schemaorg::before {
+  background-image: url("../../images/tech/schemaorg.svg");
+}
+
+.pwa::before {
+  background-image: url("../../images/tech/pwa.svg");
+}
+
+.webcomponents::before {
+  background-image: url("../../images/tech/webcomponents.svg");
+}
+
+.spring::before {
+  background-image: url("../../images/tech/spring.svg");
+}
+
+.springboot::before {
+  background-image: url("../../images/tech/spring-boot.svg");
+}
+
+.thymeleaf::before {
+  background-image: url("../../images/tech/thymeleaf.svg");
+}
+
+.maven::before {
+  background-image: url("../../images/tech/maven.svg");
+}
+
+.ant::before {
+  background-image: url("../../images/tech/ant.svg");
+}
+
+.hibernate::before {
+  background-image: url("../../images/tech/hibernate.svg");
+}
+
+.c4::before {
+  background-image: url("../../images/tech/c4.svg");
+}
+
+.aspnet::before {
+  background-image: url("../../images/tech/aspnet.svg");
+}
+
+.wpf::before {
+  background-image: url("../../images/tech/net.svg");
+}
+
+.vbnet::before {
+  background-image: url("../../images/tech/vbnet.svg");
+}
+
+.cordova::before {
+  background-image: url("../../images/tech/cordova.svg");
+}
+
+.phonegap::before {
+  background-image: url("../../images/tech/phonegap.svg");
+}
+
+.jquerymobile::before {
+  background-image: url("../../images/tech/jquery-mobile.svg");
+}
+
+.oracle::before {
+  background-image: url("../../images/tech/oracle.svg");
+}
+
+.postgres::before {
+  background-image: url("../../images/tech/postgres.svg");
+}
+
+.sqlserver::before {
+  background-image: url("../../images/tech/sqlserver.svg");
+}
+
+.sqlite::before {
+  background-image: url("../../images/tech/sqlite.svg");
+}
+
+.vscode::before {
+  background-image: url("../../images/tech/vscode.svg");
+}
+
+.vs::before {
+  background-image: url("../../images/tech/vs.svg");
+}
+
+.idea::before {
+  background-image: url("../../images/tech/idea.svg");
+}
+
+.netbeans::before {
+  background-image: url("../../images/tech/netbeans.svg");
+}
+
+.eclipse::before {
+  background-image: url("../../images/tech/eclipse.svg");
+}
+
+.jira::before {
+  background-image: url("../../images/tech/jira.svg");
+}
+
+.trello::before {
+  background-image: url("../../images/tech/trello.svg");
+}
+
+.gitlab::before {
+  background-image: url("../../images/tech/gitlab.svg");
+}
+
+.git::before {
+  background-image: url("../../images/tech/git.svg");
+}
+
+.subversion::before {
+  background-image: url("../../images/tech/subversion.svg");
+}
+
+.redmine::before {
+  background-image: url("../../images/tech/redmine.svg");
+}
+
+.gimp::before {
+  background-image: url("../../images/tech/gimp.svg");
+}
+
+.inkscape::before {
+  background-image: url("../../images/tech/inkscape.svg");
+}
+
+.audacity::before {
+  background-image: url("../../images/tech/audacity.svg");
+}
+
+.capcut::before {
+  background-image: url("../../images/tech/capcut.svg");
+}
+
+.avidemux::before {
+  background-image: url("../../images/tech/avidemux.svg");
+}
+
+.solr::before {
+  background-image: url("../../images/tech/solr.svg");
+}
+
+.lit::before {
+  background-image: url("../../images/tech/lit.svg");
+}
+
+.figma::before {
+  background-image: url("../../images/tech/figma.svg");
+}
+
+.universita > p::before {
+  background-position: top center !important;
+  background-image: url("../../images/logos/unime.svg");
+}

@@ -1,0 +1,36 @@
+[
+  {
+    "titolo": "Enterprise Resource Planning and Project Management",
+    "inizio": "1998-01-01 09:30:00",
+    "fine": "1998-03-03 18:30:00",
+    "data": "Messina, 1998",
+    "online": false,
+    "piattaforme": [
+      {
+        "nome": "Università di Messina",
+        "link": "https://informatica.cdl.unime.it/it"
+      },
+      {
+        "nome": "ST Microelectronics",
+        "link": "https://www.st.com/"
+      }
+    ]
+  },
+  {
+    "titolo": "Multimedia Authoring",
+    "inizio": "1998-01-01 09:30:00",
+    "fine": "1998-01-03 18:30:00",
+    "data": "Messina, 1998",
+    "online": false,
+    "piattaforme": [
+      {
+        "nome": "Università di Messina",
+        "link": "https://informatica.cdl.unime.it/it"
+      },
+      {
+        "nome": "Unico Informatica",
+        "link": "https://www.unicosrl.it/"
+      }
+    ]
+  }
+]

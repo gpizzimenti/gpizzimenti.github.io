@@ -1,0 +1,124 @@
+@media screen and (min-width: 800px) {
+    body > header {
+      padding: 0 20px;
+    }
+  
+    body > footer {
+      padding: 20px;
+      column-gap: 50px;
+    }
+  
+    main > ul {
+      column-gap: 50px;
+    }
+  
+    main > ul > li {
+      aspect-ratio: 14/10;
+      width: unset;
+      min-width: 500px;
+    }
+  
+    main.scrolling * {
+      pointer-events: none;
+    }
+  
+    main:not(.scrolling) > ul > li:not(.maximized):hover,
+    main > ul > li.expanded:not(.maximized) {
+      transform: scale(1.05) !important;
+    }
+  
+    main:not(.scrolling) > ul > li:hover::after,
+    main > ul > li.expanded::after {
+      opacity: 1;
+    }
+  
+    main > ul:has(.expanded) > li:not(.expanded):not(.maximized) {
+      transform: scale(0.95) !important;
+    }
+  
+    ul.profiles > li {
+      flex: 1 1 160px;
+    }
+  }
+  
+  @media screen and (min-width: 1600px) and (min-height: 800px) {
+    main > ul > li {
+      aspect-ratio: 9/10;
+    }
+  }
+  
+  @media screen and (min-height: 1000px) {
+    main > ul > li {
+      max-height: 60vh;
+      max-height: 60dvh;
+    }
+  }
+  
+  @media screen and (min-height: 800px) {
+    body > header {
+      margin-bottom: 20px;
+    }
+  
+    h3 {
+      font-size: 26px;
+      line-height: 26px;
+    }
+  }
+  
+  @media screen and (min-height: 800px) and (min-width: 800px) {
+    body > header {
+      margin-bottom: 30px;
+    }
+  
+    main > ul {
+      padding: 30px 50px 50px 50px;
+    }
+  
+    main:not(.scrolling) > ul > li:not(.maximized):hover,
+    main > ul > li.expanded:not(.maximized) {
+      transform: translateX(0) scale(1.1) !important;
+    }
+  }
+  
+  @media screen and (min-height: 400px) {
+    body > footer {
+      position: static !important;
+      background-color: transparent;
+    }
+  }
+  
+  @media screen and (max-height: 700px) {
+    body > header {
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: baseline;
+    }
+  
+    h1,
+    h2 {
+      flex: unset;
+    }
+  }
+  
+  @media screen and (min-width: 360px) {
+    label[for="color"] {
+      display: block;
+    }
+  
+    body > footer button:first-of-type {
+      margin-left: -50px;
+    }
+  }
+  
+  @supports (view-transition-name: none) {
+    /* Cross-fade animation */
+    ::view-transition-image-pair(root) {
+      animation-duration: 400ms;
+      animation-timing-function: ease-in-out;
+    }
+  
+    /* Image size and position animation */
+    ::view-transition-group(active-image) {
+      animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    }
+  }

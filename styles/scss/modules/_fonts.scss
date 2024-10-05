@@ -1,0 +1,36 @@
+@font-face {
+    font-family: "Barlow";
+    font-style: normal;
+    font-weight: 400;
+    src: local("Barlow"),
+      url(../fonts/Barlow/subsets/Regular/barlow-regular-subset.woff2)
+        format("woff2");
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: "Barlow Bold";
+    font-style: normal;
+    font-weight: 800;
+    src: local("Barlow Bold"),
+      url(../fonts/Barlow/subsets/Bold/barlow-bold-subset.woff2) format("woff2");
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: "gpizzimenti-glyphs";
+    src: url("../fonts/Fontello/font/gpizzimenti-glyphs.woff2") format("woff2");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: "Kalam";
+    font-style: normal;
+    font-weight: 400;
+    src: local("Kalam"),
+      url(../fonts/Kalam/subsets/Regular/kalam-regular-subset.woff2) format("woff2");
+    font-display: swap;
+  }
+  

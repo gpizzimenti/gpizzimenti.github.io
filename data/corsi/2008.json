@@ -1,0 +1,25 @@
+[
+  {
+    "titolo": "Enterprise Design Patterns",
+    "inizio": "2008-07-10 09:30:00",
+    "fine": "2008-07-11 18:30:00",
+    "data": "Messina, 10-11/07/2008",
+    "online": false,
+    "piattaforme": [
+      {
+        "nome": "IDS&Unitelm",
+        "link": "https://www.idsunitelm.it/"
+      },
+      {
+        "nome": "Confindustria Messina",
+        "link": "https://www.sicindustria.euconfindustria.messina.it/"
+      }
+    ],
+    "relatori": [
+      {
+        "nome": "CIVITA srl",
+        "link": "https://www.civitasrl.com/"
+      }
+    ]
+  }
+]

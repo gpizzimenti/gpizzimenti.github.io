@@ -1,0 +1,50 @@
+label.checkbox {
+    align-items: baseline;
+
+  
+  input[type="checkbox"] {
+    -webkit-appearance: none;
+    appearance: none;
+    /* For iOS < 15 to remove gradient background */
+    background-color: #fff;
+    margin: 0;
+    font: inherit;
+    color: currentColor;
+    width: 1.15em;
+    height: 1.15em;
+    border: 0.15em solid currentColor;
+    border-radius: 0.15em;
+    transform: translateY(-0.075em);
+    display: inline-grid;
+    place-content: center;
+    margin-right: 5px;
+  }
+  
+  input[type="checkbox"]::before {
+    content: "";
+    width: 0.6em;
+    height: 0.6em;
+    transform: scale(0);
+    transition: 120ms transform ease;
+    box-shadow: inset 1em 1em var(--base-color);
+    background-color: CanvasText;
+  }
+  
+  input[type="checkbox"]:checked::before {
+    transform: scale(1);
+  }
+  
+  input[type="checkbox"]:focus-visible {
+    outline: max(2px, 0.15em) solid var(--inverted-color);
+    outline-offset: max(2px, 0.15em);
+  }
+  
+  & + label.checkbox {
+    margin-top: 1em;
+  }
+  
+  input[type="checkbox"][disabled] {
+    opacity: 0.6;
+  }
+  
+}

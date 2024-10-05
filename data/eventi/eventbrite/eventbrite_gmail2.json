@@ -1,0 +1,1545 @@
+{
+	"pagination": {
+		"object_count": 12,
+		"page_number": 1,
+		"page_size": 50,
+		"page_count": 1,
+		"has_more_items": false
+	},
+	"orders": [
+		{
+			"costs": {
+				"base_price": {
+					"display": "€0.00",
+					"currency": "EUR",
+					"value": 0,
+					"major_value": "0.00"
+				},
+				"eventbrite_fee": {
+					"display": "€0.00",
+					"currency": "EUR",
+					"value": 0,
+					"major_value": "0.00"
+				},
+				"gross": {
+					"display": "€0.00",
+					"currency": "EUR",
+					"value": 0,
+					"major_value": "0.00"
+				},
+				"payment_fee": {
+					"display": "€0.00",
+					"currency": "EUR",
+					"value": 0,
+					"major_value": "0.00"
+				},
+				"tax": {
+					"display": "€0.00",
+					"currency": "EUR",
+					"value": 0,
+					"major_value": "0.00"
+				}
+			},
+			"resource_uri": "https://www.eventbriteapi.com/v3/orders/6262227239/",
+			"id": "6262227239",
+			"changed": "2023-03-30T10:24:48Z",
+			"created": "2023-03-30T10:24:46Z",
+			"name": "Giuseppe Pizzimenti",
+			"first_name": "Giuseppe",
+			"last_name": "Pizzimenti",
+			"email": "giuseppe.pizzimenti.seed@gmail.com",
+			"status": "placed",
+			"time_remaining": null,
+			"event_id": "521034928497",
+			"event": {
+				"name": {
+					"text": "Accessibility Days 2023",
+					"html": "Accessibility Days 2023"
+				},
+				"description": {
+					"text": "Il più grande evento italiano sull'Accessibilità e l'Inclusività delle tecnologie digitali",
+					"html": "Il più grande evento italiano sull'Accessibilità e l'Inclusività delle tecnologie digitali"
+				},
+				"url": "https://www.eventbrite.it/e/biglietti-accessibility-days-2023-521034928497",
+				"vanity_url": "https://ad2023.eventbrite.it",
+				"start": {
+					"timezone": "Europe/Rome",
+					"local": "2023-05-18T09:30:00",
+					"utc": "2023-05-18T07:30:00Z"
+				},
+				"end": {
+					"timezone": "Europe/Rome",
+					"local": "2023-05-19T18:30:00",
+					"utc": "2023-05-19T16:30:00Z"
+				},
+				"organization_id": "208878916496",
+				"created": "2023-01-21T10:40:23Z",
+				"changed": "2023-06-19T16:48:26Z",
+				"published": "2023-01-21T11:01:27Z",
+				"capacity": null,
+				"capacity_is_custom": null,
+				"status": "completed",
+				"currency": "EUR",
+				"listed": true,
+				"shareable": true,
+				"online_event": false,
+				"tx_time_limit": 1800,
+				"hide_start_date": false,
+				"hide_end_date": false,
+				"locale": "it_IT",
+				"is_locked": false,
+				"privacy_setting": "unlocked",
+				"is_series": false,
+				"is_series_parent": false,
+				"inventory_type": "limited",
+				"is_reserved_seating": false,
+				"show_pick_a_seat": false,
+				"show_seatmap_thumbnail": false,
+				"show_colors_in_seatmap_thumbnail": false,
+				"source": "coyote",
+				"is_free": false,
+				"version": null,
+				"summary": "Il più grande evento italiano sull'Accessibilità e l'Inclusività delle tecnologie digitali",
+				"facebook_event_id": null,
+				"logo_id": "473007099",
+				"organizer_id": "19976112764",
+				"venue_id": "151595679",
+				"category_id": "102",
+				"subcategory_id": "2999",
+				"format_id": "1",
+				"id": "521034928497",
+				"resource_uri": "https://www.eventbriteapi.com/v3/events/521034928497/",
+				"is_externally_ticketed": false,
+				"has_digital_content": {
+					"has_digital_content": false,
+					"digital_content_url": "",
+					"digital_content_relative_url": ""
+				},
+				"logo": {
+					"crop_mask": {
+						"top_left": {
+							"x": 0,
+							"y": 15
+						},
+						"width": 1200,
+						"height": 600
+					},
+					"original": {
+						"url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F473007099%2F208878916496%2F1%2Foriginal.20230320-120033?auto=format%2Ccompress&q=75&sharp=10&s=21c3885b0fc69d7f69c6c52e35388e62",
+						"width": 1200,
+						"height": 630
+					},
+					"id": "473007099",
+					"url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F473007099%2F208878916496%2F1%2Foriginal.20230320-120033?h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C15%2C1200%2C600&s=f511d67fa19c467a45c8048d6b99820f",
+					"aspect_ratio": "2",
+					"edge_color": "#ffffff",
+					"edge_color_set": true
+				}
+			}
+		},
+		{
+			"costs": {
+				"base_price": {
+					"display": "€0.00",
+					"currency": "EUR",
+					"value": 0,
+					"major_value": "0.00"
+				},
+				"eventbrite_fee": {
+					"display": "€0.00",
+					"currency": "EUR",
+					"value": 0,
+					"major_value": "0.00"
+				},
+				"gross": {
+					"display": "€0.00",
+					"currency": "EUR",
+					"value": 0,
+					"major_value": "0.00"
+				},
+				"payment_fee": {
+					"display": "€0.00",
+					"currency": "EUR",
+					"value": 0,
+					"major_value": "0.00"
+				},
+				"tax": {
+					"display": "€0.00",
+					"currency": "EUR",
+					"value": 0,
+					"major_value": "0.00"
+				}
+			},
+			"resource_uri": "https://www.eventbriteapi.com/v3/orders/6188963629/",
+			"id": "6188963629",
+			"changed": "2023-03-22T12:17:17Z",
+			"created": "2023-03-22T12:17:15Z",
+			"name": "Giuseppe Pizzimenti",
+			"first_name": "Giuseppe",
+			"last_name": "Pizzimenti",
+			"email": "giuseppe.pizzimenti.seed@gmail.com",
+			"status": "placed",
+			"time_remaining": null,
+			"event_id": "521034928497",
+			"event": {
+				"name": {
+					"text": "Accessibility Days 2023",
+					"html": "Accessibility Days 2023"
+				},
+				"description": {
+					"text": "Il più grande evento italiano sull'Accessibilità e l'Inclusività delle tecnologie digitali",
+					"html": "Il più grande evento italiano sull'Accessibilità e l'Inclusività delle tecnologie digitali"
+				},
+				"url": "https://www.eventbrite.it/e/biglietti-accessibility-days-2023-521034928497",
+				"vanity_url": "https://ad2023.eventbrite.it",
+				"start": {
+					"timezone": "Europe/Rome",
+					"local": "2023-05-18T09:30:00",
+					"utc": "2023-05-18T07:30:00Z"
+				},
+				"end": {
+					"timezone": "Europe/Rome",
+					"local": "2023-05-19T18:30:00",
+					"utc": "2023-05-19T16:30:00Z"
+				},
+				"organization_id": "208878916496",
+				"created": "2023-01-21T10:40:23Z",
+				"changed": "2023-06-19T16:48:26Z",
+				"published": "2023-01-21T11:01:27Z",
+				"capacity": null,
+				"capacity_is_custom": null,
+				"status": "completed",
+				"currency": "EUR",
+				"listed": true,
+				"shareable": true,
+				"online_event": false,
+				"tx_time_limit": 1800,
+				"hide_start_date": false,
+				"hide_end_date": false,
+				"locale": "it_IT",
+				"is_locked": false,
+				"privacy_setting": "unlocked",
+				"is_series": false,
+				"is_series_parent": false,
+				"inventory_type": "limited",
+				"is_reserved_seating": false,
+				"show_pick_a_seat": false,
+				"show_seatmap_thumbnail": false,
+				"show_colors_in_seatmap_thumbnail": false,
+				"source": "coyote",
+				"is_free": false,
+				"version": null,
+				"summary": "Il più grande evento italiano sull'Accessibilità e l'Inclusività delle tecnologie digitali",
+				"facebook_event_id": null,
+				"logo_id": "473007099",
+				"organizer_id": "19976112764",
+				"venue_id": "151595679",
+				"category_id": "102",
+				"subcategory_id": "2999",
+				"format_id": "1",
+				"id": "521034928497",
+				"resource_uri": "https://www.eventbriteapi.com/v3/events/521034928497/",
+				"is_externally_ticketed": false,
+				"has_digital_content": {
+					"has_digital_content": false,
+					"digital_content_url": "",
+					"digital_content_relative_url": ""
+				},
+				"logo": {
+					"crop_mask": {
+						"top_left": {
+							"x": 0,
+							"y": 15
+						},
+						"width": 1200,
+						"height": 600
+					},
+					"original": {
+						"url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F473007099%2F208878916496%2F1%2Foriginal.20230320-120033?auto=format%2Ccompress&q=75&sharp=10&s=21c3885b0fc69d7f69c6c52e35388e62",
+						"width": 1200,
+						"height": 630
+					},
+					"id": "473007099",
+					"url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F473007099%2F208878916496%2F1%2Foriginal.20230320-120033?h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C15%2C1200%2C600&s=f511d67fa19c467a45c8048d6b99820f",
+					"aspect_ratio": "2",
+					"edge_color": "#ffffff",
+					"edge_color_set": true
+				}
+			}
+		},
+		{
+			"costs": {
+				"base_price": {
+					"display": "€0.00",
+					"currency": "EUR",
+					"value": 0,
+					"major_value": "0.00"
+				},
+				"eventbrite_fee": {
+					"display": "€0.00",
+					"currency": "EUR",
+					"value": 0,
+					"major_value": "0.00"
+				},
+				"gross": {
+					"display": "€0.00",
+					"currency": "EUR",
+					"value": 0,
+					"major_value": "0.00"
+				},
+				"payment_fee": {
+					"display": "€0.00",
+					"currency": "EUR",
+					"value": 0,
+					"major_value": "0.00"
+				},
+				"tax": {
+					"display": "€0.00",
+					"currency": "EUR",
+					"value": 0,
+					"major_value": "0.00"
+				}
+			},
+			"resource_uri": "https://www.eventbriteapi.com/v3/orders/6568697419/",
+			"id": "6568697419",
+			"changed": "2023-05-03T10:49:27Z",
+			"created": "2023-05-03T10:49:25Z",
+			"name": "Giuseppe PIZZIMENTI",
+			"first_name": "Giuseppe",
+			"last_name": "PIZZIMENTI",
+			"email": "giuseppe.pizzimenti.seed@gmail.com",
+			"status": "placed",
+			"time_remaining": null,
+			"event_id": "629371526177",
+			"event": {
+				"name": {
+					"text": "Webinar \"Accessibilità culturale, le esperienze di MUSE e ULTRABLU\"",
+					"html": "Webinar &#34;Accessibilità culturale, le esperienze di MUSE e ULTRABLU&#34;"
+				},
+				"description": {
+					"text": "Quarto appuntamento con i webinar della serie \"Road to Accessibility Days 2023\"",
+					"html": "Quarto appuntamento con i webinar della serie \"Road to Accessibility Days 2023\""
+				},
+				"url": "https://www.eventbrite.it/e/biglietti-webinar-accessibilita-culturale-le-esperienze-di-muse-e-ultrablu-629371526177",
+				"start": {
+					"timezone": "Europe/Rome",
+					"local": "2023-05-11T17:00:00",
+					"utc": "2023-05-11T15:00:00Z"
+				},
+				"end": {
+					"timezone": "Europe/Rome",
+					"local": "2023-05-11T19:00:00",
+					"utc": "2023-05-11T17:00:00Z"
+				},
+				"organization_id": "208878916496",
+				"created": "2023-05-02T16:29:04Z",
+				"changed": "2023-05-12T07:49:53Z",
+				"published": "2023-05-02T20:54:11Z",
+				"capacity": null,
+				"capacity_is_custom": null,
+				"status": "completed",
+				"currency": "EUR",
+				"listed": true,
+				"shareable": true,
+				"online_event": true,
+				"tx_time_limit": 1800,
+				"hide_start_date": false,
+				"hide_end_date": false,
+				"locale": "it_IT",
+				"is_locked": false,
+				"privacy_setting": "unlocked",
+				"is_series": false,
+				"is_series_parent": false,
+				"inventory_type": "limited",
+				"is_reserved_seating": false,
+				"show_pick_a_seat": false,
+				"show_seatmap_thumbnail": false,
+				"show_colors_in_seatmap_thumbnail": false,
+				"source": "coyote",
+				"is_free": true,
+				"version": null,
+				"summary": "Quarto appuntamento con i webinar della serie \"Road to Accessibility Days 2023\"",
+				"facebook_event_id": null,
+				"logo_id": "506015319",
+				"organizer_id": "19976112764",
+				"venue_id": null,
+				"category_id": "102",
+				"subcategory_id": null,
+				"format_id": "2",
+				"id": "629371526177",
+				"resource_uri": "https://www.eventbriteapi.com/v3/events/629371526177/",
+				"is_externally_ticketed": false,
+				"has_digital_content": {
+					"has_digital_content": true,
+					"digital_content_url": "https://www.eventbrite.it/x/biglietti-webinar-accessibilita-culturale-le-esperienze-di-muse-e-ultrablu-629371526177",
+					"digital_content_relative_url": "/x/biglietti-webinar-accessibilita-culturale-le-esperienze-di-muse-e-ultrablu-629371526177"
+				},
+				"logo": {
+					"crop_mask": {
+						"top_left": {
+							"x": 0,
+							"y": 15
+						},
+						"width": 1200,
+						"height": 600
+					},
+					"original": {
+						"url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F506015319%2F208878916496%2F1%2Foriginal.20230502-203903?auto=format%2Ccompress&q=75&sharp=10&s=649310dc904526cc9842b7db2bb95c39",
+						"width": 1200,
+						"height": 630
+					},
+					"id": "506015319",
+					"url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F506015319%2F208878916496%2F1%2Foriginal.20230502-203903?h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C15%2C1200%2C600&s=8079a42e3f4eac4952a187f56a3d281e",
+					"aspect_ratio": "2",
+					"edge_color": null,
+					"edge_color_set": true
+				}
+			}
+		},
+		{
+			"costs": {
+				"base_price": {
+					"display": "€0.00",
+					"currency": "EUR",
+					"value": 0,
+					"major_value": "0.00"
+				},
+				"eventbrite_fee": {
+					"display": "€0.00",
+					"currency": "EUR",
+					"value": 0,
+					"major_value": "0.00"
+				},
+				"gross": {
+					"display": "€0.00",
+					"currency": "EUR",
+					"value": 0,
+					"major_value": "0.00"
+				},
+				"payment_fee": {
+					"display": "€0.00",
+					"currency": "EUR",
+					"value": 0,
+					"major_value": "0.00"
+				},
+				"tax": {
+					"display": "€0.00",
+					"currency": "EUR",
+					"value": 0,
+					"major_value": "0.00"
+				}
+			},
+			"resource_uri": "https://www.eventbriteapi.com/v3/orders/6568736499/",
+			"id": "6568736499",
+			"changed": "2023-05-03T10:54:22Z",
+			"created": "2023-05-03T10:54:20Z",
+			"name": "Giuseppe PIZZIMENTI",
+			"first_name": "Giuseppe",
+			"last_name": "PIZZIMENTI",
+			"email": "giuseppe.pizzimenti.seed@gmail.com",
+			"status": "placed",
+			"time_remaining": null,
+			"event_id": "623245061757",
+			"event": {
+				"name": {
+					"text": "Webinar \"Intraprendere un percorso di accessibilità digitale in azienda\"",
+					"html": "Webinar &#34;Intraprendere un percorso di accessibilità digitale in azienda&#34;"
+				},
+				"description": {
+					"text": "Terzo appuntamento con i webinar della serie \"Road to Accessibility Days 2023\"",
+					"html": "Terzo appuntamento con i webinar della serie \"Road to Accessibility Days 2023\""
+				},
+				"url": "https://www.eventbrite.it/e/biglietti-webinar-intraprendere-un-percorso-di-accessibilita-digitale-in-azienda-623245061757",
+				"start": {
+					"timezone": "Europe/Rome",
+					"local": "2023-05-04T17:00:00",
+					"utc": "2023-05-04T15:00:00Z"
+				},
+				"end": {
+					"timezone": "Europe/Rome",
+					"local": "2023-05-04T18:30:00",
+					"utc": "2023-05-04T16:30:00Z"
+				},
+				"organization_id": "208878916496",
+				"created": "2023-04-23T16:41:36Z",
+				"changed": "2023-05-05T09:45:55Z",
+				"published": "2023-04-24T05:27:19Z",
+				"capacity": null,
+				"capacity_is_custom": null,
+				"status": "completed",
+				"currency": "EUR",
+				"listed": true,
+				"shareable": true,
+				"online_event": true,
+				"tx_time_limit": 1800,
+				"hide_start_date": false,
+				"hide_end_date": false,
+				"locale": "it_IT",
+				"is_locked": false,
+				"privacy_setting": "unlocked",
+				"is_series": false,
+				"is_series_parent": false,
+				"inventory_type": "limited",
+				"is_reserved_seating": false,
+				"show_pick_a_seat": false,
+				"show_seatmap_thumbnail": false,
+				"show_colors_in_seatmap_thumbnail": false,
+				"source": "coyote",
+				"is_free": true,
+				"version": null,
+				"summary": "Terzo appuntamento con i webinar della serie \"Road to Accessibility Days 2023\"",
+				"facebook_event_id": null,
+				"logo_id": "499257289",
+				"organizer_id": "19976112764",
+				"venue_id": null,
+				"category_id": "102",
+				"subcategory_id": null,
+				"format_id": "2",
+				"id": "623245061757",
+				"resource_uri": "https://www.eventbriteapi.com/v3/events/623245061757/",
+				"is_externally_ticketed": false,
+				"has_digital_content": {
+					"has_digital_content": true,
+					"digital_content_url": "https://www.eventbrite.it/x/biglietti-webinar-intraprendere-un-percorso-di-accessibilita-digitale-in-azienda-623245061757",
+					"digital_content_relative_url": "/x/biglietti-webinar-intraprendere-un-percorso-di-accessibilita-digitale-in-azienda-623245061757"
+				},
+				"logo": {
+					"crop_mask": {
+						"top_left": {
+							"x": 0,
+							"y": 15
+						},
+						"width": 1200,
+						"height": 600
+					},
+					"original": {
+						"url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F499257289%2F208878916496%2F1%2Foriginal.20230424-051726?auto=format%2Ccompress&q=75&sharp=10&s=3f529aef0df9006faa17f1506040b5a2",
+						"width": 1200,
+						"height": 630
+					},
+					"id": "499257289",
+					"url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F499257289%2F208878916496%2F1%2Foriginal.20230424-051726?h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C15%2C1200%2C600&s=0382210de52fe583da516524d3c0c16b",
+					"aspect_ratio": "2",
+					"edge_color": "#ffd101",
+					"edge_color_set": true
+				}
+			}
+		},
+		{
+			"costs": {
+				"base_price": {
+					"display": "$0.00",
+					"currency": "USD",
+					"value": 0,
+					"major_value": "0.00"
+				},
+				"eventbrite_fee": {
+					"display": "$0.00",
+					"currency": "USD",
+					"value": 0,
+					"major_value": "0.00"
+				},
+				"gross": {
+					"display": "$0.00",
+					"currency": "USD",
+					"value": 0,
+					"major_value": "0.00"
+				},
+				"payment_fee": {
+					"display": "$0.00",
+					"currency": "USD",
+					"value": 0,
+					"major_value": "0.00"
+				},
+				"tax": {
+					"display": "$0.00",
+					"currency": "USD",
+					"value": 0,
+					"major_value": "0.00"
+				}
+			},
+			"resource_uri": "https://www.eventbriteapi.com/v3/orders/6005364799/",
+			"id": "6005364799",
+			"changed": "2023-03-03T11:28:32Z",
+			"created": "2023-03-03T11:28:30Z",
+			"name": "Giuseppe Pizzimenti",
+			"first_name": "Giuseppe",
+			"last_name": "Pizzimenti",
+			"email": "giuseppe.pizzimenti.seed@gmail.com",
+			"status": "placed",
+			"time_remaining": null,
+			"event_id": "530506046867",
+			"event": {
+				"name": {
+					"text": "Mobile Apps and Accessibility",
+					"html": "Mobile Apps and Accessibility"
+				},
+				"description": {
+					"text": "Learn how users with disabilities use your mobile applications and the top things you can do to make them accessible right now.",
+					"html": "Learn how users with disabilities use your mobile applications and the top things you can do to make them accessible right now."
+				},
+				"url": "https://www.eventbrite.com/e/mobile-apps-and-accessibility-tickets-530506046867",
+				"start": {
+					"timezone": "America/Chicago",
+					"local": "2023-03-23T13:00:00",
+					"utc": "2023-03-23T18:00:00Z"
+				},
+				"end": {
+					"timezone": "America/Chicago",
+					"local": "2023-03-23T13:45:00",
+					"utc": "2023-03-23T18:45:00Z"
+				},
+				"organization_id": "231747127218",
+				"created": "2023-02-01T14:13:15Z",
+				"changed": "2023-03-24T07:14:12Z",
+				"published": "2023-02-01T14:28:13Z",
+				"capacity": null,
+				"capacity_is_custom": null,
+				"status": "completed",
+				"currency": "USD",
+				"listed": true,
+				"shareable": true,
+				"online_event": true,
+				"tx_time_limit": 3600,
+				"hide_start_date": false,
+				"hide_end_date": false,
+				"locale": "en_US",
+				"is_locked": false,
+				"privacy_setting": "unlocked",
+				"is_series": false,
+				"is_series_parent": false,
+				"inventory_type": "limited",
+				"is_reserved_seating": false,
+				"show_pick_a_seat": false,
+				"show_seatmap_thumbnail": false,
+				"show_colors_in_seatmap_thumbnail": false,
+				"source": "coyote",
+				"is_free": true,
+				"version": null,
+				"summary": "Learn how users with disabilities use your mobile applications and the top things you can do to make them accessible right now.",
+				"facebook_event_id": null,
+				"logo_id": "436779409",
+				"organizer_id": "15934519271",
+				"venue_id": null,
+				"category_id": "102",
+				"subcategory_id": "2005",
+				"format_id": "9",
+				"id": "530506046867",
+				"resource_uri": "https://www.eventbriteapi.com/v3/events/530506046867/",
+				"is_externally_ticketed": false,
+				"has_digital_content": {
+					"has_digital_content": true,
+					"digital_content_url": "https://www.eventbrite.com/x/mobile-apps-and-accessibility-tickets-530506046867",
+					"digital_content_relative_url": "/x/mobile-apps-and-accessibility-tickets-530506046867"
+				},
+				"logo": {
+					"crop_mask": {
+						"top_left": {
+							"x": 45,
+							"y": 294
+						},
+						"width": 5798,
+						"height": 2899
+					},
+					"original": {
+						"url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F436779409%2F231747127218%2F1%2Foriginal.20230201-141714?auto=format%2Ccompress&q=75&sharp=10&s=c119ec452055d0b6a8ff233ccc104265",
+						"width": 6000,
+						"height": 4000
+					},
+					"id": "436779409",
+					"url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F436779409%2F231747127218%2F1%2Foriginal.20230201-141714?h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&rect=45%2C294%2C5798%2C2899&s=53b2b9f73ea3fb361eba6c5ac5c29c3d",
+					"aspect_ratio": "2",
+					"edge_color": "#596267",
+					"edge_color_set": true
+				}
+			}
+		},
+		{
+			"costs": {
+				"base_price": {
+					"display": "€0.00",
+					"currency": "EUR",
+					"value": 0,
+					"major_value": "0.00"
+				},
+				"eventbrite_fee": {
+					"display": "€0.00",
+					"currency": "EUR",
+					"value": 0,
+					"major_value": "0.00"
+				},
+				"gross": {
+					"display": "€0.00",
+					"currency": "EUR",
+					"value": 0,
+					"major_value": "0.00"
+				},
+				"payment_fee": {
+					"display": "€0.00",
+					"currency": "EUR",
+					"value": 0,
+					"major_value": "0.00"
+				},
+				"tax": {
+					"display": "€0.00",
+					"currency": "EUR",
+					"value": 0,
+					"major_value": "0.00"
+				}
+			},
+			"resource_uri": "https://www.eventbriteapi.com/v3/orders/5993602719/",
+			"id": "5993602719",
+			"changed": "2023-03-02T08:46:06Z",
+			"created": "2023-03-02T08:46:04Z",
+			"name": "Giuseppe Pizzimenti",
+			"first_name": "Giuseppe",
+			"last_name": "Pizzimenti",
+			"email": "giuseppe.pizzimenti.seed@gmail.com",
+			"status": "placed",
+			"time_remaining": null,
+			"event_id": "467491619017",
+			"event": {
+				"name": {
+					"text": "Web Day 2023",
+					"html": "Web Day 2023"
+				},
+				"description": {
+					"text": "Nata nel 2004, la conferenza tecnica italiana dedicata allo sviluppo di siti ed applicazioni web",
+					"html": "Nata nel 2004, la conferenza tecnica italiana dedicata allo sviluppo di siti ed applicazioni web"
+				},
+				"url": "https://www.eventbrite.it/e/biglietti-web-day-2023-467491619017",
+				"vanity_url": "https://webday2023.eventbrite.it",
+				"start": {
+					"timezone": "Europe/Rome",
+					"local": "2023-03-16T09:30:00",
+					"utc": "2023-03-16T08:30:00Z"
+				},
+				"end": {
+					"timezone": "Europe/Rome",
+					"local": "2023-03-16T17:30:00",
+					"utc": "2023-03-16T16:30:00Z"
+				},
+				"organization_id": "155407108747",
+				"created": "2022-11-14T12:21:12Z",
+				"changed": "2023-03-19T10:52:41Z",
+				"published": "2022-11-15T09:22:23Z",
+				"capacity": null,
+				"capacity_is_custom": null,
+				"status": "completed",
+				"currency": "EUR",
+				"listed": true,
+				"shareable": true,
+				"online_event": false,
+				"tx_time_limit": 480,
+				"hide_start_date": false,
+				"hide_end_date": false,
+				"locale": "it_IT",
+				"is_locked": false,
+				"privacy_setting": "unlocked",
+				"is_series": false,
+				"is_series_parent": false,
+				"inventory_type": "limited",
+				"is_reserved_seating": false,
+				"show_pick_a_seat": false,
+				"show_seatmap_thumbnail": false,
+				"show_colors_in_seatmap_thumbnail": false,
+				"source": "coyote",
+				"is_free": false,
+				"version": null,
+				"summary": "Nata nel 2004, la conferenza tecnica italiana dedicata allo sviluppo di siti ed applicazioni web",
+				"facebook_event_id": null,
+				"logo_id": "393362839",
+				"organizer_id": "8579360054",
+				"venue_id": "124558059",
+				"category_id": "102",
+				"subcategory_id": "2004",
+				"format_id": "1",
+				"id": "467491619017",
+				"resource_uri": "https://www.eventbriteapi.com/v3/events/467491619017/",
+				"is_externally_ticketed": false,
+				"has_digital_content": {
+					"has_digital_content": false,
+					"digital_content_url": "",
+					"digital_content_relative_url": ""
+				},
+				"logo": {
+					"crop_mask": {
+						"top_left": {
+							"x": 0,
+							"y": 270
+						},
+						"width": 1080,
+						"height": 540
+					},
+					"original": {
+						"url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F393362839%2F155407108747%2F1%2Foriginal.20221114-223745?auto=format%2Ccompress&q=75&sharp=10&s=9f2c25b2aeaffa304182cf7621f859fc",
+						"width": 1080,
+						"height": 1080
+					},
+					"id": "393362839",
+					"url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F393362839%2F155407108747%2F1%2Foriginal.20221114-223745?h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C270%2C1080%2C540&s=b59efbd1358544da03da74be8fdcf769",
+					"aspect_ratio": "2",
+					"edge_color": "#032455",
+					"edge_color_set": true
+				}
+			}
+		},
+		{
+			"costs": {
+				"base_price": {
+					"display": "€0.00",
+					"currency": "EUR",
+					"value": 0,
+					"major_value": "0.00"
+				},
+				"eventbrite_fee": {
+					"display": "€0.00",
+					"currency": "EUR",
+					"value": 0,
+					"major_value": "0.00"
+				},
+				"gross": {
+					"display": "€0.00",
+					"currency": "EUR",
+					"value": 0,
+					"major_value": "0.00"
+				},
+				"payment_fee": {
+					"display": "€0.00",
+					"currency": "EUR",
+					"value": 0,
+					"major_value": "0.00"
+				},
+				"tax": {
+					"display": "€0.00",
+					"currency": "EUR",
+					"value": 0,
+					"major_value": "0.00"
+				}
+			},
+			"resource_uri": "https://www.eventbriteapi.com/v3/orders/3828679819/",
+			"id": "3828679819",
+			"changed": "2022-06-10T16:44:54Z",
+			"created": "2022-06-10T16:44:52Z",
+			"name": "Giuseppe PIZZIMENTI",
+			"first_name": "Giuseppe",
+			"last_name": "PIZZIMENTI",
+			"email": "giuseppe.pizzimenti.seed@gmail.com",
+			"status": "placed",
+			"time_remaining": null,
+			"event_id": "354515594687",
+			"event": {
+				"name": {
+					"text": "Front-end development: presente e futuro",
+					"html": "Front-end development: presente e futuro"
+				},
+				"description": {
+					"text": "Ultimo grande FEVR di sempre, grandi speaker, grande festa",
+					"html": "Ultimo grande FEVR di sempre, grandi speaker, grande festa"
+				},
+				"url": "https://www.eventbrite.it/e/biglietti-front-end-development-presente-e-futuro-354515594687",
+				"start": {
+					"timezone": "Europe/Rome",
+					"local": "2022-06-23T19:00:00",
+					"utc": "2022-06-23T17:00:00Z"
+				},
+				"end": {
+					"timezone": "Europe/Rome",
+					"local": "2022-06-23T20:30:00",
+					"utc": "2022-06-23T18:30:00Z"
+				},
+				"organization_id": "114965312043",
+				"created": "2022-06-01T12:03:54Z",
+				"changed": "2022-06-23T20:23:40Z",
+				"published": "2022-06-01T12:18:32Z",
+				"capacity": null,
+				"capacity_is_custom": null,
+				"status": "ended",
+				"currency": "EUR",
+				"listed": true,
+				"shareable": true,
+				"online_event": false,
+				"tx_time_limit": 1200,
+				"hide_start_date": false,
+				"hide_end_date": false,
+				"locale": "it_IT",
+				"is_locked": false,
+				"privacy_setting": "unlocked",
+				"is_series": false,
+				"is_series_parent": false,
+				"inventory_type": "limited",
+				"is_reserved_seating": false,
+				"show_pick_a_seat": false,
+				"show_seatmap_thumbnail": false,
+				"show_colors_in_seatmap_thumbnail": false,
+				"source": "coyote",
+				"is_free": false,
+				"version": null,
+				"summary": "Ultimo grande FEVR di sempre, grandi speaker, grande festa",
+				"facebook_event_id": null,
+				"logo_id": "295225949",
+				"organizer_id": "7297766259",
+				"venue_id": "99713339",
+				"category_id": "102",
+				"subcategory_id": "2004",
+				"format_id": "2",
+				"id": "354515594687",
+				"resource_uri": "https://www.eventbriteapi.com/v3/events/354515594687/",
+				"is_externally_ticketed": false,
+				"has_digital_content": {
+					"has_digital_content": false,
+					"digital_content_url": "",
+					"digital_content_relative_url": ""
+				},
+				"logo": {
+					"crop_mask": {
+						"top_left": {
+							"x": 0,
+							"y": 0
+						},
+						"width": 2160,
+						"height": 1080
+					},
+					"original": {
+						"url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F295225949%2F114965312043%2F1%2Foriginal.20220601-121011?auto=format%2Ccompress&q=75&sharp=10&s=7e68acbff3d5fcf2a3e7a5be58002aa8",
+						"width": 2160,
+						"height": 1080
+					},
+					"id": "295225949",
+					"url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F295225949%2F114965312043%2F1%2Foriginal.20220601-121011?h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C0%2C2160%2C1080&s=1bdb59d315e2fa68f981cd08a2f96c36",
+					"aspect_ratio": "2",
+					"edge_color": "#ffffff",
+					"edge_color_set": true
+				}
+			}
+		},
+		{
+			"costs": {
+				"base_price": {
+					"display": "€0.00",
+					"currency": "EUR",
+					"value": 0,
+					"major_value": "0.00"
+				},
+				"eventbrite_fee": {
+					"display": "€0.00",
+					"currency": "EUR",
+					"value": 0,
+					"major_value": "0.00"
+				},
+				"gross": {
+					"display": "€0.00",
+					"currency": "EUR",
+					"value": 0,
+					"major_value": "0.00"
+				},
+				"payment_fee": {
+					"display": "€0.00",
+					"currency": "EUR",
+					"value": 0,
+					"major_value": "0.00"
+				},
+				"tax": {
+					"display": "€0.00",
+					"currency": "EUR",
+					"value": 0,
+					"major_value": "0.00"
+				}
+			},
+			"resource_uri": "https://www.eventbriteapi.com/v3/orders/2716702539/",
+			"id": "2716702539",
+			"changed": "2022-02-03T16:15:46Z",
+			"created": "2022-02-03T16:15:44Z",
+			"name": "Giuseppe Pizzimenti",
+			"first_name": "Giuseppe",
+			"last_name": "Pizzimenti",
+			"email": "giuseppe.pizzimenti.seed@gmail.com",
+			"status": "placed",
+			"time_remaining": null,
+			"event_id": "219026021727",
+			"event": {
+				"name": {
+					"text": "Web Day 2022",
+					"html": "Web Day 2022"
+				},
+				"description": {
+					"text": "Una giornata per parlare di sviluppo web a tutto tondo, dal front-end al back-end senza tralasciare alcuna tappa del viaggio.",
+					"html": "Una giornata per parlare di sviluppo web a tutto tondo, dal front-end al back-end senza tralasciare alcuna tappa del viaggio."
+				},
+				"url": "https://www.eventbrite.it/e/biglietti-web-day-2022-219026021727",
+				"vanity_url": "https://web-day-2022.eventbrite.it",
+				"start": {
+					"timezone": "Europe/Rome",
+					"local": "2022-03-10T09:30:00",
+					"utc": "2022-03-10T08:30:00Z"
+				},
+				"end": {
+					"timezone": "Europe/Rome",
+					"local": "2022-03-10T18:30:00",
+					"utc": "2022-03-10T17:30:00Z"
+				},
+				"organization_id": "155407108747",
+				"created": "2021-11-29T09:36:36Z",
+				"changed": "2022-03-11T03:04:44Z",
+				"published": "2021-11-29T10:24:47Z",
+				"capacity": null,
+				"capacity_is_custom": null,
+				"status": "completed",
+				"currency": "EUR",
+				"listed": true,
+				"shareable": true,
+				"online_event": true,
+				"tx_time_limit": 480,
+				"hide_start_date": false,
+				"hide_end_date": false,
+				"locale": "it_IT",
+				"is_locked": false,
+				"privacy_setting": "unlocked",
+				"is_series": false,
+				"is_series_parent": false,
+				"inventory_type": "limited",
+				"is_reserved_seating": false,
+				"show_pick_a_seat": false,
+				"show_seatmap_thumbnail": false,
+				"show_colors_in_seatmap_thumbnail": false,
+				"source": "coyote",
+				"is_free": true,
+				"version": null,
+				"summary": "Una giornata per parlare di sviluppo web a tutto tondo, dal front-end al back-end senza tralasciare alcuna tappa del viaggio.",
+				"facebook_event_id": null,
+				"logo_id": "193115209",
+				"organizer_id": "8579360054",
+				"venue_id": null,
+				"category_id": "102",
+				"subcategory_id": "2004",
+				"format_id": "1",
+				"id": "219026021727",
+				"resource_uri": "https://www.eventbriteapi.com/v3/events/219026021727/",
+				"is_externally_ticketed": false,
+				"has_digital_content": {
+					"has_digital_content": true,
+					"digital_content_url": "https://www.eventbrite.it/x/biglietti-web-day-2022-219026021727",
+					"digital_content_relative_url": "/x/biglietti-web-day-2022-219026021727"
+				},
+				"logo": {
+					"crop_mask": {
+						"top_left": {
+							"x": 0,
+							"y": 0
+						},
+						"width": 2000,
+						"height": 1000
+					},
+					"original": {
+						"url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F193115209%2F155407108747%2F1%2Foriginal.20211129-093745?auto=format%2Ccompress&q=75&sharp=10&s=bbc9cb75bfe5bc2e3a3d997fe74d1412",
+						"width": 2000,
+						"height": 1000
+					},
+					"id": "193115209",
+					"url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F193115209%2F155407108747%2F1%2Foriginal.20211129-093745?h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C0%2C2000%2C1000&s=c65b7f6992dfc9a33e28c3f8e507414c",
+					"aspect_ratio": "2",
+					"edge_color": "#321d56",
+					"edge_color_set": true
+				}
+			}
+		},
+		{
+			"costs": {
+				"base_price": {
+					"display": "€0.00",
+					"currency": "EUR",
+					"value": 0,
+					"major_value": "0.00"
+				},
+				"eventbrite_fee": {
+					"display": "€0.00",
+					"currency": "EUR",
+					"value": 0,
+					"major_value": "0.00"
+				},
+				"gross": {
+					"display": "€0.00",
+					"currency": "EUR",
+					"value": 0,
+					"major_value": "0.00"
+				},
+				"payment_fee": {
+					"display": "€0.00",
+					"currency": "EUR",
+					"value": 0,
+					"major_value": "0.00"
+				},
+				"tax": {
+					"display": "€0.00",
+					"currency": "EUR",
+					"value": 0,
+					"major_value": "0.00"
+				}
+			},
+			"resource_uri": "https://www.eventbriteapi.com/v3/orders/2482826779/",
+			"id": "2482826779",
+			"changed": "2021-12-28T14:48:42Z",
+			"created": "2021-12-28T14:48:41Z",
+			"name": "Giuseppe PIZZIMENTI",
+			"first_name": "Giuseppe",
+			"last_name": "PIZZIMENTI",
+			"email": "giuseppe.pizzimenti.seed@gmail.com",
+			"status": "placed",
+			"time_remaining": null,
+			"event_id": "219026021727",
+			"event": {
+				"name": {
+					"text": "Web Day 2022",
+					"html": "Web Day 2022"
+				},
+				"description": {
+					"text": "Una giornata per parlare di sviluppo web a tutto tondo, dal front-end al back-end senza tralasciare alcuna tappa del viaggio.",
+					"html": "Una giornata per parlare di sviluppo web a tutto tondo, dal front-end al back-end senza tralasciare alcuna tappa del viaggio."
+				},
+				"url": "https://www.eventbrite.it/e/biglietti-web-day-2022-219026021727",
+				"vanity_url": "https://web-day-2022.eventbrite.it",
+				"start": {
+					"timezone": "Europe/Rome",
+					"local": "2022-03-10T09:30:00",
+					"utc": "2022-03-10T08:30:00Z"
+				},
+				"end": {
+					"timezone": "Europe/Rome",
+					"local": "2022-03-10T18:30:00",
+					"utc": "2022-03-10T17:30:00Z"
+				},
+				"organization_id": "155407108747",
+				"created": "2021-11-29T09:36:36Z",
+				"changed": "2022-03-11T03:04:44Z",
+				"published": "2021-11-29T10:24:47Z",
+				"capacity": null,
+				"capacity_is_custom": null,
+				"status": "completed",
+				"currency": "EUR",
+				"listed": true,
+				"shareable": true,
+				"online_event": true,
+				"tx_time_limit": 480,
+				"hide_start_date": false,
+				"hide_end_date": false,
+				"locale": "it_IT",
+				"is_locked": false,
+				"privacy_setting": "unlocked",
+				"is_series": false,
+				"is_series_parent": false,
+				"inventory_type": "limited",
+				"is_reserved_seating": false,
+				"show_pick_a_seat": false,
+				"show_seatmap_thumbnail": false,
+				"show_colors_in_seatmap_thumbnail": false,
+				"source": "coyote",
+				"is_free": true,
+				"version": null,
+				"summary": "Una giornata per parlare di sviluppo web a tutto tondo, dal front-end al back-end senza tralasciare alcuna tappa del viaggio.",
+				"facebook_event_id": null,
+				"logo_id": "193115209",
+				"organizer_id": "8579360054",
+				"venue_id": null,
+				"category_id": "102",
+				"subcategory_id": "2004",
+				"format_id": "1",
+				"id": "219026021727",
+				"resource_uri": "https://www.eventbriteapi.com/v3/events/219026021727/",
+				"is_externally_ticketed": false,
+				"has_digital_content": {
+					"has_digital_content": true,
+					"digital_content_url": "https://www.eventbrite.it/x/biglietti-web-day-2022-219026021727",
+					"digital_content_relative_url": "/x/biglietti-web-day-2022-219026021727"
+				},
+				"logo": {
+					"crop_mask": {
+						"top_left": {
+							"x": 0,
+							"y": 0
+						},
+						"width": 2000,
+						"height": 1000
+					},
+					"original": {
+						"url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F193115209%2F155407108747%2F1%2Foriginal.20211129-093745?auto=format%2Ccompress&q=75&sharp=10&s=bbc9cb75bfe5bc2e3a3d997fe74d1412",
+						"width": 2000,
+						"height": 1000
+					},
+					"id": "193115209",
+					"url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F193115209%2F155407108747%2F1%2Foriginal.20211129-093745?h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C0%2C2000%2C1000&s=c65b7f6992dfc9a33e28c3f8e507414c",
+					"aspect_ratio": "2",
+					"edge_color": "#321d56",
+					"edge_color_set": true
+				}
+			}
+		},
+		{
+			"costs": {
+				"base_price": {
+					"display": "€0.00",
+					"currency": "EUR",
+					"value": 0,
+					"major_value": "0.00"
+				},
+				"eventbrite_fee": {
+					"display": "€0.00",
+					"currency": "EUR",
+					"value": 0,
+					"major_value": "0.00"
+				},
+				"gross": {
+					"display": "€0.00",
+					"currency": "EUR",
+					"value": 0,
+					"major_value": "0.00"
+				},
+				"payment_fee": {
+					"display": "€0.00",
+					"currency": "EUR",
+					"value": 0,
+					"major_value": "0.00"
+				},
+				"tax": {
+					"display": "€0.00",
+					"currency": "EUR",
+					"value": 0,
+					"major_value": "0.00"
+				}
+			},
+			"resource_uri": "https://www.eventbriteapi.com/v3/orders/2377307019/",
+			"id": "2377307019",
+			"changed": "2021-12-06T14:27:24Z",
+			"created": "2021-12-06T14:27:23Z",
+			"name": "Giuseppe Pizzimenti",
+			"first_name": "Giuseppe",
+			"last_name": "Pizzimenti",
+			"email": "giuseppe.pizzimenti.seed@gmail.com",
+			"status": "placed",
+			"time_remaining": null,
+			"event_id": "221350042937",
+			"event": {
+				"name": {
+					"text": "Micro-Frontends anti-patterns",
+					"html": "Micro-Frontends anti-patterns"
+				},
+				"description": {
+					"text": "EVENTO IN LIVE STREAMING SULLA PAGINA FACEBOOK https://www.facebook.com/groups/frontendersverona",
+					"html": "EVENTO IN LIVE STREAMING SULLA PAGINA FACEBOOK https://www.facebook.com/groups/frontendersverona"
+				},
+				"url": "https://www.eventbrite.it/e/biglietti-micro-frontends-anti-patterns-221350042937",
+				"start": {
+					"timezone": "Europe/Rome",
+					"local": "2021-12-14T19:00:00",
+					"utc": "2021-12-14T18:00:00Z"
+				},
+				"end": {
+					"timezone": "Europe/Rome",
+					"local": "2021-12-14T20:00:00",
+					"utc": "2021-12-14T19:00:00Z"
+				},
+				"organization_id": "114965312043",
+				"created": "2021-12-02T12:24:23Z",
+				"changed": "2022-04-06T15:00:25Z",
+				"published": "2021-12-02T12:35:47Z",
+				"capacity": null,
+				"capacity_is_custom": null,
+				"status": "completed",
+				"currency": "EUR",
+				"listed": true,
+				"shareable": false,
+				"online_event": true,
+				"tx_time_limit": 480,
+				"hide_start_date": false,
+				"hide_end_date": false,
+				"locale": "it_IT",
+				"is_locked": false,
+				"privacy_setting": "unlocked",
+				"is_series": false,
+				"is_series_parent": false,
+				"inventory_type": "limited",
+				"is_reserved_seating": false,
+				"show_pick_a_seat": false,
+				"show_seatmap_thumbnail": false,
+				"show_colors_in_seatmap_thumbnail": false,
+				"source": "coyote",
+				"is_free": false,
+				"version": null,
+				"summary": "EVENTO IN LIVE STREAMING SULLA PAGINA FACEBOOK https://www.facebook.com/groups/frontendersverona",
+				"facebook_event_id": null,
+				"logo_id": null,
+				"organizer_id": "7297766259",
+				"venue_id": null,
+				"category_id": "102",
+				"subcategory_id": "2004",
+				"format_id": "10",
+				"id": "221350042937",
+				"resource_uri": "https://www.eventbriteapi.com/v3/events/221350042937/",
+				"is_externally_ticketed": false,
+				"has_digital_content": {
+					"has_digital_content": false,
+					"digital_content_url": "",
+					"digital_content_relative_url": ""
+				},
+				"logo": null
+			}
+		},
+		{
+			"costs": {
+				"base_price": {
+					"display": "€0.00",
+					"currency": "EUR",
+					"value": 0,
+					"major_value": "0.00"
+				},
+				"eventbrite_fee": {
+					"display": "€0.00",
+					"currency": "EUR",
+					"value": 0,
+					"major_value": "0.00"
+				},
+				"gross": {
+					"display": "€0.00",
+					"currency": "EUR",
+					"value": 0,
+					"major_value": "0.00"
+				},
+				"payment_fee": {
+					"display": "€0.00",
+					"currency": "EUR",
+					"value": 0,
+					"major_value": "0.00"
+				},
+				"tax": {
+					"display": "€0.00",
+					"currency": "EUR",
+					"value": 0,
+					"major_value": "0.00"
+				}
+			},
+			"resource_uri": "https://www.eventbriteapi.com/v3/orders/2222652569/",
+			"id": "2222652569",
+			"changed": "2021-11-09T09:05:48Z",
+			"created": "2021-11-09T09:05:47Z",
+			"name": "Giuseppe Pizzimenti",
+			"first_name": "Giuseppe",
+			"last_name": "Pizzimenti",
+			"email": "giuseppe.pizzimenti.seed@gmail.com",
+			"status": "placed",
+			"time_remaining": null,
+			"event_id": "205506474397",
+			"event": {
+				"name": {
+					"text": "My Vue-based spa has become huge, what should I do?",
+					"html": "My Vue-based spa has become huge, what should I do?"
+				},
+				"description": {
+					"text": "La mia Single Page Application (basata su Vue.js) è diventata gigante ed ingestibile. Che faccio?",
+					"html": "La mia Single Page Application (basata su Vue.js) è diventata gigante ed ingestibile. Che faccio?"
+				},
+				"url": "https://www.eventbrite.it/e/biglietti-my-vue-based-spa-has-become-huge-what-should-i-do-205506474397",
+				"start": {
+					"timezone": "Europe/Rome",
+					"local": "2021-11-17T19:00:00",
+					"utc": "2021-11-17T18:00:00Z"
+				},
+				"end": {
+					"timezone": "Europe/Rome",
+					"local": "2021-11-17T20:30:00",
+					"utc": "2021-11-17T19:30:00Z"
+				},
+				"organization_id": "114965312043",
+				"created": "2021-11-05T08:13:30Z",
+				"changed": "2021-11-18T00:56:38Z",
+				"published": "2021-11-05T08:23:11Z",
+				"capacity": null,
+				"capacity_is_custom": null,
+				"status": "completed",
+				"currency": "EUR",
+				"listed": true,
+				"shareable": false,
+				"online_event": true,
+				"tx_time_limit": 480,
+				"hide_start_date": false,
+				"hide_end_date": false,
+				"locale": "it_IT",
+				"is_locked": false,
+				"privacy_setting": "unlocked",
+				"is_series": false,
+				"is_series_parent": false,
+				"inventory_type": "limited",
+				"is_reserved_seating": false,
+				"show_pick_a_seat": false,
+				"show_seatmap_thumbnail": false,
+				"show_colors_in_seatmap_thumbnail": false,
+				"source": "coyote",
+				"is_free": false,
+				"version": null,
+				"summary": "La mia Single Page Application (basata su Vue.js) è diventata gigante ed ingestibile. Che faccio?",
+				"facebook_event_id": null,
+				"logo_id": "180626469",
+				"organizer_id": "7297766259",
+				"venue_id": null,
+				"category_id": "102",
+				"subcategory_id": "2004",
+				"format_id": "2",
+				"id": "205506474397",
+				"resource_uri": "https://www.eventbriteapi.com/v3/events/205506474397/",
+				"is_externally_ticketed": false,
+				"has_digital_content": {
+					"has_digital_content": false,
+					"digital_content_url": "",
+					"digital_content_relative_url": ""
+				},
+				"logo": {
+					"crop_mask": {
+						"top_left": {
+							"x": 100,
+							"y": 0
+						},
+						"width": 1200,
+						"height": 600
+					},
+					"original": {
+						"url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F180626469%2F114965312043%2F1%2Foriginal.20211105-082219?auto=format%2Ccompress&q=75&sharp=10&s=e4bba1778fcb7585e193912fcb3b8998",
+						"width": 1400,
+						"height": 600
+					},
+					"id": "180626469",
+					"url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F180626469%2F114965312043%2F1%2Foriginal.20211105-082219?h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&rect=100%2C0%2C1200%2C600&s=38b76249e7eb0d28e8b753e86a195c4f",
+					"aspect_ratio": "2",
+					"edge_color": "#e5f1ed",
+					"edge_color_set": true
+				}
+			}
+		},
+		{
+			"costs": {
+				"base_price": {
+					"display": "€0.00",
+					"currency": "EUR",
+					"value": 0,
+					"major_value": "0.00"
+				},
+				"eventbrite_fee": {
+					"display": "€0.00",
+					"currency": "EUR",
+					"value": 0,
+					"major_value": "0.00"
+				},
+				"gross": {
+					"display": "€0.00",
+					"currency": "EUR",
+					"value": 0,
+					"major_value": "0.00"
+				},
+				"payment_fee": {
+					"display": "€0.00",
+					"currency": "EUR",
+					"value": 0,
+					"major_value": "0.00"
+				},
+				"tax": {
+					"display": "€0.00",
+					"currency": "EUR",
+					"value": 0,
+					"major_value": "0.00"
+				}
+			},
+			"resource_uri": "https://www.eventbriteapi.com/v3/orders/2008090989/",
+			"id": "2008090989",
+			"changed": "2021-10-07T09:35:15Z",
+			"created": "2021-10-07T09:35:14Z",
+			"name": "Giuseppe Pizzimenti",
+			"first_name": "Giuseppe",
+			"last_name": "Pizzimenti",
+			"email": "giuseppe.pizzimenti.seed@gmail.com",
+			"status": "placed",
+			"time_remaining": null,
+			"event_id": "187494831087",
+			"event": {
+				"name": {
+					"text": "Is it possible to build your UI components using only web components?",
+					"html": "Is it possible to build your UI components using only web components?"
+				},
+				"description": {
+					"text": "Ma questa libreria è solo per React.. Questa libreria non si integra con angular.. Ma perchè\nnon trovo questi componenti per Vue?",
+					"html": "Ma questa libreria è solo per React.. Questa libreria non si integra con angular.. Ma perchè\nnon trovo questi componenti per Vue?"
+				},
+				"url": "https://www.eventbrite.it/e/biglietti-is-it-possible-to-build-your-ui-components-using-only-web-components-187494831087",
+				"start": {
+					"timezone": "Europe/Rome",
+					"local": "2021-10-19T19:30:00",
+					"utc": "2021-10-19T17:30:00Z"
+				},
+				"end": {
+					"timezone": "Europe/Rome",
+					"local": "2021-10-19T21:00:00",
+					"utc": "2021-10-19T19:00:00Z"
+				},
+				"organization_id": "114965312043",
+				"created": "2021-10-07T07:10:27Z",
+				"changed": "2021-12-06T22:01:57Z",
+				"published": "2021-10-07T07:16:13Z",
+				"capacity": null,
+				"capacity_is_custom": null,
+				"status": "completed",
+				"currency": "EUR",
+				"listed": true,
+				"shareable": false,
+				"online_event": false,
+				"tx_time_limit": 480,
+				"hide_start_date": false,
+				"hide_end_date": false,
+				"locale": "it_IT",
+				"is_locked": false,
+				"privacy_setting": "unlocked",
+				"is_series": false,
+				"is_series_parent": false,
+				"inventory_type": "limited",
+				"is_reserved_seating": false,
+				"show_pick_a_seat": false,
+				"show_seatmap_thumbnail": false,
+				"show_colors_in_seatmap_thumbnail": false,
+				"source": "coyote",
+				"is_free": false,
+				"version": null,
+				"summary": "Ma questa libreria è solo per React.. Questa libreria non si integra con angular.. Ma perchè\nnon trovo questi componenti per Vue?",
+				"facebook_event_id": null,
+				"logo_id": "162787599",
+				"organizer_id": "7297766259",
+				"venue_id": null,
+				"category_id": "102",
+				"subcategory_id": "2004",
+				"format_id": "2",
+				"id": "187494831087",
+				"resource_uri": "https://www.eventbriteapi.com/v3/events/187494831087/",
+				"is_externally_ticketed": false,
+				"has_digital_content": {
+					"has_digital_content": false,
+					"digital_content_url": "",
+					"digital_content_relative_url": ""
+				},
+				"logo": {
+					"crop_mask": {
+						"top_left": {
+							"x": 0,
+							"y": 0
+						},
+						"width": 624,
+						"height": 312
+					},
+					"original": {
+						"url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F162787599%2F114965312043%2F1%2Foriginal.20211007-071604?auto=format%2Ccompress&q=75&sharp=10&s=7108f5e92efb3ead4c36e81a1a23ce30",
+						"width": 1000,
+						"height": 420
+					},
+					"id": "162787599",
+					"url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F162787599%2F114965312043%2F1%2Foriginal.20211007-071604?h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C0%2C624%2C312&s=0e3a6b284791879a641c51b1175bfb6d",
+					"aspect_ratio": "2",
+					"edge_color": "#ffffff",
+					"edge_color_set": true
+				}
+			}
+		}
+	]
+}

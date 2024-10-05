@@ -1,0 +1,14 @@
+
+.icon-plus-circle:before { content: '\2295'; } /* '⊕' */
+.icon-minus-circle:before { content: '\2296'; } /* '⊖' */
+.icon-search:before { content: '\2315'; } /* '⌕' */
+.icon-cancel-circle:before { content: '\24e7'; } /* 'ⓧ' */
+.icon-menu:before { content: '\2630'; } /* '☰' */
+.icon-right-circle:before { content: '\27a1'; } /* '➡' */
+.icon-left-circle:before { content: '\2b05'; } /* '⬅' */
+.icon-adult:before { content: '\e800'; } /* '' */
+.icon-award:before { content: '\e801'; } /* '' */
+.icon-calendar:before { content: '\e802'; } /* '' */
+.icon-resize-full:before { content: '\e803'; } /* '' */
+.icon-resize-normal:before { content: '\e804'; } /* '' */
+.icon-industry:before { content: '\f275'; } /* '' */

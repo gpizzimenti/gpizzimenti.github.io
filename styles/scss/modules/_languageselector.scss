@@ -1,0 +1,65 @@
+#language {
+    background-color: #eee;
+    border: solid 1px #ddd;
+    border-radius: 4px;
+    box-shadow: 2px 3px 4px 0px rgb(0 0 0 / 35%);
+    cursor: pointer;
+    flex: 0 0 120px;
+    width: 120px;
+    height: var(--button-size);
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    padding: 4px;
+    column-gap: 5px;
+
+    input {
+      position: absolute;
+      opacity: 0;
+      height: 0;
+      width: 0;
+      top: 0;
+      left: 0;
+
+      
+      &:focus + label {
+        border: solid 2px var(--base-color);
+        outline-style: solid;
+        outline-width: 7px;
+        outline-color: var(--inverted-color);
+      }
+        
+      &:checked + label {
+          opacity: 1;
+      }      
+    }
+      
+    label {
+        flex: 1 1 50%;
+        border: solid 2px transparent;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        cursor: pointer;
+        opacity: 0.3;
+        transition: opacity 0.6s ease;
+
+      &:hover {
+          opacity: 0.5;
+      }
+        
+      &[for="lang-it"] {
+          background-image: url("../../images/flags/it.svg");
+      }
+        
+      &[for="lang-en"] {
+          background-image: url("../../images/flags/gb.svg");
+      }
+
+    }
+
+  }
+  
+
+  

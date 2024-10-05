@@ -1,0 +1,290 @@
+#navigator {
+    flex: 1 1 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+#btnMenu {
+    position: relative;
+}
+  
+#sectionsMenu {
+    background-color: #fff;
+    box-shadow: 5px 5px 15px rgb(0 0 0 / 50%);
+    border: solid 2px transparent;
+    border-radius: 5px;
+    position: absolute;
+    left: 50%;
+    opacity: 0;
+    transform: translateY(-100px) translateX(-50%);
+    will-change: max-height, opacity, transform;
+    backface-visibility: hidden;
+    transition: max-height 0.3s ease-in-out, transform 0.3s ease-in-out,
+      opacity 0.5s ease, visibility 0.5s ease;
+    max-height: calc(100dvh - 90px);
+    width: fit-content;
+    max-width: 95vw;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    pointer-events: none;
+  
+  &[open] {
+    opacity: 1;
+    transform: translateY(-60px) translateX(-50%);
+    pointer-events: all;
+    visibility: visible;
+    overflow: visible;
+  }
+  
+  &:after {
+    display: inline-block;
+    content: "";
+    position: absolute;
+    background-color: transparent;
+    border: 8px solid transparent;
+    left: calc(50% - 7px);
+    bottom: -17px;
+    border-top-color: #fff;
+  }
+  
+  menu {
+    overflow-y: auto;
+    overflow-x: hidden;
+    -webkit-overflow-scrolling: touch;
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: thin;
+    scrollbar-color: #a3a3a3, #dedede;
+    scroll-behavior: smooth;
+    overscroll-behavior: contain;
+    flex: 1 1 100%;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    background: linear-gradient(#fff 33%, rgba(255, 255, 255, 0)),
+      linear-gradient(rgba(255, 255, 255, 0), #fff 66%) 0 100%,
+      radial-gradient(
+        farthest-side at 50% 0,
+        rgba(133, 133, 133, 0.5),
+        rgba(0, 0, 0, 0)
+      ),
+      radial-gradient(
+          farthest-side at 50% 100%,
+          rgba(133, 133, 133, 0.5),
+          rgba(0, 0, 0, 0)
+        )
+        0 100%;
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-attachment: local, local, scroll, scroll;
+    background-size: 100% 42px, 100% 42px, 100% 14px, 100% 14px;
+    will-change: opacity, max-height;
+    backface-visibility: hidden;
+    transition: opacity 0.7s ease, max-height 0.7s ease;
+    max-height: 10000px;
+  }
+  
+  .searchControls {
+    display: block;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    max-height: 0;
+    opacity: 0;
+    pointer-events: none;
+    border: 0;
+    margin: 0;
+    padding: 0;
+    will-change: opacity, max-height;
+    backface-visibility: hidden;
+    transition: opacity 0.7s ease, max-height 0.7s ease;
+
+    a {
+        display: none;
+        position: static;
+        height: 40px;
+        flex: 0 0 40px;
+        text-decoration: none;
+      }
+   }
+  
+  
+    .searching,
+    .indexing {
+        animation: pulsate 1.5s linear infinite;
+        cursor: progress;
+        pointer-events: none;
+    }
+    
+    [data-nrresults="0"] .searchControls a.prevResult,
+    [data-nrresults="0"] .searchControls a.nextResult,
+    .searching .searchControls a.prevResult,
+    .searching .searchControls a.nextResult,
+    .indexing .searchControls a.prevResult,
+    .indexing .searchControls a.nextResult {
+        pointer-events: none;
+        filter: grayscale(1);
+        opacity: 0.6;
+    }
+    
+    .searchControls  label {
+        flex: 1 1 100%;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        padding: 0 10px;
+        margin: 0 25px 0 0;
+        font-size: 14px;
+        line-height: 45px;
+        text-align: center;
+    } 
+
+    [lang="it"] #sectionsMenu .searchControls label sup {
+        vertical-align: bottom;
+        font-size: 14px;
+    } 
+    
+    
+    [lang="en"] #sectionsMenu .searchControls label sup {
+        vertical-align: top;
+        font-size: 10px;
+    }
+  
+    &.searchActive { 
+
+    .searchControls {
+        max-height: 50px;
+        height: 50px;
+        opacity: 1;
+        pointer-events: all;
+        padding: 0 5px;
+
+    
+        a {
+        display: inline-block;
+        }
+    }
+
+    [type="search"] {
+        max-height: 50px;
+        font-size: 18px;
+        line-height: 100%;
+        border: solid 1px #a3a3a3;
+        margin: 5px;
+        min-width: 350px;
+        max-width: calc(100vw - 30px) !important;
+    }
+    
+    [type="search"]:focus {
+        border: solid 1px #a3a3a3 !important;
+        outline: none;
+    }
+    
+    menu {
+        max-height: 0;
+        opacity: 0;
+        pointer-events: none;
+    }
+    
+    .searchControls[hidden] {
+        display: none;
+    }
+    }
+
+    menu li,
+    [type="search"] {
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            overflow: hidden;
+            padding: 0;
+            margin: 0;
+            font-size: 22px;
+            line-height: 100%;
+            text-shadow: none;
+            text-align: left;
+            font-family: "Barlow", system-ui, sans-serif;
+            font-weight: 800;
+            font-weight: regular;
+            pointer-events: none;
+            border: solid 2px transparent;
+            max-height: 50px;
+            color: var(--fg-color-light);
+        }
+        
+        menu li {
+            border-bottom: solid 2px #efefef;
+        }
+        
+        menu li[data-index="1"] {
+            border-top-left-radius: 5px;
+            border-top-right-radius: 5px;
+        }
+        
+        menu li[data-sezione="contattami"] {
+            border-bottom-color: transparent;
+        }
+        
+        &[open] li,
+        &[open] [type="search"] {
+            pointer-events: all;
+        }
+        
+        menu li:hover {
+            background-color: #efefef;
+        }
+        
+        menu li:focus-within {
+            border: solid 2px var(--inverted-color);
+        }
+        
+        [type="search"]:focus {
+            border: solid 2px var(--inverted-color);
+        }
+        
+        menu li.is-visible {
+            opacity: 1;
+            color: var(--dark-color);
+        }
+        
+        menu li a,
+        [type="search"] {
+            margin: 0;
+            padding: 10px;
+            display: block;
+            color: inherit;
+            text-decoration: none;
+        }
+        
+        footer {
+            border-top: solid 1px #efefef;
+        }
+        
+        [type="search"] {
+            color: var(--dark-color);
+            will-change: margin;
+            backface-visibility: hidden;
+            transition: margin 0.5s ease;
+            background-image: url("../../images/icons/search.svg");
+            background-repeat: no-repeat;
+            background-position: calc(100% - 5px) center;
+            background-size: 25px;
+            padding-right: 35px;
+        }
+        
+        [type="search"][hidden] {
+            display: none;
+        }
+
+}
+
+mark.active {
+    outline-style: dotted;
+    outline-color: #333;
+    outline-width: 2px;
+    display: inline;
+}
+  

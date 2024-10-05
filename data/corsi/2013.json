@@ -1,0 +1,25 @@
+[
+  {
+    "titolo": "UX Workshop",
+    "inizio": "2013-02-22 09:30:00",
+    "fine": "2013-02-23 18:30:00",
+    "data": "Messina, 22-23/02/2013",
+    "online": false,
+    "piattaforme": [
+      {
+        "nome": "IDS&Unitelm",
+        "link": "https://www.idsunitelm.it/"
+      },
+      {
+        "nome": "5A Design",
+        "link": "https://www.5adesign.it/"
+      }
+    ],
+    "relatori": [
+      {
+        "nome": "Federico Parrella",
+        "link": "https://parrella.it/"
+      }
+    ]
+  }
+]

@@ -1,0 +1,21 @@
+[
+  {
+    "titolo": "Agile & Scrum Workshop",
+    "inizio": "2020-01-11 09:30:00",
+    "fine": "2020-01-11 18:30:00",
+    "data": "Catania, 11/01/2020",
+    "online": false,
+    "piattaforme": [
+      {
+        "nome": "DEVMy",
+        "link": "https://devmy.it/"
+      }
+    ],
+    "relatori": [
+      {
+        "nome": "Lorenzo Vetrano",
+        "link": "https://www.linkedin.com/in/lorenzovetrano/"
+      }
+    ]
+  }
+]

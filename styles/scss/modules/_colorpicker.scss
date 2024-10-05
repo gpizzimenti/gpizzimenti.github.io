@@ -1,0 +1,100 @@
+
+#color {
+    opacity: 0;
+    appearance: none;
+    background: transparent;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    height: var(--button-size);
+    width: var(--button-size);
+    cursor: pointer;
+  }
+  
+label[for="color"] { 
+    /* non rimuovere! */
+    overflow: hidden;
+    position: relative;
+    display: none;
+    width: var(--button-size);
+    height: var(--button-size);
+    min-width: var(--button-size);
+    min-height: var(--button-size);
+    max-width: var(--button-size);
+    max-height: var(--button-size);
+    border: solid 1px #ddd;
+    background: conic-gradient(
+    hsl(0deg 100% 50%),
+    hsl(10deg 100% 50%),
+    hsl(20deg 100% 50%),
+    hsl(30deg 100% 50%),
+    hsl(40deg 100% 50%),
+    hsl(50deg 100% 50%),
+    hsl(60deg 100% 50%),
+    hsl(70deg 100% 50%),
+    hsl(80deg 100% 50%),
+    hsl(90deg 100% 50%),
+    hsl(100deg 100% 50%),
+    hsl(110deg 100% 50%),
+    hsl(120deg 100% 50%),
+    hsl(130deg 100% 50%),
+    hsl(140deg 100% 50%),
+    hsl(150deg 100% 50%),
+    hsl(160deg 100% 50%),
+    hsl(170deg 100% 50%),
+    hsl(180deg 100% 50%),
+    hsl(190deg 100% 50%),
+    hsl(200deg 100% 50%),
+    hsl(210deg 100% 50%),
+    hsl(220deg 100% 50%),
+    hsl(230deg 100% 50%),
+    hsl(240deg 100% 50%),
+    hsl(250deg 100% 50%),
+    hsl(260deg 100% 50%),
+    hsl(270deg 100% 50%),
+    hsl(280deg 100% 50%),
+    hsl(290deg 100% 50%),
+    hsl(300deg 100% 50%),
+    hsl(310deg 100% 50%),
+    hsl(320deg 100% 50%),
+    hsl(330deg 100% 50%),
+    hsl(340deg 100% 50%),
+    hsl(350deg 100% 50%)
+    );
+    border-radius: 4px;
+    box-shadow: 2px 3px 4px 0px rgb(0 0 0 / 35%);
+    cursor: pointer;
+
+    
+    &:before {
+        content: " ";
+        position: absolute;
+        z-index: 2;
+        top: -1px;
+        left: 0;
+        border: 5px solid #eee;
+        right: 0;
+        bottom: -1px;
+        border-radius: 4px;
+    }
+    
+    &:focus-within {
+        border: solid 2px var(--base-color);
+        outline-style: solid;
+        outline-width: 7px;
+        outline-color: var(--inverted-color);
+    }
+    
+    & span {
+        display: inline-block;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        cursor: pointer;
+        opacity: 0;
+    }
+}

@@ -1,0 +1,134 @@
+[
+  {
+    "titolo": "CSS Grid",
+    "link": "https://cssgrid.io/",
+    "inizio": "2023-08-01 00:01:00",
+    "fine": "2023-08-01 23:59:00",
+    "online": true,
+    "relatori": [
+      {
+        "nome": "Wes Bos",
+        "link": "https://wesbos.com/"
+      }
+    ]
+  },
+  {
+    "titolo": "OWASP 2023 - Casi d'uso reale",
+    "inizio": "2023-06-23 09:09:00",
+    "fine": "2023-06-29 18:30:00",
+    "data": "Messina, 23,29/06/2023",
+    "online": false,
+    "piattaforme": [
+      {
+        "nome": "IDS&Unitelm",
+        "link": "https://www.idsunitelm.it/"
+      }
+    ],
+    "relatori": [
+      {
+        "nome": "Leone Castano",
+        "link": "https://www.linkedin.com/in/leone-c-337b4795/"
+      }
+    ]
+  },
+  {
+    "titolo": "Practical Accessibility for Web Developers: Form Controls",
+    "link": "https://www.udemy.com/course/practical-accessibility-for-web-developers-form-controls/",
+    "inizio": "2023-06-01 00:01:00",
+    "fine": "2023-06-11 23:59:00",
+    "online": true,
+    "piattaforme": [
+      {
+        "nome": "Udemy",
+        "link": "https://www.udemy.com/"
+      }
+    ],
+    "relatori": [
+      {
+        "nome": "Daniel Berryhill",
+        "link": "https://www.udemy.com/user/danielberryhill/"
+      }
+    ],
+    "certificati": [
+      {
+        "link": "https://www.udemy.com/certificate/UC-aad76356-0f91-43c3-aaac-709b46974357/"
+      }
+    ]
+  },
+  {
+    "titolo": "WCAG 2.1 / 2.2 Simplified With Examples",
+    "link": "https://www.udemy.com/course/web-content-accessibility-guidelines-wcag-21-simplified/",
+    "inizio": "2023-02-01 00:01:00",
+    "fine": "2023-02-11 23:59:00",
+    "online": true,
+    "piattaforme": [
+      {
+        "nome": "Udemy",
+        "link": "https://www.udemy.com/"
+      }
+    ],
+    "relatori": [
+      {
+        "nome": "Stefany Newman",
+        "link": "https://www.udemy.com/user/stefany-newman/"
+      }
+    ],
+    "certificati": [
+      {
+        "link": "https://www.udemy.com/certificate/UC-f1af6e5c-4d05-4ade-bc1a-ffdf0573a367/"
+      }
+    ]
+  },
+  {
+    "titolo": "Creating Accessible Websites",
+    "link": "https://www.udemy.com/course/creating-accessible-websites",
+    "inizio": "2023-01-01 00:01:00",
+    "fine": "2023-01-22 23:59:00",
+    "online": true,
+    "piattaforme": [
+      {
+        "nome": "Udemy",
+        "link": "https://www.udemy.com/"
+      }
+    ],
+    "relatori": [
+      {
+        "nome": "Stefany Newman",
+        "link": "https://www.udemy.com/user/stefany-newman/"
+      }
+    ],
+    "certificati": [
+      {
+        "link": "https://www.udemy.com/certificate/UC-9a9308d8-8a9f-402b-877c-aaecf380ed9d/"
+      }
+    ]
+  },
+  {
+    "titolo": "Web Components & Stencil.js - Build Custom HTML Elements",
+    "link": "https://www.udemy.com/course/web-components-stenciljs-build-custom-html-elements/",
+    "inizio": "2023-01-01 00:01:00",
+    "fine": "2023-04-01 23:59:00",
+    "online": true,
+    "piattaforme": [
+      {
+        "nome": "Udemy",
+        "link": "https://www.udemy.com/"
+      },
+      {
+        "nome": "Academind",
+        "link": "https://academind.com/"
+      }
+    ],
+    "relatori": [
+      {
+        "nome": "Maximilian Schwarzmüller",
+        "link": "https://www.udemy.com/user/maximilian-schwarzmuller/"
+      }
+    ],
+    "certificati": [
+      {
+        "link": "https://www.udemy.com/certificate/UC-8e21d2ba-f9da-48ac-a65d-fdc1169c5200/"
+      }
+    ]
+  }
+]
