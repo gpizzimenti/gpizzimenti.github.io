@@ -927,7 +927,7 @@
                     class="icon-right-circle nextResult"
                     tabindex="-1"
                   ></a>
-                  <label for="txtSearch-it"></label>
+                  <label for="txtSearch-it">Nessun risultato</label>
                   <a
                     href="#clear"
                     title="Ripristina"
@@ -982,7 +982,7 @@
                     class="icon-right-circle nextResult"
                     tabindex="-1"
                   ></a>
-                  <label for="txtSearch-en"></label>
+                  <label for="txtSearch-en">No results</label>
                   <a
                     href="#clear"
                     title="Clear"
