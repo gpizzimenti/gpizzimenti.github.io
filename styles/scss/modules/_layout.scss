@@ -170,6 +170,7 @@
     color: var(--base-color);
     text-shadow: rgba(0, 0, 0, 0.5) 1px 0, rgba(0, 0, 0, 0.3) 0 1px,
       rgba(255, 255, 255, 0.5) 0 -1px, rgba(0, 0, 0, 0.3) 1px 1px;
+    overflow: hidden;
   }
   
   body > footer button:disabled [class^="icon-"] {
@@ -660,6 +661,8 @@
     line-height: 11px;
     transition: opacity 0.6s linear;
     transform: rotateZ(2deg) translateY(5px);
+    background-color: #FFF;
+    color: #000;
   }
   
   ul.gallery li:hover figcaption,
