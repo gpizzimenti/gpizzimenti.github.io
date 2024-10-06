@@ -1,0 +1,39 @@
+ul.draggable-list .dragging {
+    opacity: 0.5 !important;
+  }
+  
+  ul.draggable-list .drag-item {
+    border: dashed 2px transparent;
+    position: relative;
+  }
+  
+  ul.draggable-list .drag-item:hover {
+    border: dotted 2px var(--border-dark-color);
+  }
+  
+  ul.draggable-list .drag-item::after {
+    content: "";
+    position: absolute;
+    right: 5px;
+    top: 3px;
+    width: 24px;
+    height: 24px;
+    pointer-events: none;
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-position: center;
+    -webkit-mask-size: 18px;
+    mask-repeat: no-repeat;
+    mask-position: center;
+    mask-size: 18px;
+    background-color: var(--dark-color);
+    -webkit-mask-image: url(../../images/icons/draggable-vertical.svg);
+    mask-image: url(../../images/icons/draggable-vertical.svg);
+  }
+  
+  ul.draggable-list .dragged-over-top {
+    border-top: dashed 2px #666 !important;
+  }
+  
+  ul.draggable-list .dragged-over-bottom {
+    border-bottom: dashed 2px #666 !important;
+  }

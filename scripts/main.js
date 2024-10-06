@@ -4,6 +4,7 @@ import {
   debounce,
   englishOrdinalSuffix,
   fetchResource,
+  hasTouch,
   html,
   nextFrame,
   setIntersectionObserverItems,
@@ -24,6 +25,8 @@ context.labels = {
     errorLoading: 'Errore nel caricamento',
     loading: 'Caricamento in corso',
     messageSent: 'Messaggio inviato',
+    sceglisezioni:
+      'Scegli le sezioni da includere e trascinale per riordinarle',
     nrtrovati: (nr, index) =>
       nr === 0
         ? 'Nessun risultato'
@@ -38,6 +41,7 @@ context.labels = {
     errorLoading: 'Network error',
     loading: 'Loading',
     messageSent: 'Message sent',
+    sceglisezioni: 'Choose the sections to include and drag to reorder',
     nrtrovati: (nr, index) =>
       nr === 0
         ? 'No results'
@@ -1323,7 +1327,7 @@ const executeWhenNotAnimating = function executeWhenNotAnimating(
 
 /*-----------------------------------------------------------------------------------------------*/
 
-const setDraggableList = async function setDraggableList(list) {
+const setDraggableList = async function setDraggableList(list, lang) {
   const draggedItem = (e) =>
     e.target.classList.contains('drag-item')
       ? e.target
@@ -1342,13 +1346,15 @@ const setDraggableList = async function setDraggableList(list) {
 
   softExec(() => {
     setDraggable(list);
+    list.previousSibling.innerHTML = context.labels[lang].sceglisezioni;
   });
 };
 
 /*-----------------------------------------------------------------------------------------------*/
 
 const setCV = function setCV(slide) {
-  setDraggableList(slide.querySelector('ul'));
+  if (!hasTouch())
+    setDraggableList(slide.querySelector('ul'), slide.getAttribute('lang'));
 
   slide.addEventListener('change', (e) => {
     const chk = e.target;

@@ -1142,47 +1142,6 @@
     margin-top: 0 !important;
     padding: 5px 0 !important;
   }
-
-    
-  ul.cv .dragging {
-    opacity: 0.5 !important;
-  }
-  
-  ul.cv .drag-item {
-    border: dashed 2px transparent;
-    position: relative;
-  }
-  
-  ul.cv .drag-item:hover {
-    border: dotted 2px var(--border-dark-color);
-  }
-  
-  ul.cv .drag-item::after {
-    content: "";
-    position: absolute;
-    right: 5px;
-    top: 3px;
-    width: 24px;
-    height: 24px;
-    pointer-events: none;
-    -webkit-mask-repeat: no-repeat;
-    -webkit-mask-position: center;
-    -webkit-mask-size: 18px;
-    mask-repeat: no-repeat;
-    mask-position: center;
-    mask-size: 18px;
-    background-color: var(--dark-color);
-    -webkit-mask-image: url(../../images/icons/draggable-vertical.svg);
-    mask-image: url(../../images/icons/draggable-vertical.svg);
-  }
-  
-  ul.cv .dragged-over-top {
-    border-top: dashed 2px #666 !important;
-  }
-  
-  ul.cv .dragged-over-bottom {
-    border-bottom: dashed 2px #666 !important;
-  }
   
   article details .content {
     max-height: 0;

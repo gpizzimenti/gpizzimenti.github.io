@@ -1026,5 +1026,19 @@
         visibility: visible !important;
       }
     </style>
+
+    <!--script type="module">
+      import {
+        onCLS,
+        onINP,
+        onLCP,
+      } from "https://unpkg.com/web-vitals@4?module";
+
+      onCLS(console.log);
+      onINP(console.log);
+      onLCP(console.log);
+    </script-->
+
+    <!--script src="/sw-registration.min.js"></script-->
   </body>
 </html>
