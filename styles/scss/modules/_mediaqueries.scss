@@ -39,6 +39,12 @@
     ul.profiles > li {
       flex: 1 1 160px;
     }
+
+    #language {
+      flex: 0 0 120px;
+      width: 120px;
+    }
+
   }
   
   @media screen and (min-width: 1600px) and (min-height: 800px) {
@@ -101,6 +107,7 @@
   }
   
   @media screen and (min-width: 360px) {
+
     label[for="color"] {
       display: block;
     }
