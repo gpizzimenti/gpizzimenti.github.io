@@ -5,7 +5,7 @@ const SW_VERSION = 20240929;
 const cacheName = `gp-app-cache-${SW_VERSION}`;
 
 // static files to cache
-const staticFiles = ['/sw-registration.min.js', '/index.min.html'];
+const staticFiles = ['/sw-registration.min.js', '/index.html'];
 
 // routes to cache
 const routes = ['/'];
