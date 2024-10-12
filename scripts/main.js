@@ -6,6 +6,7 @@ import {
   fetchResource,
   hasTouch,
   html,
+  isScrollable,
   nextFrame,
   setIntersectionObserverItems,
   softExec,
@@ -493,6 +494,39 @@ const setEvents = function setEvents() {
         stateEvt.state.scrollLeft;
     } else navigate();
   });
+
+  const canSwipe = hasTouch() && import('./lib/swiper.min.js');
+
+  if (canSwipe)
+    canSwipe.then((swiper) => {
+      swiper.setSwiper({
+        element: context.elementsCache.scrollingContainer,
+        onSwipeRight: (event) => handleSwipe(event.target, 'R'),
+        onSwipeLeft: (event) => handleSwipe(event.target, 'L'),
+      });
+    });
+};
+
+/*-----------------------------------------------------------------------------------------------*/
+
+const handleSwipe = function handleSwipe(element, dir) {
+  const scrollable = element.classList.contains('scrollable')
+    ? element
+    : element.closest('.scrollable');
+
+  if (scrollable && isScrollable(scrollable).vertical) {
+    const activeSection = scrollable.closest('li[data-sezione]');
+    const activeSectionId = Number.parseInt(activeSection.dataset.index);
+    const sections = scrollable.querySelectorAll('li[data-sezione]');
+
+    if (
+      (activeSectionId === 1 && dir === 'R') ||
+      (activeSectionId === sections.length && dir === 'L')
+    )
+      return true;
+
+    setActiveSectionByIndex(activeSectionId + (dir === 'R' ? -1 : 1));
+  } else return true;
 };
 
 /*-----------------------------------------------------------------------------------------------*/
@@ -814,6 +848,16 @@ const setMenu = function setMenu() {
       .querySelectorAll(`li[data-sezione="${el.getAttribute('data-sezione')}"]`)
       .forEach((menuItem) => menuItem.classList.remove('is-visible'));
   });
+};
+
+/*-----------------------------------------------------------------------------------------------*/
+
+const setActiveSectionByIndex = function setActiveSectionByIndex(index) {
+  const section = context.elementsCache.scrollingContainer.querySelector(
+    `li[data-index="${index}"]`,
+  );
+
+  if (section) return setActiveSection(section.dataset.sezione);
 };
 
 /*-----------------------------------------------------------------------------------------------*/
