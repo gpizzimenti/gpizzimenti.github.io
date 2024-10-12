@@ -1,11 +1,29 @@
+import {
+  data,
+  fonts,
+  images,
+  includes,
+  scripts,
+  styles,
+} from './sw-assets.min.js';
+
 // service worker version number
-const SW_VERSION = 20240929;
+const SW_VERSION = 202410121740;
 
 // cache name including version number
 const cacheName = `gp-app-cache-${SW_VERSION}`;
 
 // static files to cache
-const staticFiles = ['/sw-registration.min.js', '/index.html'];
+const staticFiles = [
+  '/sw-registration.min.js',
+  '/index.html',
+  ...scripts,
+  ...styles,
+  ...fonts,
+  ...images,
+  ...data,
+  ...includes,
+];
 
 // routes to cache
 const routes = ['/'];
