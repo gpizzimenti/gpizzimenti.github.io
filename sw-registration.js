@@ -2,7 +2,10 @@ if ('serviceWorker' in navigator) {
   window.addEventListener('load', async () => {
     const registerServiceWorker = async () => {
       const registration = await navigator.serviceWorker.register(
-        '/service-worker.min.js',
+        '/service-worker.js',
+        {
+          type: 'module',
+        },
       );
       const newServiceWorkerWaiting =
         registration.waiting && registration.active;

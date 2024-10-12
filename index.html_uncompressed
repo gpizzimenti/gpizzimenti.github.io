@@ -1039,6 +1039,6 @@
       onLCP(console.log);
     </script-->
 
-    <script src="/sw-registration.min.js" type="module"></script>
+    <script src="/sw-registration.min.js"></script>
   </body>
 </html>

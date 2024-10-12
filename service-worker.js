@@ -8,7 +8,7 @@ import {
 } from './sw-assets.min.js';
 
 // service worker version number
-const SW_VERSION = 202410121740;
+const SW_VERSION = 202410121810;
 
 // cache name including version number
 const cacheName = `gp-app-cache-${SW_VERSION}`;
@@ -217,10 +217,10 @@ const getRequests = async () => {
 const retryRequests = async () => {
   const reqs = await getRequests();
   const requests = reqs.map(
-    ({ url, method, headers: serializedHeaders, mode, credentials }) => {
+    ({ url, method, headers: serializedHeaders, body, mode, credentials }) => {
       const headers = new Headers(serializedHeaders);
 
-      return fetch(url, { method, headers, mode, credentials });
+      return fetch(url, { method, headers, body, mode, credentials });
     },
   );
 
