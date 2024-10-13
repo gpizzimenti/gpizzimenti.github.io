@@ -1,4 +1,5 @@
 import {
+  debounce,
   hasTouch,
   nextFrame,
   setIntersectionObserverItems,
