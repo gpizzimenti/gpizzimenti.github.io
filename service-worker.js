@@ -8,7 +8,7 @@ import {
 } from './sw-assets.min.js';
 
 // service worker version number
-const SW_VERSION = 202410122200;
+const SW_VERSION = 202410131400;
 
 // cache name including version number
 const cacheName = `gp-app-cache-${SW_VERSION}`;
@@ -16,7 +16,7 @@ const cacheName = `gp-app-cache-${SW_VERSION}`;
 // static files to cache
 const staticFiles = [
   '/sw-registration.min.js',
-  //'/index.html',
+  '/index.html',
   ...scripts,
   ...styles,
   ...fonts,

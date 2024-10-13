@@ -123,9 +123,9 @@ export function setIntersectionObserverItems(options) {
           }
         }
 
-        softExec(() => {
-          options.callbackIn(entry);
-        });
+        //softExec(() => {
+        options.callbackIn(entry);
+        //});
       } else if (options.callbackOut) {
         options.callbackOut(entry);
       }

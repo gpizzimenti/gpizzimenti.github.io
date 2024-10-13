@@ -1,5 +1,4 @@
 import {
-  debounce,
   hasTouch,
   nextFrame,
   setIntersectionObserverItems,
@@ -41,6 +40,9 @@ export function setScroller(scrollingContainer) {
   const btnNext =
     document.getElementById('btnNext') ||
     scrollingContainer.querySelector('.btn-prev');
+
+  /*const debouncedCheckScroller = () =>
+    checkScroller(scrollingContainer, btnPrev, btnNext);*/
   const debouncedCheckScroller = debounce(
     () => checkScroller(scrollingContainer, btnPrev, btnNext),
     50,
@@ -60,6 +62,7 @@ export function setScroller(scrollingContainer) {
       clearTimeout(scrollingTimer);
       scrollingTimer = setTimeout(() => {
         scrollingContainer.classList.remove('scrolling');
+
         const evt = new CustomEvent('scrollStop', {
           detail: scrollingContainer,
         });
