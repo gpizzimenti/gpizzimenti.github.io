@@ -219,6 +219,7 @@ const config = {
       dompurify: './scripts/lib/domPurify/3.0.6/dompurify.min.js',
       draggablelistjs: './lib/draggableList.min.js',
       notificationsjs: './lib/notifications.min.js',
+      swiperjs: './lib/swiper.min.js',
     },
     datalists: {
       corsi: [
@@ -495,7 +496,7 @@ const setEvents = function setEvents() {
     } else navigate();
   });
 
-  const canSwipe = hasTouch() && import('./lib/swiper.min.js');
+  const canSwipe = hasTouch() && import(config.urls.libs.swiperjs);
 
   if (canSwipe)
     canSwipe.then((swiper) => {

@@ -86,7 +86,7 @@ if ('serviceWorker' in navigator) {
     // NOTE: on iOS, the pagehide event is only fired when the app is added to the Home Screen and the user closes it
     // from the app switcher.
     window.addEventListener('beforeunload', updateServiceWorkerIfNeeded);
-    document.addEventListener('pagehide', updateServiceWorkerIfNeeded);
+    window.addEventListener('pagehide', updateServiceWorkerIfNeeded);
 
     // send a message to the Service Worker to retry any requests that were stored
     // when the user was offline
@@ -95,6 +95,30 @@ if ('serviceWorker' in navigator) {
       navigator.serviceWorker.controller.postMessage({
         type: 'retry-requests',
       });
+    });
+  });
+
+  const getTime = () =>
+    `${new Date().toTimeString().split(' ').shift()} - ${Date.now()}`;
+
+  document.addEventListener('visibilitychange', () => {
+    localStorage.setItem(
+      `visibilitychange: ${document.visibilityState}`,
+      getTime(),
+    );
+  });
+
+  [
+    'beforeunload',
+    'pageshow',
+    'pagehide',
+    'pagereveal',
+    'pageswap',
+    'freeze',
+    'resume',
+  ].forEach((event) => {
+    window.addEventListener(event, () => {
+      localStorage.setItem(event, getTime());
     });
   });
 }

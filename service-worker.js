@@ -8,14 +8,15 @@ import {
 } from './sw-assets.min.js';
 
 // service worker version number
-const SW_VERSION = 202410131400;
+const SW_VERSION = 202410201830;
 
 // cache name including version number
-const cacheName = `gp-app-cache-${SW_VERSION}`;
+const cacheName = `gpizzimenti-app-cache-${SW_VERSION}`;
 
 // static files to cache
 const staticFiles = [
   '/sw-registration.min.js',
+  '/sw-assets.min.js',
   '/index.html',
   ...scripts,
   ...styles,
@@ -34,11 +35,11 @@ const filesToCache = [...routes, ...staticFiles];
 const requestsToRetryWhenOffline = [];
 
 const IDBConfig = {
-  name: 'gp-app-db',
+  name: 'gpizzimenti-app-db',
   version: SW_VERSION,
   stores: {
     requestStore: {
-      name: `gp-request-store`,
+      name: `gpizzimenti-request-store`,
       keyPath: 'timestamp',
     },
   },
