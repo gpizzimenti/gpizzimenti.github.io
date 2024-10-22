@@ -118,6 +118,7 @@
           0px 3px 0px #9d9fa2, 0px 4px 0px #8a8c8e, 0px 5px 0px #77787b,
           0px 6px 0px #636466, 0px 7px 0px #4d4d4f, 0px 8px 7px #001135;
         margin-right: 20px;
+        text-align: left;
       }
       h2 {
         font-family: "Barlow", system-ui, sans-serif;
@@ -128,6 +129,7 @@
           0px 3px 0px #9d9fa2, 0px 4px 0px #8a8c8e, 0px 5px 0px #77787b,
           0px 5px 0px #636466, 0px 5px 0px #4d4d4f, 0px 5px 4px #001135;
         text-transform: uppercase;
+        text-align: right;
       }
     </style>
   </head>
