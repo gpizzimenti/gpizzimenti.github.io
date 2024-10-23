@@ -53,7 +53,6 @@ const images_favicon = [
   'favicon-16x16.png',
   'favicon-32x32.jpg',
   'favicon-32x32.png',
-  'site.webmanifest',
 ].map((el) => `/images/favicon/${el}`);
 
 const images_flags = ['gb.svg', 'it.svg'].map((el) => `/images/flags/${el}`);
