@@ -248,6 +248,7 @@ const config = {
       eventi_relatore: ['../data/eventi/relatore.min.json'],
     },
     workers: { db: './scripts/data.worker.min.js' },
+    schema: './schema.min.json',
     include: (lang, sezione) => `./includes/${lang}/${sezione}.inc.min.html`,
   },
 };
@@ -267,6 +268,8 @@ const setup = function setup() {
 
   const startSection = location.hash ? location.hash.substring(1) : 'chisono';
   setTimeout(() => softExec(() => navigate(startSection)), 200);
+
+  softExec(() => fetchResource(config.urls.schema, 'jsonld', 'schema'));
 };
 
 /*-----------------------------------------------------------------------------------------------*/

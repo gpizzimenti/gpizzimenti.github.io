@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html itemscope itemtype="https://schema.org/ProfilePage" lang="it">
+<html lang="it">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
     <meta name="theme-color" media="(prefers-color-scheme: light)" content="rgba(255,255,255,0.1)" />
     <meta name="theme-color" media="(prefers-color-scheme: dark)" content="rgba(0,0,0,0.1)" />    
-    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style"  media="(prefers-color-scheme: light)" content="white-translucent">    
     <meta name="apple-mobile-web-app-status-bar-style"  media="(prefers-color-scheme: dark)" content="black-translucent">    
     <meta
@@ -138,14 +138,10 @@
       }
     </style>
   </head>
-  <body
-    itemprop="about mainEntity"
-    itemscope
-    itemtype="http://schema.org/Person"
-  >
+  <body>
     <header style="visibility: hidden">
-      <h1 itemprop="name">Giuseppe Pizzimenti</h1>
-      <h2 itemprop="description jobTitle">Software Developer</h2>
+      <h1>Giuseppe Pizzimenti</h1>
+      <h2>Software Developer</h2>
     </header>
     <main style="visibility: hidden">
       <ul id="list" aria-label="Sezioni" class="scroller">

@@ -160,7 +160,7 @@ export function setIntersectionObserverItems(options) {
 
 /*-----------------------------------------------------------------------------------------------*/
 
-export async function fetchResource(url, type, id) {
+export async function fetchResource(url, type, id, appendTo) {
   return new Promise((resolve, reject) => {
     let element;
     let elementType;
@@ -169,7 +169,11 @@ export async function fetchResource(url, type, id) {
     let resourceId;
 
     const parent =
-      type === 'js' || type === 'css' ? document.head : document.body;
+      type === 'js' || type === 'jsonld' || type === 'css'
+        ? document.head
+        : appendTo
+          ? appendTo
+          : document.body;
 
     if (id) {
       resourceId = `GP-resource-${id}-${type}`;
@@ -188,6 +192,11 @@ export async function fetchResource(url, type, id) {
           type: 'text/javascript',
           src: url,
           async: true,
+        };
+      } else if (type === 'jsonld') {
+        elementType = 'script';
+        props = {
+          type: 'application/ld+json',
         };
       } else if (type === 'css') {
         elementType = 'link';
@@ -224,8 +233,9 @@ export async function fetchResource(url, type, id) {
           .then((response) => {
             return response.text();
           })
-          .then((html) => {
-            element.innerHTML = html;
+          .then((text) => {
+            if (type === 'jsonld') element.textContent = text;
+            else element.innerHTML = text;
             resolve(element);
           })
           .catch(() => {
