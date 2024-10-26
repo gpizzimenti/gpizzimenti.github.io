@@ -491,12 +491,13 @@ const setEvents = function setEvents() {
   });
 
   window.addEventListener('hashchange', navigate);
+
   window.addEventListener('popstate', (stateEvt) => {
-    if (stateEvt.state?.maximizedSlide) {
-      const maximizedSlide =
-        context.elementsCache.scrollingContainer.querySelector('.maximized');
-      if (maximizedSlide) toggleMaximizeSlide(maximizedSlide, false);
-    } else if (stateEvt.state?.scrollLeft) {
+    const maximizedSlide =
+      context.elementsCache.scrollingContainer.querySelector('.maximized');
+    if (maximizedSlide) toggleMaximizeSlide(maximizedSlide, false);
+
+    if (stateEvt.state?.scrollLeft) {
       document.title = context.labels[context.state.lang].title;
       context.elementsCache.scrollingContainer.scrollLeft =
         stateEvt.state.scrollLeft;
