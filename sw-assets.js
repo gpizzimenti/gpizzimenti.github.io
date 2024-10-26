@@ -145,6 +145,7 @@ const images_tech = [
   'vs.svg',
   'vscode.svg',
   'webcomponents.svg',
+  'webstorm.svg',
 ].map((el) => `/images/tech/${el}`);
 
 const includes_ids = [
