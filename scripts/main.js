@@ -492,7 +492,11 @@ const setEvents = function setEvents() {
 
   window.addEventListener('hashchange', navigate);
   window.addEventListener('popstate', (stateEvt) => {
-    if (stateEvt.state?.scrollLeft) {
+    if (stateEvt.state?.maximizedSlide) {
+      const maximizedSlide =
+        context.elementsCache.scrollingContainer.querySelector('.maximized');
+      if (maximizedSlide) toggleMaximizeSlide(maximizedSlide, false);
+    } else if (stateEvt.state?.scrollLeft) {
       document.title = context.labels[context.state.lang].title;
       context.elementsCache.scrollingContainer.scrollLeft =
         stateEvt.state.scrollLeft;
@@ -1520,6 +1524,14 @@ const toggleMaximizeSlide = (slide, state) => {
 
   if (!document.startViewTransition) setState();
   else document.startViewTransition(setState);
+
+  if (state)
+    window.history.pushState(
+      { maximizedSlide: true },
+      context.dynaContent.slides[context.state.lang][slide.dataset.sezione]
+        .title,
+    );
+  else window.history.back();
 };
 
 /*-----------------------------------------------------------------------------------------------*/
