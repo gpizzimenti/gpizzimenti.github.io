@@ -353,6 +353,11 @@
   background-image: url("../../images/tech/figma.svg");
 }
 
+.webstorm::before {
+  background-image: url("../../images/tech/webstorm.svg");
+}
+
+
 .universita > p::before {
   background-position: top center !important;
   background-image: url("../../images/logos/unime.svg");
