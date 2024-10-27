@@ -1213,7 +1213,7 @@ const resetSearch = function resetSearch() {
   controls.querySelectorAll('a').forEach((a) => a.setAttribute('tabindex', -1));
   container.classList.remove('searching');
   container.dataset.nrresults = '0';
-  html(label, context.labels[lang].nrtrovati(0, 0));
+  html(label, context.labels[context.state.lang].nrtrovati(0, 0));
   txtSearch.value = '';
 
   if (context.search?.[context.state.lang]) {
@@ -1244,7 +1244,7 @@ const search = function search(terms) {
     searchEngine.results = [];
     searchEngine.cursor = 0;
     container.dataset.nrresults = '0';
-    html(label, context.labels[lang].nrtrovati(0, 0));
+    html(label, context.labels[context.state.lang].nrtrovati(0, 0));
     container.classList.remove('searching');
     return false;
   }
