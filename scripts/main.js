@@ -26,6 +26,9 @@ context.labels = {
     errorLoading: 'Errore nel caricamento',
     loading: 'Caricamento in corso',
     messageSent: 'Messaggio inviato',
+    offline: 'Connessione assente',
+    offlineTryLater: 'Connessione assente, prova più tardi',
+    online: 'Sei di nuovo online',
     sceglisezioni:
       'Scegli le sezioni da includere e trascinale per riordinarle',
     nrtrovati: (nr, index) =>
@@ -42,6 +45,9 @@ context.labels = {
     errorLoading: 'Network error',
     loading: 'Loading',
     messageSent: 'Message sent',
+    offline: 'Connection lost',
+    offlineTryLater: 'Connection lost, try later',
+    online: 'You are online again',
     sceglisezioni: 'Choose the sections to include and drag to reorder',
     nrtrovati: (nr, index) =>
       nr === 0
@@ -514,6 +520,14 @@ const setEvents = function setEvents() {
         onSwipeLeft: (event) => handleSwipe(event.target, 'L'),
       });
     });
+
+  window.addEventListener('offline', () => {
+    notify(context.labels[context.state.lang].offline, 'warning');
+  });
+
+  window.addEventListener('online', () => {
+    notify(context.labels[context.state.lang].online, 'info');
+  });
 };
 
 /*-----------------------------------------------------------------------------------------------*/
@@ -1468,26 +1482,30 @@ const downloadCV = async function downloadCV() {
 const sendMsg = async function sendMsg(form) {
   if (!form) return false;
 
-  const sezione = context.elementsCache.scrollingContainer.querySelector(
-    `section[data-sezione='contattami'][lang='${context.state.lang}']`,
-  );
-  sezione.classList.add('loading');
+  if (self.navigator.onLine) {
+    const sezione = context.elementsCache.scrollingContainer.querySelector(
+      `section[data-sezione='contattami'][lang='${context.state.lang}']`,
+    );
+    sezione.classList.add('loading');
 
-  const { sendMessage } = await import(config.urls.modules.contactme);
+    const { sendMessage } = await import(config.urls.modules.contactme);
 
-  sendMessage(form)
-    .then(() => {
-      notify(context.labels[context.state.lang].messageSent, 'success');
-    })
-    .catch((result) => {
-      notify(context.labels[context.state.lang].error, 'error');
-      // biome-ignore lint/nursery/noConsole: <explanation>
-      console.warn(result);
-    })
-    .finally(() => {
-      form.reset();
-      sezione.classList.remove('loading');
-    });
+    sendMessage(form)
+      .then(() => {
+        notify(context.labels[context.state.lang].messageSent, 'success');
+        form.reset();
+      })
+      .catch((result) => {
+        notify(context.labels[context.state.lang].error, 'error');
+        // biome-ignore lint/nursery/noConsole: <explanation>
+        console.warn(result);
+      })
+      .finally(() => {
+        sezione.classList.remove('loading');
+      });
+  } else {
+    notify(context.labels[context.state.lang].offlineTryLater, 'warning');
+  }
 };
 
 /*-----------------------------------------------------------------------------------------------*/
