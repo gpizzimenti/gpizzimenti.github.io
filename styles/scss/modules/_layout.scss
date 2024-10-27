@@ -647,6 +647,7 @@
   ul.gallery li figcaption {
     padding: 4px;
     opacity: 0;
+    visibility: hidden;
     display: -webkit-box;
     -webkit-box-orient: vertical;
     -webkit-line-clamp: 2;
@@ -658,7 +659,7 @@
     font-weight: bold;
     font-style: italic;
     line-height: 11px;
-    transition: opacity 0.6s linear;
+    transition: opacity 0.6s linear, visibility 0.6s linear;
     transform: rotateZ(2deg) translateY(5px);
     background-color: #FFF;
     color: #000;
@@ -668,6 +669,7 @@
   ul.gallery li:focus figcaption,
   ul.gallery li:focus-visible figcaption {
     opacity: 1;
+    visibility: visible;
   }
   
   ul.gallery li figure img {
@@ -885,7 +887,7 @@
     font-family: "Barlow", system-ui, sans-serif;
     font-weight: 800;
     font-style: italic;
-    color: #9d9fa2;
+    color: #747577; //minimum contrast ratio 4:5
     opacity: 0;
     padding: 0;
     visibility: hidden;
@@ -1145,17 +1147,21 @@
   article details .content {
     max-height: 0;
     opacity: 0;
-    transition: opacity .7s linear, max-height 0.4s ease-out;
-    will-change: opacity, max-height;
+    visibility: hidden;
+    will-change: opacity, visibility, max-height;
+    transition: opacity .7s linear, visibility .7s linear, max-height 0.4s ease-out;
     backface-visibility: hidden;
     font-size: 16px;
     overflow: hidden;
+    overflow: clip;
     pointer-events: none;
+    display: flow-root;
   }
   
   article details[open] .content {
     max-height: 10000px;
     opacity: 1;
+    visibility: visible;
     pointer-events: all;
   }
   
