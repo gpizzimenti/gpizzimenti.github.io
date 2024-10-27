@@ -4,6 +4,8 @@
   font-family: "gpizzimenti-glyphs";
   font-style: normal;
   font-weight: normal;
+  font-size: 22px;
+  line-height: 44px;
   speak: never;
 
   display: inline-block;
@@ -16,9 +18,6 @@
   /* For safety - reset parent styles, that can break glyph codes*/
   font-variant: normal;
   text-transform: none;
-
-  /* fix buttons height, for twitter bootstrap */
-  line-height: 1em;
 
   /* Animation center compensation - margins should be symmetric */
   /* remove if not needed */

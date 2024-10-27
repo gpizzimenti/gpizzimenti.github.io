@@ -823,14 +823,14 @@
           checked
           value="it"
         /><label for="lang-it" title="Italiano"
-          ><span class="sr-only">Italiano</span></label
+          >Italiano</label>
         ><input
           type="radio"
           id="lang-en"
           name="lang-selected"
           value="en"
         /><label for="lang-en" title="English"
-          ><span class="sr-only">English</span></label
+          >English</label
         >
       </fieldset>
       <nav id="navigator">
@@ -911,14 +911,14 @@
                     aria-label="Precedente"
                     class="icon-left-circle prevResult"
                     tabindex="-1"
-                  ></a
+                  >Precedente</a
                   ><a
                     href="#next"
                     title="Successivo"
                     aria-label="Successivo"
                     class="icon-right-circle nextResult"
                     tabindex="-1"
-                  ></a
+                  >Successivo</a
                   ><label for="txtSearch-it">Nessun risultato</label
                   ><a
                     href="#clear"
@@ -926,7 +926,7 @@
                     aria-label="Ripristina"
                     class="icon-cancel-circle clearResults"
                     tabindex="-1"
-                  ></a></fieldset></search
+                  >Ripristina</a></fieldset></search
               ><search
                 role="search"
                 lang="en"
@@ -962,14 +962,14 @@
                     aria-label="Previous"
                     class="icon-left-circle prevResult"
                     tabindex="-1"
-                  ></a
+                  >Previous</a
                   ><a
                     href="#next"
                     title="Next"
                     aria-label="Next"
                     class="icon-right-circle nextResult"
                     tabindex="-1"
-                  ></a
+                  >Next</a
                   ><label for="txtSearch-en">No results</label
                   ><a
                     href="#clear"
@@ -977,7 +977,7 @@
                     aria-label="Clear"
                     class="icon-cancel-circle clearResults"
                     tabindex="-1"
-                  ></a></fieldset
+                  >Clear</a></fieldset
               ></search>
             </footer>
           </dialog></button
