@@ -5,3 +5,4 @@
 3. [Web accessibility evaluation tool](https://wave.webaim.org/report#/https://gpizzimenti.github.io/)
 4. [PWA Builder Report](https://www.pwabuilder.com/reportcard?site=https://gpizzimenti.github.io)
 5. [Schema markup validator](https://validator.schema.org/#url=https%3A%2F%2Fgpizzimenti.github.io%2F) -  [Rich results test](https://search.google.com/test/rich-results?url=https%3A%2F%2Fgpizzimenti.github.io%2F)
+6. [BuiltWith](https://builtwith.com/gpizzimenti.github.io)
