@@ -83,7 +83,7 @@ const images_social = [
   'quora.svg',
   'slideshare.svg',
   'threads.svg',
-  'twitter.svg',
+  'bluesky.svg',
   'udemy.svg',
   'x.svg',
 ].map((el) => `/images/social/${el}`);
