@@ -46,7 +46,7 @@
     }
 
   }
-  
+
   @media screen and (min-width: 1600px) and (min-height: 800px) {
     main > ul > li {
       aspect-ratio: 9/10;
@@ -85,6 +85,14 @@
       transform: translateX(0) scale(1.03) !important;
     }
   }
+
+  @media screen and (min-height: 800px) and (min-width: 1280px) {
+    main:not(.scrolling) > ul > li:not(.maximized):hover,
+    main > ul > li.expanded:not(.maximized) {
+      transform: scale(1.1) !important;
+    }
+  }
+
   
   @media screen and (min-height: 400px) {
     body > footer {

@@ -646,7 +646,12 @@ const setDetails = function setDetails(details) {
           top: details.offsetTop,
           behavior: 'smooth',
         });
-      }, 200);
+        /*details.scrollIntoView({
+          behavior: 'smooth',
+          block: 'start',
+          inline: 'nearest',
+        });*/
+      }, 600);
   });
 
   details.querySelector('summary').dataset.count =
@@ -1339,7 +1344,7 @@ const setActiveResult = function setActiveResult(index) {
     softExec(() =>
       itemToActivate.scrollIntoView({
         behavior: 'smooth',
-        block: blockStart,
+        block: 'start',
         inline: 'nearest',
       }),
     );

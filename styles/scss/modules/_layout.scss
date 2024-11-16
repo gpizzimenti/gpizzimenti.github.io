@@ -1163,7 +1163,7 @@
   }
 
   article details::details-content {
-    transition: height 0.5s ease, content-visibility 0.5s ease allow-discrete, opacity 0.5s ease;
+    transition: height 0.3s ease, content-visibility 0.3s ease allow-discrete, opacity 0.3s ease;
     height: 0;
     opacity: 0;
     overflow: clip;
