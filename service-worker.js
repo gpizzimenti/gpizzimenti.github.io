@@ -8,7 +8,7 @@ import {
 } from './sw-assets.min.js';
 
 // service worker version number
-const SW_VERSION = 202411200930;
+const SW_VERSION = 202411201930;
 
 // cache name including version number
 const cacheName = `gpizzimenti-app-cache-${SW_VERSION}`;
@@ -18,6 +18,7 @@ const staticFiles = [
   '/sw-registration.min.js',
   '/sw-assets.min.js',
   '/site.webmanifest',
+  '/favicon.ico',
   '/schema.min.json',
   '/index.html',
   ...scripts,

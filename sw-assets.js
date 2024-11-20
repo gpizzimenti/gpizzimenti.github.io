@@ -43,15 +43,10 @@ const images_cursors = ['swipe-left.svg', 'swipe.svg', 'swipe-right.svg'].map(
 );
 
 const images_favicon = [
-  'android-chrome-192x192.jpg',
   'android-chrome-192x192.png',
-  'android-chrome-512x512.jpg',
   'android-chrome-512x512.png',
-  'apple-touch-icon.jpg',
   'apple-touch-icon.png',
-  'favicon-16x16.jpg',
   'favicon-16x16.png',
-  'favicon-32x32.jpg',
   'favicon-32x32.png',
 ].map((el) => `/images/favicon/${el}`);
 
