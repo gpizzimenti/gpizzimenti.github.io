@@ -99,6 +99,7 @@ const images_tech = [
   'capcut.svg',
   'cordova.svg',
   'css3.svg',
+  'css.svg',
   'delphi.svg',
   'eclipse.svg',
   'figma.svg',
