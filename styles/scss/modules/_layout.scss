@@ -337,10 +337,9 @@
     contain: layout;
   }
 
-  @keyframes example {
-    100% {
-      
-    }
+  main > ul > li:not(.is-visible) {
+    opacity : .7;
+    transform: scale(.9);
   }
 
   main > ul > li.maximized {
@@ -451,10 +450,8 @@
       outline-color: var(--inverted-color);
   
     }   
-
   }
-  
-  
+   
 
   main > ul > li > section > footer {
     flex: 0 0 30px;
