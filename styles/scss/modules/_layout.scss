@@ -335,6 +335,7 @@
     backface-visibility: hidden;
     opacity: 1;
     contain: layout;
+    view-transition-name: auto;
   }
 
   main > ul > li:not(.is-visible) {
