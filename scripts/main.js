@@ -1550,7 +1550,7 @@ const toggleMaximizeSlide = (slide, state) => {
   else document.startViewTransition(setState);
 
   if (state)
-    window.history.pushState(
+    window.history.replaceState(
       { maximizedSlide: true },
       context.dynaContent.slides[context.state.lang][slide.dataset.sezione]
         .title,
