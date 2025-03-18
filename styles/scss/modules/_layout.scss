@@ -335,7 +335,6 @@
     backface-visibility: hidden;
     opacity: 1;
     contain: layout;
-    view-transition-name: slide;
   }
 
   main > ul > li:not(.is-visible) {

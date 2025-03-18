@@ -1555,7 +1555,6 @@ const toggleMaximizeSlide = (slide, state) => {
       context.dynaContent.slides[context.state.lang][slide.dataset.sezione]
         .title,
     );
-  else window.history.back();
 };
 
 /*-----------------------------------------------------------------------------------------------*/
