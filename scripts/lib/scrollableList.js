@@ -30,7 +30,7 @@ export function setScroller(scrollingContainer) {
     },
     dontUnobserve: true,
     rootMargin: '0px',
-    threshold: 0.5,
+    threshold: 0.8, //edit
   });
 
   let scrollingTimer;
@@ -95,7 +95,7 @@ export function setScroller(scrollingContainer) {
         slideToGo.scrollIntoView({
           behavior: 'smooth',
           block: 'nearest',
-          inline: 'start',
+          inline: 'center', //edit
         });
       } else {
         scrollingContainer.scrollLeft = 0;
@@ -127,7 +127,7 @@ export function setScroller(scrollingContainer) {
         slideToGo.scrollIntoView({
           behavior: 'smooth',
           block: 'nearest',
-          inline: 'end',
+          inline: 'center', //edit
         });
       } else {
         scrollingContainer.scrollLeft = scrollingContainer.scrollWidth;

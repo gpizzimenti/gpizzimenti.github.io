@@ -628,12 +628,13 @@
     margin-left: 0 !important;
     margin-bottom: 0 !important;
     transform: rotateZ(0) translateY(0) scale(2.5) !important;
+    opacity: 1 !important;
     z-index: 3 !important;
   }
   
   ul.gallery li:hover::after,
   ul.gallery li:focus::after {
-    opacity: 1;
+    opacity: 1 !important;
   }
   
   ul.gallery li figure {

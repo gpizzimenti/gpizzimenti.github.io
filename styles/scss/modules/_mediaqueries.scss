@@ -25,6 +25,7 @@
     main:not(.scrolling) > ul > li:not(.maximized):hover,
     main > ul > li.expanded:not(.maximized) {
       transform: scale(1.03) !important;
+      opacity: 1 !important;
     }
   
     main:not(.scrolling) > ul > li:hover::after,
