@@ -37,6 +37,9 @@ const eventi = [
   ...eventi_google,
 ];
 
+
+const images_screenshots = ['1.jpg','2.jpg','3.jpg','4.jpg'].map((el) => `/images/screenshots/${el}`);
+
 const images_covers = ['1.webp'].map((el) => `/images/covers/${el}`);
 
 const images_cursors = ['swipe-left.svg', 'swipe.svg', 'swipe-right.svg'].map(
@@ -105,6 +108,7 @@ const images_tech = [
   'github.svg',
   'gitlab.svg',
   'gmaps.svg',
+  'gsap.svg',
   'hibernate.svg',
   'html5.svg',
   'idea.svg',
@@ -205,6 +209,7 @@ export const images = [
   ...images_pics,
   ...images_social,
   ...images_tech,
+  ...images_screenshots,  
 ];
 export const data = [...corsi, ...eventi];
 export const includes = [...includes_en, ...includes_it];
