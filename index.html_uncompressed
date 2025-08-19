@@ -150,7 +150,7 @@
           tabindex="0"
           data-sezione="chisono"
           data-index="1"
-          id="slideChiSono"
+          id="chisono"
         >
           <section
             aria-labelledby="titleChiSonoIt"
@@ -166,8 +166,8 @@
                   class="chkMaximize"
                   aria-expanded="false"
                   aria-controls="slideChiSono"
-                  title="Massimizza/minimizza questa slide"
-                  aria-label="Massimizza/minimizza questa slide"
+                  title="Clicca per massimizzare o minimizzare questa slide"
+                  aria-label="Clicca per massimizzare o minimizzare questa slide"
                 /><span class="sr-only"
                   >Massimizza/minimizza questa slide</span
                 ></label
@@ -191,8 +191,8 @@
                   class="chkMaximize"
                   aria-expanded="false"
                   aria-controls="slideChiSono"
-                  title="Maximize/minimize this slide"
-                  aria-label="Maximize/minimize this slide"
+                  title="Click to maximize / minimize this slide"
+                  aria-label="Click to maximize / minimize this slide"
                 /><span class="sr-only"
                   >Maximize/minimize this slide</span
                 ></label
@@ -206,7 +206,7 @@
           tabindex="0"
           data-sezione="profili"
           data-index="2"
-          id="slideProfili"
+          id="profili"
         >
           <section
             aria-labelledby="titleProfiliIt"
@@ -222,8 +222,8 @@
                   class="chkMaximize"
                   aria-expanded="false"
                   aria-controls="slideProfili"
-                  title="Massimizza/minimizza questa slide"
-                  aria-label="Massimizza/minimizza questa slide"
+                  title="Clicca per massimizzare o minimizzare questa slide"
+                  aria-label="Clicca per massimizzare o minimizzare questa slide"
                 /><span class="sr-only"
                   >Massimizza/minimizza questa slide</span
                 ></label
@@ -247,8 +247,8 @@
                   class="chkMaximize"
                   aria-expanded="false"
                   aria-controls="slideProfili"
-                  title="Maximize/minimize this slide"
-                  aria-label="Maximize/minimize this slide"
+                  title="Click to maximize / minimize this slide"
+                  aria-label="Click to maximize / minimize this slide"
                 /><span class="sr-only"
                   >Maximize/minimize this slide</span
                 ></label
@@ -262,7 +262,7 @@
           tabindex="0"
           data-sezione="esperienza"
           data-index="3"
-          id="slideEsperienza"
+          id="esperienza"
         >
           <section
             aria-labelledby="titleEsperienzaIt"
@@ -278,8 +278,8 @@
                   class="chkMaximize"
                   aria-expanded="false"
                   aria-controls="slideEsperienza"
-                  title="Massimizza/minimizza questa slide"
-                  aria-label="Massimizza/minimizza questa slide"
+                  title="Clicca per massimizzare / minimizzare questa slide"
+                  aria-label="Clicca per massimizzare / minimizzare questa slide"
                 /><span class="sr-only"
                   >Massimizza/minimizza questa slide</span
                 ></label
@@ -303,8 +303,8 @@
                   class="chkMaximize"
                   aria-expanded="false"
                   aria-controls="slideEsperienza"
-                  title="Maximize/minimize this slide"
-                  aria-label="Maximize/minimize this slide"
+                  title="Click to maximize / minimize this slide"
+                  aria-label="Click to maximize / minimize this slide"
                 /><span class="sr-only"
                   >Maximize/minimize this slide</span
                 ></label
@@ -318,7 +318,7 @@
           tabindex="0"
           data-sezione="skills"
           data-index="4"
-          id="slideSkills"
+          id="skills"
         >
           <section
             aria-labelledby="titleSkillsIt"
@@ -335,8 +335,8 @@
                   class="chkMaximize"
                   aria-expanded="false"
                   aria-controls="slideSkills"
-                  title="Massimizza/minimizza questa slide"
-                  aria-label="Massimizza/minimizza questa slide"
+                  title="Clicca per massimizzare / minimizzare questa slide"
+                  aria-label="Clicca per massimizzare / minimizzare questa slide"
                 /><span class="sr-only"
                   >Massimizza/minimizza questa slide</span
                 ></label
@@ -375,8 +375,8 @@
                   class="chkMaximize"
                   aria-expanded="false"
                   aria-controls="slideSkills"
-                  title="Maximize/minimize this slide"
-                  aria-label="Maximize/minimize this slide"
+                  title="Click to maximize / minimize this slide"
+                  aria-label="Click to maximize / minimize this slide"
                 /><span class="sr-only"
                   >Maximize/minimize this slide</span
                 ></label
@@ -404,7 +404,7 @@
           tabindex="0"
           data-sezione="formazione"
           data-index="5"
-          id="slideFormazione"
+          id="formazione"
         >
           <section
             aria-labelledby="titleFormazioneIt"
@@ -420,8 +420,8 @@
                   class="chkMaximize"
                   aria-expanded="false"
                   aria-controls="slideFormazione"
-                  title="Massimizza/minimizza questa slide"
-                  aria-label="Massimizza/minimizza questa slide"
+                  title="Clicca per massimizzare / minimizzare questa slide"
+                  aria-label="Clicca per massimizzare / minimizzare questa slide"
                 /><span class="sr-only"
                   >Massimizza/minimizza questa slide</span
                 ></label
@@ -449,8 +449,8 @@
                   class="chkMaximize"
                   aria-expanded="false"
                   aria-controls="slideFormazione"
-                  title="Maximize/minimize this slide"
-                  aria-label="Maximize/minimize this slide"
+                  title="Click to maximize / minimize this slide"
+                  aria-label="Click to maximize / minimize this slide"
                 /><span class="sr-only"
                   >Maximize/minimize this slide</span
                 ></label
@@ -468,7 +468,7 @@
           tabindex="0"
           data-sezione="eventi"
           data-index="6"
-          id="slideEventi"
+          id="eventi"
         >
           <section
             class="with-footer"
@@ -485,8 +485,8 @@
                   class="chkMaximize"
                   aria-expanded="false"
                   aria-controls="slideEventi"
-                  title="Massimizza/minimizza questa slide"
-                  aria-label="Massimizza/minimizza questa slide"
+                  title="Clicca per massimizzare / minimizzare questa slide"
+                  aria-label="Clicca per massimizzare / minimizzare questa slide"
                 /><span class="sr-only"
                   >Massimizza/minimizza questa slide</span
                 ></label
@@ -514,8 +514,8 @@
                   class="chkMaximize"
                   aria-expanded="false"
                   aria-controls="slideEventi"
-                  title="Maximize/minimize this slide"
-                  aria-label="Maximize/minimize this slide"
+                  title="Click to maximize / minimize this slide"
+                  aria-label="Click to maximize / minimize this slide"
                 /><span class="sr-only"
                   >Maximize/minimize this slide</span
                 ></label
@@ -532,7 +532,7 @@
           tabindex="0"
           data-sezione="associazioni"
           data-index="7"
-          id="slideAssociazioni"
+          id="associazioni"
         >
           <section
             aria-labelledby="titleAssociazioniIt"
@@ -548,8 +548,8 @@
                   class="chkMaximize"
                   aria-expanded="false"
                   aria-controls="slideAssociazioni"
-                  title="Massimizza/minimizza questa slide"
-                  aria-label="Massimizza/minimizza questa slide"
+                  title="Clicca per massimizzare / minimizzare questa slide"
+                  aria-label="Clicca per massimizzare / minimizzare questa slide"
                 /><span class="sr-only"
                   >Massimizza/minimizza questa slide</span
                 ></label
@@ -571,8 +571,8 @@
                   class="chkMaximize"
                   aria-expanded="false"
                   aria-controls="slideAssociazioni"
-                  title="Maximize/minimize this slide"
-                  aria-label="Maximize/minimize this slide"
+                  title="Click to maximize / minimize this slide"
+                  aria-label="Click to maximize / minimize this slide"
                 /><span class="sr-only"
                   >Maximize/minimize this slide</span
                 ></label
@@ -586,7 +586,7 @@
           tabindex="0"
           data-sezione="pubblicazioni"
           data-index="8"
-          id="slidePubblicazioni"
+          id="pubblicazioni"
         >
           <section
             aria-labelledby="titlePubblicazioniIt"
@@ -602,8 +602,8 @@
                   class="chkMaximize"
                   aria-expanded="false"
                   aria-controls="slidePubblicazioni"
-                  title="Massimizza/minimizza questa slide"
-                  aria-label="Massimizza/minimizza questa slide"
+                  title="Clicca per massimizzare / minimizzare questa slide"
+                  aria-label="Clicca per massimizzare / minimizzare questa slide"
                 /><span class="sr-only"
                   >Massimizza/minimizza questa slide</span
                 ></label
@@ -625,8 +625,8 @@
                   class="chkMaximize"
                   aria-expanded="false"
                   aria-controls="slidePubblicazioni"
-                  title="Maximize/minimize this slide"
-                  aria-label="Maximize/minimize this slide"
+                  title="Click to maximize / minimize this slide"
+                  aria-label="Click to maximize / minimize this slide"
                 /><span class="sr-only"
                   >Maximize/minimize this slide</span
                 ></label
@@ -640,7 +640,7 @@
             aria-labelledby="titleProgetti-it"
             lang="it"
             data-sezione="progetti"
-            id="slideProgetti"
+            id="progetti"
           >
             <header>
               <h3 id="titleProgetti-it">Progetti personali</h3>
@@ -651,8 +651,8 @@
                   class="chkMaximize"
                   aria-expanded="false"
                   aria-controls="slideProgetti"
-                  title="Massimizza/minimizza questa slide"
-                  aria-label="Massimizza/minimizza questa slide"
+                  title="Clicca per massimizzare / minimizzare questa slide"
+                  aria-label="Clicca per massimizzare / minimizzare questa slide"
                 /><span class="sr-only"
                   >Massimizza/minimizza questa slide</span
                 ></label
@@ -674,8 +674,8 @@
                   class="chkMaximize"
                   aria-expanded="false"
                   aria-controls="slideProgetti"
-                  title="Maximize/minimize this slide"
-                  aria-label="Maximize/minimize this slide"
+                  title="Click to maximize / minimize this slide"
+                  aria-label="Click to maximize / minimize this slide"
                 /><span class="sr-only"
                   >Maximize/minimize this slide</span
                 ></label
@@ -690,7 +690,7 @@
             lang="it"
             data-sezione="cv"
             class="with-big-footer"
-            id="slideCV"
+            id="cv"
           >
             <header>
               <h3 id="titleCVIt">Curriculum vitae</h3>
@@ -701,8 +701,8 @@
                   class="chkMaximize"
                   aria-expanded="false"
                   aria-controls="slideCV"
-                  title="Massimizza/minimizza questa slide"
-                  aria-label="Massimizza/minimizza questa slide"
+                  title="Clicca per massimizzare / minimizzare questa slide"
+                  aria-label="Clicca per massimizzare / minimizzare questa slide"
                 /><span class="sr-only"
                   >Massimizza/minimizza questa slide</span
                 ></label
@@ -728,8 +728,8 @@
                   class="chkMaximize"
                   aria-expanded="false"
                   aria-controls="slideCV"
-                  title="Maximize/minimize this slide"
-                  aria-label="Maximize/minimize this slide"
+                  title="Click to maximize / minimize this slide"
+                  aria-label="Click to maximize / minimize this slide"
                 /><span class="sr-only"
                   >Maximize/minimize this slide</span
                 ></label
@@ -746,7 +746,7 @@
           tabindex="0"
           data-sezione="contattami"
           data-index="11"
-          id="slideContattami"
+          id="contattami"
         >
           <section
             aria-labelledby="titleContattamiIt"
@@ -763,8 +763,8 @@
                   class="chkMaximize"
                   aria-expanded="false"
                   aria-controls="slideContattami"
-                  title="Massimizza/minimizza questa slide"
-                  aria-label="Massimizza/minimizza questa slide"
+                  title="Clicca per massimizzare / minimizzare questa slide"
+                  aria-label="Clicca per massimizzare / minimizzare questa slide"
                 /><span class="sr-only"
                   >Massimizza/minimizza questa slide</span
                 ></label
@@ -790,8 +790,8 @@
                   class="chkMaximize"
                   aria-expanded="false"
                   aria-controls="slideContattami"
-                  title="Maximize/minimize this slide"
-                  aria-label="Maximize/minimize this slide"
+                  title="Click to maximize / minimize this slide"
+                  aria-label="Click to maximize / minimize this slide"
                 /><span class="sr-only"
                   >Maximize/minimize this slide</span
                 ></label
@@ -822,14 +822,14 @@
           name="lang-selected"
           checked
           value="it"
-        /><label for="lang-it" title="Italiano"
+        /><label for="lang-it" title="Imposta lingua Italiana"
           >Italiano</label>
         ><input
           type="radio"
           id="lang-en"
           name="lang-selected"
           value="en"
-        /><label for="lang-en" title="English"
+        /><label for="lang-en" title="Switch language to English"
           >English</label
         >
       </fieldset>
@@ -837,15 +837,15 @@
         <button aria-controls="list" id="btnPrev">
           <span
             lang="it"
-            title="Scorri elenco all'indietro"
-            aria-label="Scorri elenco all'indietro"
+            title="Scorri l'elenco delle slides all'indietro"
+            aria-label="Scorri l'elenco delle slides all'indietro"
             class="icon-left-circle"
             role="tooltip"
             >Scorri elenco all'indietro</span
           ><span
             lang="en"
-            title="Scroll back the list"
-            aria-label="Scroll back the list"
+            title="Scroll back the slides list"
+            aria-label="Scroll back the slides list"
             aria-hidden="true"
             hidden
             class="icon-left-circle"
@@ -855,15 +855,15 @@
         ><button aria-controls="sectionsMenu" id="btnMenu" aria-haspopup="true">
           <span
             lang="it"
-            title="Vai ad una sezione o cerca nella pagina"
-            aria-label="Vai ad una sezione o cerca nella pagina"
+            title="Scorri ad una specifica sezione od apri la casella di ricerca nella pagina"
+            aria-label="Scorri ad una specifica sezione od apri la casella di ricerca nella pagina"
             class="icon-menu"
             role="tooltip"
             >Vai ad una sezione o cerca nella pagina</span
           ><span
             lang="en"
-            title="Go to section o search the page"
-            aria-label="Go to section o search the page"
+            title="Scroll to a specific section or open the search in the page box"
+            aria-label="Scroll to a specific section or open the search in the page box"
             aria-hidden="true"
             hidden
             class="icon-menu"
@@ -878,12 +878,12 @@
             hidden
           >
             <header class="sr-only">
-              <h3 id="titleChoose">
+              <h1 id="titleChoose">
                 <span lang="it">Apri il menu delle sezioni</span
                 ><span lang="en" aria-hidden="true" hidden
                   >Open the sections menu</span
                 >
-              </h3>
+              </h1>
             </header>
             <menu
               aria-controls="list"
@@ -906,24 +906,24 @@
                     Scorri i risultati della ricerca
                   </legend>
                   <a
-                    href="#prev"
-                    title="Precedente"
-                    aria-label="Precedente"
+                    href="#"
+                    title="Vai al risultato precedente"
+                    aria-label="Vai al risultato precedente"
                     class="icon-left-circle prevResult"
                     tabindex="-1"
                   >Precedente</a
                   ><a
-                    href="#next"
-                    title="Successivo"
-                    aria-label="Successivo"
+                    href="#"
+                    title="Vai al risultato successivo"
+                    aria-label="Vai al risultato successivo"
                     class="icon-right-circle nextResult"
                     tabindex="-1"
                   >Successivo</a
                   ><label for="txtSearch-it">Nessun risultato</label
                   ><a
-                    href="#clear"
-                    title="Ripristina"
-                    aria-label="Ripristina"
+                    href="#"
+                    title="Cancella i risultati di ricerca"
+                    aria-label="Cancella i risultati di ricerca"
                     class="icon-cancel-circle clearResults"
                     tabindex="-1"
                   >Ripristina</a></fieldset></search
@@ -957,24 +957,24 @@
                 >
                   <legend class="sr-only">Browse the search resultset</legend>
                   <a
-                    href="#prev"
-                    title="Previous"
-                    aria-label="Previous"
+                    href="#"
+                    title="Go to the previous result"
+                    aria-label="Go to the previous result"
                     class="icon-left-circle prevResult"
                     tabindex="-1"
                   >Previous</a
                   ><a
-                    href="#next"
-                    title="Next"
-                    aria-label="Next"
+                    href="#"
+                    title="Go to the next result"
+                    aria-label="Go to the next result"
                     class="icon-right-circle nextResult"
                     tabindex="-1"
                   >Next</a
                   ><label for="txtSearch-en">No results</label
                   ><a
-                    href="#clear"
-                    title="Clear"
-                    aria-label="Clear"
+                    href="#"
+                    title="Clear the search results"
+                    aria-label="Clear the search results"
                     class="icon-cancel-circle clearResults"
                     tabindex="-1"
                   >Clear</a></fieldset
@@ -984,15 +984,15 @@
         ><button aria-controls="list" id="btnNext">
           <span
             lang="it"
-            title="Scorri elenco in avanti"
-            aria-label="Scorri elenco in avanti"
+            title="Scorri l'elenco delle slides in avanti"
+            aria-label="Scorri l'elenco delle slides in avanti"
             class="icon-right-circle"
             role="tooltip"
             >Scorri elenco in avanti</span
           ><span
             lang="en"
-            title="Scroll forward the list"
-            aria-label="Scroll forward the list"
+            title="Scroll forward the slides list"
+            aria-label="Scroll forward the slides list"
             aria-hidden="true"
             hidden
             class="icon-right-circle"
@@ -1004,15 +1004,15 @@
       <label for="color" id="titleColor"
         ><span
           lang="it"
-          title="Cambia il colore dello sfondo"
-          aria-label="Cambia il colore dello sfondo"
+          title="Clicca per aprire il selettore e cambiare il colore dello sfondo"
+          aria-label="Clicca per aprire il selettore e cambiare il colore dello sfondo"
           role="tooltip"
           class="sr-only"
           >Cambia il colore dello sfondo</span
         ><span
           lang="en"
-          title="Change the background color"
-          aria-label="Change the background color"
+          title="Click to open color picker and change the background color"
+          aria-label="Click to open color picker and change the background color"
           aria-hidden="true"
           role="tooltip"
           hidden

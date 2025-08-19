@@ -168,9 +168,14 @@
               class="checkbox"
               aria-label="Includi corsi in presenza"
               title="Includi corsi in presenza"
+              for="chkInpresenza-it"
             >
-              <input type="checkbox" checked value="inpresenza" />Includi gli
-              ultimi
+              <input
+                type="checkbox"
+                checked
+                value="inpresenza"
+                id="chkInpresenza-it"
+              />Includi gli ultimi
               <input
                 type="number"
                 min="2"
@@ -178,17 +183,29 @@
                 value="5"
                 data-rel="inpresenza"
                 onchange="if (!this.value || !(this.checkValidity())) this.value=5;"
+                id="txtInpresenza-it"
               />
               corsi in presenza</label
             >
+            <label
+              class="sr-only"
+              aria-label="Numero corsi in presenza da includere"
+              for="txtInpresenza-it"
+            ></label>
           </li>
           <li>
             <label
               class="checkbox"
               aria-label="Includi corsi online"
               title="Includi corsi online"
+              for="chkOnline-it"
             >
-              <input type="checkbox" checked value="online" />Includi gli ultimi
+              <input
+                type="checkbox"
+                checked
+                value="online"
+                id="chkOnline-it"
+              />Includi gli ultimi
               <input
                 type="number"
                 min="2"
@@ -196,9 +213,15 @@
                 value="5"
                 data-rel="online"
                 onchange="if (!this.value || !(this.checkValidity())) this.value=5;"
+                id="txtOnline-it"
               />
               corsi online</label
             >
+            <label
+              class="sr-only"
+              aria-label="Numero corsi online da includere"
+              for="txtOnline-it"
+            ></label>
           </li>
         </ul>
       </li>

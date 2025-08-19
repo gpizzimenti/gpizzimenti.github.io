@@ -137,5 +137,6 @@ export function invertColor(hex) {
 function padZero(str, len) {
 	const LEN = len || 2;
 	const zeros = new Array(LEN).join("0");
-	return (zeros + str).slice(-LEN);
+  	return (zeros + str).slice(-LEN);
 }
+

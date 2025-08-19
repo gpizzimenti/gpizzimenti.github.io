@@ -262,6 +262,11 @@
         
         footer {
             border-top: solid 1px #efefef;
+
+            search {
+                display: flex;
+                flex-direction: column;                
+            }
         }
         
         [type="search"] {

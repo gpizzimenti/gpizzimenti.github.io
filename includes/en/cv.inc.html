@@ -168,8 +168,14 @@
               class="checkbox"
               aria-label="Include In-person courses"
               title="Include In-person courses"
+              for="chkInpersona-it"
             >
-              <input type="checkbox" checked value="inpresenza" />Include last
+              <input
+                type="checkbox"
+                checked
+                value="inpresenza"
+                id="chkInpersona-it"
+              />Include last
               <input
                 type="number"
                 min="2"
@@ -177,17 +183,29 @@
                 value="5"
                 data-rel="inpresenza"
                 onchange="if (!this.value || !(this.checkValidity())) this.value=5;"
+                id="txtInpresenza-en"
               />
               in-person courses</label
             >
+            <label
+              class="sr-only"
+              aria-label="Number of In-person courses to include"
+              for="txtInpresenza-en"
+            ></label>
           </li>
           <li>
             <label
               class="checkbox"
               aria-label="Include online courses"
               title="Include online courses"
+              for="chkOnline-en"
             >
-              <input type="checkbox" checked value="online" />Include last
+              <input
+                type="checkbox"
+                checked
+                value="online"
+                id="chkOnline-it"
+              />Include last
               <input
                 type="number"
                 min="2"
@@ -195,9 +213,15 @@
                 value="5"
                 data-rel="online"
                 onchange="if (!this.value || !(this.checkValidity())) this.value=5;"
+                id="txtOnline-en"
               />
               online courses</label
             >
+            <label
+              class="sr-only"
+              aria-label="Number of online courses to include"
+              for="txtOnline-en"
+            ></label>
           </li>
         </ul>
       </li>

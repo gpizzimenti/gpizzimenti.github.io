@@ -1,16 +1,16 @@
-@import "modules/variables";
-@import "modules/fonts";
-@import "modules/icons";
-@import "modules/a11y";
-@import "modules/layout";
-@import "modules/form";
-@import "modules/checkbox";
-@import "modules/sectionsmenu";
-@import "modules/languageselector";
-@import "modules/colorpicker";
-@import "modules/draggablelist";
-@import "modules/animations";
-@import "modules/mediaqueries";
+@use "modules/variables";
+@use "modules/fonts";
+@use "modules/icons";
+@use "modules/a11y";
+@use "modules/layout";
+@use "modules/form";
+@use "modules/checkbox";
+@use "modules/sectionsmenu";
+@use "modules/languageselector";
+@use "modules/colorpicker";
+@use "modules/draggablelist";
+@use "modules/animations";
+@use "modules/mediaqueries";
 
 
 body > main,
