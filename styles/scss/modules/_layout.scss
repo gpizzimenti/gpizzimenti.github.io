@@ -285,7 +285,7 @@
   main.dragging,
   main.wheeling {
     scroll-snap-type: unset;
-    scroll-behavior: unset;
+    //scroll-behavior: unset;
   }
   
   main.scrolled-left:not(.scrolled-right) {
