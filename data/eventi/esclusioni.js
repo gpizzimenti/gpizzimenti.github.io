@@ -31,4 +31,5 @@ export const esclusioni = [
   'GCalendar:7kukuqrfedlm2f9t028ubd2kbah2i2n5sogp5bd96ue3tbvur6kvdv8hefts7q26r0n0pe Pizzimenti;X-NUM-GUESTS=0:mailto:giuseppe.pizzimenti.seed@gmail.com',
   'EventBrite:145839785725',
   'GCalendar:7kukuqrfedlm2f9t2vv68fksn4crcakb9bq61hmsqidke21keq4ccrrcl0h1oneb8q00pe Pizzimenti;X-NUM-GUESTS=0:mailto:giuseppe.pizzimenti.seed@gmail.com',
+  'GCalendar:c8r62phi6kq30b9i6orjab9k74s64bb274p30bb1ccqj2o9hcgrjedhick@google.com'
 ];

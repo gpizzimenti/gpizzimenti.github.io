@@ -1376,7 +1376,7 @@ const setActiveResult = function setActiveResult(index) {
 const executeWhenNotScrolling = function executeWhenNotScrolling(callback) {
   if (context.elementsCache.scrollingContainer.classList.contains('scrolling'))
     context.elementsCache.scrollingContainer.addEventListener(
-      'scrollStop',
+      'scrollend',
       () => softExec(callback),
       {
         once: true,

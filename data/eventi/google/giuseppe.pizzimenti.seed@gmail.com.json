@@ -35,7 +35,7 @@
         {
           "DTSTART": "20210521T070000Z",
           "DTEND": "20210522T160000Z",
-          "DTSTAMP": "20250702T101026Z",
+          "DTSTAMP": "20251025T095332Z",
           "UID": "29eo94iolfn9qvpuen8sgit831@google.com",
           "CREATED": "20210302T104440Z",
           "LAST-MODIFIED": "20210302T104440Z",
@@ -47,7 +47,7 @@
         {
           "DTSTART": "20210325T120000Z",
           "DTEND": "20210325T180000Z",
-          "DTSTAMP": "20250702T101026Z",
+          "DTSTAMP": "20251025T095332Z",
           "UID": "0lssf4q7eadl4eajrq5pj8a1m8@google.com",
           "CREATED": "20210303T143002Z",
           "DESCRIPTION": "https://events.codemotion.com/conferences/online/2021/online-tech-conference-italian-edition-spring/",
@@ -60,7 +60,7 @@
         {
           "DTSTART": "20210323T120000Z",
           "DTEND": "20210323T180000Z",
-          "DTSTAMP": "20250702T101026Z",
+          "DTSTAMP": "20251025T095332Z",
           "UID": "6luc78tv0s8ich30cfgsnhilse@google.com",
           "CREATED": "20210303T143008Z",
           "DESCRIPTION": "https://events.codemotion.com/conferences/online/2021/online-tech-conference-italian-edition-spring/",
@@ -73,7 +73,7 @@
         {
           "DTSTART;VALUE=DATE": "20210930",
           "DTEND;VALUE=DATE": "20211001",
-          "DTSTAMP": "20250702T101026Z",
+          "DTSTAMP": "20251025T095332Z",
           "UID": "36q7e9tq934ik017jal4bdhfml@google.com",
           "CREATED": "20210902T125510Z",
           "DESCRIPTION": "This September 30\\, we are organising another Smashing Meets — I feel the Meets for Speed. Smashing's community event Meets takes a speed dive into the WHY and HOW of web performance. \\n\\n✨ https://smashingconf.com/meets-for-speed/",
@@ -87,7 +87,7 @@
         {
           "DTSTART": "20211111T120000Z",
           "DTEND": "20211111T190000Z",
-          "DTSTAMP": "20250702T101026Z",
+          "DTSTAMP": "20251025T095332Z",
           "UID": "6lkqmnj5hqrrnl1k4cb02bpb6i@google.com",
           "CREATED": "20211014T142519Z",
           "DESCRIPTION": "https://events.codemotion.com/conferences/online/2021/online-tech-conference-italian-edition-autumn/",
@@ -100,7 +100,7 @@
         {
           "DTSTART": "20211117T120000Z",
           "DTEND": "20211117T133000Z",
-          "DTSTAMP": "20250702T101026Z",
+          "DTSTAMP": "20251025T095332Z",
           "UID": "4nhjj4i1lb4q071f58slo9hcc1@google.com",
           "CREATED": "20211026T140004Z",
           "DESCRIPTION": "In this workshop you'll learn about the key CSS layout methods of flexbox and grid. You'll learn how these layout methods enable responsive\\, content-aware designs\\, and how to choose the best layout method for the component you need to build.\\n\\nIf you are confirmed to attend\\, you will receive an email on the day of your workshop with the Google Meet link to join.",
@@ -113,7 +113,7 @@
         {
           "DTSTART": "20220310T083000Z",
           "DTEND": "20220310T173000Z",
-          "DTSTAMP": "20250702T101026Z",
+          "DTSTAMP": "20251025T095332Z",
           "UID": "7ap55ejvibvlmkhbne5l7ca5eu@google.com",
           "CREATED": "20211229T101536Z",
           "DESCRIPTION": "For details\\, go here:\\nhttps://web-day-2022.eventbrite.it\\n\\nTo access the online event page\\, go here:\\nhttps://www.eventbrite.it/x/biglietti-web-day-2022-219026021727",
@@ -126,7 +126,7 @@
         {
           "DTSTART": "20220224T160000Z",
           "DTEND": "20220224T163000Z",
-          "DTSTAMP": "20250702T101026Z",
+          "DTSTAMP": "20251025T095332Z",
           "UID": "10a0v2onmo1qoq7po5k6mva9nn@google.com",
           "CREATED": "20220220T153904Z",
           "DESCRIPTION": "Per i dettagli\\, visita https://www.linkedin.com/video/event/urn:li:ugcPost:6900464545970622465/\\n\\nMolto spesso\\, purtroppo\\, da sviluppatori ci perdiamo di vista o ci dimentichiamo di un aspetto molto…",
@@ -140,7 +140,7 @@
         {
           "DTSTART": "20220525T080000Z",
           "DTEND": "20220525T154500Z",
-          "DTSTAMP": "20250702T101026Z",
+          "DTSTAMP": "20251025T095332Z",
           "UID": "5u4058cc62mrev6prmbvffa0nn@google.com",
           "CREATED": "20220509T080726Z",
           "LAST-MODIFIED": "20220509T080726Z",
@@ -153,7 +153,7 @@
           "DTSTART": "20220524T080000Z",
           "DTEND": "20220524T153000Z",
           "RRULE": "FREQ=DAILY;COUNT=2",
-          "DTSTAMP": "20250702T101026Z",
+          "DTSTAMP": "20251025T095332Z",
           "ORGANIZER;CN=devcalendar@codemotion.it": "mailto:devcalendar@codemotion.it",
           "UID": "u5rqrinq4a48eouqcbbntua88o@google.compe.pizzimenti.seed@gmail.com;X-NUM-GUESTS=0:mailto:giuseppe.pizzimenti.seed@gmail.com",
           "CREATED": "20220509T080117Z",
@@ -167,7 +167,7 @@
         {
           "DTSTART": "20220916T093000Z",
           "DTEND": "20220916T113000Z",
-          "DTSTAMP": "20250702T101026Z",
+          "DTSTAMP": "20251025T095332Z",
           "UID": "6gr30db2cgq36b9n6hgj6b9kcdj3abb264s3abb5ckqjce1l71j3cphj6o@google.com",
           "CREATED": "20220902T121427Z",
           "LAST-MODIFIED": "20220902T121427Z",
@@ -179,7 +179,7 @@
         {
           "DTSTART": "20211007T150000Z",
           "DTEND": "20211007T213000Z",
-          "DTSTAMP": "20250702T101026Z",
+          "DTSTAMP": "20251025T095332Z",
           "UID": "6nkhlkhdebukblg3kacc0ih2ha@google.com",
           "CREATED": "20211005T150427Z",
           "DESCRIPTION": "Attend the PWA Summit!",
@@ -193,7 +193,7 @@
           "DTSTART": "20211110T120000Z",
           "DTEND": "20211110T192000Z",
           "RRULE": "FREQ=DAILY;COUNT=2",
-          "DTSTAMP": "20250702T101026Z",
+          "DTSTAMP": "20251025T095332Z",
           "ORGANIZER;CN=devcalendar@codemotion.it": "mailto:devcalendar@codemotion.it",
           "UID": "6368pfjls0aoegukci1elidffs@google.compe.pizzimenti.seed@gmail.com;X-NUM-GUESTS=0:mailto:giuseppe.pizzimenti.seed@gmail.com",
           "CREATED": "20210929T083126Z",
@@ -209,7 +209,7 @@
           "DTEND;TZID=Europe/Rome": "20211102T120000",
           "RRULE": "FREQ=WEEKLY;COUNT=4;BYDAY=TU",
           "EXDATE;TZID=Europe/Rome": "20211109T120000",
-          "DTSTAMP": "20250702T101026Z",
+          "DTSTAMP": "20251025T095332Z",
           "ORGANIZER;CN=devcalendar@codemotion.it": "mailto:devcalendar@codemotion.it",
           "UID": "7bpkit8017atregpg479ch5uc4@google.compe.pizzimenti.seed@gmail.com;X-NUM-GUESTS=0:mailto:giuseppe.pizzimenti.seed@gmail.com",
           "CREATED": "20211027T071245Z",
@@ -224,7 +224,7 @@
           "DTSTART": "20211109T090000Z",
           "DTEND": "20211109T173000Z",
           "RRULE": "FREQ=DAILY;COUNT=1",
-          "DTSTAMP": "20250702T101026Z",
+          "DTSTAMP": "20251025T095332Z",
           "ORGANIZER;CN=devcalendar@codemotion.it": "mailto:devcalendar@codemotion.it",
           "UID": "ic9grt8011qulsvl0cpfab8jts@google.compe.pizzimenti.seed@gmail.com;X-NUM-GUESTS=0:mailto:giuseppe.pizzimenti.seed@gmail.com",
           "CREATED": "20210929T083121Z",
@@ -238,7 +238,7 @@
         {
           "DTSTART": "20230323T180000Z",
           "DTEND": "20230323T184500Z",
-          "DTSTAMP": "20250702T101026Z",
+          "DTSTAMP": "20251025T095332Z",
           "UID": "1v9e3adq77ss3nijdvk63m8rfs@google.com",
           "CREATED": "20230303T114407Z",
           "DESCRIPTION": "For details\\, go here:\\nhttps://www.eventbrite.com/e/mobile-apps-and-accessibility-tickets-530506046867\\n\\nTo access the online event page\\, go here:\\nhttps://www.eventbrite.com/x/mobile-apps-and-accessibility-tickets-530506046867",
@@ -251,7 +251,7 @@
         {
           "DTSTART": "20230215T160000Z",
           "DTEND": "20230215T170000Z",
-          "DTSTAMP": "20250702T101026Z",
+          "DTSTAMP": "20251025T095332Z",
           "UID": "70sm2ohk60rmab9pc8sj6b9k6dhjcbb171hm6b9k6oo34opjc9gj4d36co@google.com",
           "CREATED": "20230305T000419Z",
           "LAST-MODIFIED": "20230305T000419Z",
@@ -263,7 +263,7 @@
         {
           "DTSTART": "20230511T150000Z",
           "DTEND": "20230511T170000Z",
-          "DTSTAMP": "20250702T101026Z",
+          "DTSTAMP": "20251025T095332Z",
           "UID": "4jc9niu4o37uc01v38kmsvnaci@google.com",
           "CREATED": "20230503T105528Z",
           "DESCRIPTION": "For details\\, go here:\\nhttps://www.eventbrite.it/e/biglietti-webinar-accessibilita-culturale-le-esperienze-di-muse-e-ultrablu-629371526177\\n\\nTo access the online event page\\, go here:\\nhttps://www.eventbrite.it/x/biglietti-webinar-accessibilita-culturale-le-esperienze-di-muse-e-ultrablu-629371526177",
@@ -276,7 +276,7 @@
         {
           "DTSTART": "20230504T150000Z",
           "DTEND": "20230504T163000Z",
-          "DTSTAMP": "20250702T101026Z",
+          "DTSTAMP": "20251025T095332Z",
           "UID": "1l57km10vou0goj989n0a5l2od@google.com",
           "CREATED": "20230503T105546Z",
           "DESCRIPTION": "For details\\, go here:\\nhttps://www.eventbrite.it/e/biglietti-webinar-intraprendere-un-percorso-di-accessibilita-digitale-in-azienda-623245061757\\n\\nTo access the online event page\\, go here:\\nhttps://www.eventbrite.it/x/biglietti-webinar-intraprendere-un-percorso-di-accessibilita-digitale-in-azienda-623245061757",
@@ -289,7 +289,7 @@
         {
           "DTSTART": "20230914T090000Z",
           "DTEND": "20230914T095748Z",
-          "DTSTAMP": "20250702T101026Z",
+          "DTSTAMP": "20251025T095332Z",
           "ORGANIZER;CN=do_not_reply@on24event.com": "mailto:do_not_reply@on24event.com",
           "UID": "f8e27255-7fc6-417b-bbd8-54ba57f6f845ppe Pizzimenti;X-NUM-GUESTS=0:mailto:giuseppe.pizzimenti.seed@gmail.com",
           "CREATED": "20221222T210654Z",
@@ -303,7 +303,7 @@
         {
           "DTSTART": "20230921T090000Z",
           "DTEND": "20230921T095936Z",
-          "DTSTAMP": "20250702T101026Z",
+          "DTSTAMP": "20251025T095332Z",
           "ORGANIZER;CN=do_not_reply@on24event.com": "mailto:do_not_reply@on24event.com",
           "UID": "d22d87c0-aad7-40e3-9b9b-83c908bef7dfppe Pizzimenti;X-NUM-GUESTS=0:mailto:giuseppe.pizzimenti.seed@gmail.com",
           "CREATED": "20221222T210654Z",
@@ -317,7 +317,7 @@
         {
           "DTSTART": "20230920T080000Z",
           "DTEND": "20230920T120000Z",
-          "DTSTAMP": "20250702T101026Z",
+          "DTSTAMP": "20251025T095332Z",
           "UID": "6q9benbtoqniv6r8vmv43sap4l@google.com",
           "CREATED": "20230918T194111Z",
           "DESCRIPTION": "In the past years\\, we could witness the rise of many JavaScript frameworks- but one of them got especially popular: Angular. It helps you create your websites at a much faster pace\\, in an easier way\\, and with a whole lot of style. Therefore we finally decided to give this amazing piece of tech the chance of having its dedicated topic day here at WeAreDevelopers Live!\\n‍If you love JavaScript and its frameworks you should tune in and get some recent insights\\, tips\\, and knowledge from some true Angular Pros! (Of course\\, we'll try not to fire up the front-end wars - we promise!)",
@@ -331,7 +331,7 @@
         {
           "DTSTART": "20231129T090000Z",
           "DTEND": "20231129T130000Z",
-          "DTSTAMP": "20250702T101026Z",
+          "DTSTAMP": "20251025T095332Z",
           "UID": "6brn6buk7rlbb7eqr0orus43r6@google.com",
           "CREATED": "20230918T194136Z",
           "DESCRIPTION": "Welcome to WeAreDevelopers LIVE - WebDev Day! Join us for an online event dedicated to exploring everything front-end (and probably some back-end) from HTML\\, CSS\\, and UX/UI design to JavaScript and its frameworks. Hear from true experts who want to share their knowledge and help you stay up-to-date with the latest trends in web development. Don't miss out on this opportunity to expand your skills and dive into the exciting world of web design. So get yourself comfortable and tune in!",
@@ -345,7 +345,7 @@
         {
           "DTSTART": "20231025T080000Z",
           "DTEND": "20231025T130000Z",
-          "DTSTAMP": "20250702T101026Z",
+          "DTSTAMP": "20251025T095332Z",
           "UID": "122p2tkulpssbk5i5h5h5pc6b8@google.com",
           "CREATED": "20230918T194204Z",
           "DESCRIPTION": "Accessibility is not a nice to have\\, but a legal requirement for any publication on the web or app stores. The sooner you start thinking about accessibility\\, the easier it is to create products that are easy to use and don’t block anyone out. Learn from leading experts in the accessibility space how to get started\\, what to avoid\\, and why it matters.\\n\\nwww.wearedevelopers.com/event/accessibility-day-october-2023",
@@ -358,7 +358,7 @@
         {
           "DTSTART": "20230921T090000Z",
           "DTEND": "20230921T100000Z",
-          "DTSTAMP": "20250702T101026Z",
+          "DTSTAMP": "20251025T095332Z",
           "UID": "3pab4scvmeauufbmutvv90m9f7@google.com",
           "CREATED": "20230920T092502Z",
           "DESCRIPTION": "1. Fare clic e collegarsi all’ora e la data specificate:\\nhttps://global.gotowebinar.com/join/5413826363071050837/243252461\\nNota: il collegamento non deve essere rivelato ad altri\\; è per l’uso esclusivo dell’utente.\\n\\n2. Ulteriori dettagli sul webinar:\\nhttps://attendee.gotowebinar.com/additionalInfo.tmpl?duplicate=false&webinar=5413826363071050837&aregistrantConfirmation=1366073262010594651 https://attendee.gotowebinar.com/additionalInfo.tmpl?duplicate=false&webinar=5413826363071050837&aregistrantConfirmation=1366073262010594651",
@@ -372,7 +372,7 @@
         {
           "DTSTART": "20230921T163000Z",
           "DTEND": "20230921T173000Z",
-          "DTSTAMP": "20250702T101026Z",
+          "DTSTAMP": "20251025T095332Z",
           "UID": "7ch2ia60ga2e05d5ttr590cf2a@google.com",
           "CREATED": "20230920T130251Z",
           "DESCRIPTION": "Link personale per vedere il webinar: https://perfopr.webinargeek.com/watch/v6LalR-xSKLys9e5XO0U-q4BW5ZWcyW6Rw81-3YTgeM/",
@@ -386,7 +386,7 @@
         {
           "DTSTART": "20230926T080000Z",
           "DTEND": "20230926T090000Z",
-          "DTSTAMP": "20250702T101026Z",
+          "DTSTAMP": "20251025T095332Z",
           "UID": "2ggth9lothueigq4ub4i4hk5qf@google.com",
           "CREATED": "20230921T191206Z",
           "DESCRIPTION": "<b>Il tuo link di accesso:</b> <a href=\"https://event.demio.com/join/8kvT0rh5K0DO9OMF\" target=\"_blank\">https://event.demio.com/join/8kvT0rh5K0DO9OMF</a><br /><br /><i>Questo link è strettamente personale e non deve essere condiviso con altri.</i><br /><br />Hai domande relative a questo evento? E-mail <a href=\"mailto:antonio.leonforte@fhoster.com\">antonio.leonforte@fhoster.com</a><br /><br /><a href=\"https://my.demio.com/manage-registration/8kvT0rh5K0DO9OMF\" target=\"_blank\">Gestire la registrazione e le notifiche</a><br /><br />",
@@ -400,7 +400,7 @@
         {
           "DTSTART": "20231018T130000Z",
           "DTEND": "20231019T210000Z",
-          "DTSTAMP": "20250702T101026Z",
+          "DTSTAMP": "20251025T095332Z",
           "UID": "68r32e1o70oj4bb4cco3gb9kccomab9pc8q34bb26ph3ecpjc4o36chpck@google.com",
           "CREATED": "20230925T193216Z",
           "DESCRIPTION": "Join 1000's of fellow Vue.js and Nuxt developers to learn about what Nuxt.js has to offer in 2023. Get direct access to Nuxt experts and contributors during live sessions for FREE!",
@@ -414,7 +414,7 @@
         {
           "DTSTART": "20231010T170000Z",
           "DTEND": "20231010T180000Z",
-          "DTSTAMP": "20250702T101026Z",
+          "DTSTAMP": "20251025T095332Z",
           "UID": "51ia5p248elp540mgeel1p7f67@google.com",
           "CREATED": "20231005T215651Z",
           "DESCRIPTION": "Join the Lit team to hear all about the Lit 3.0 release and what&#39\\;s new in the Lit ecosystem in our Launch Livestream event!<br><br><a href=\"https://www.google.com/url?q=https://www.youtube.com/watch?v%3Dri9FEl_hRTc&amp\\;sa=D&amp\\;source=calendar&amp\\;usd=2&amp\\;usg=AOvVaw3-j7WLPBoLpy4LHOAVWLJc\" target=\"_blank\">https://www.youtube.com/watch?v=ri9FEl_hRTc</a>",
@@ -427,7 +427,7 @@
         {
           "DTSTART": "20231018T150000Z",
           "DTEND": "20231018T160000Z",
-          "DTSTAMP": "20250702T101026Z",
+          "DTSTAMP": "20251025T095332Z",
           "ORGANIZER;CN=no-reply@zoom.us": "mailto:no-reply@zoom.us",
           "UID": "b97kuj9o6ks32d1k64ojac9peh8kasib75t7ikagf544oii864rngp1o8prguseppe Pizzimenti;X-NUM-GUESTS=0:mailto:giuseppe.pizzimenti.seed@gmail.com",
           "CREATED": "20231007T141548Z",
@@ -442,7 +442,7 @@
         {
           "DTSTART": "20231012T163000Z",
           "DTEND": "20231012T173000Z",
-          "DTSTAMP": "20250702T101026Z",
+          "DTSTAMP": "20251025T095332Z",
           "UID": "1bfa7c0e-883d-458b-bb86-5c9d35959b89",
           "URL": "https://perfopr.webinargeek.com/watch/dBtLy3GiHpHFX3ww4fg8JLrOvdeXIAfksDv0ClqKGlA/",
           "CLASS": "PUBLIC",
@@ -457,7 +457,7 @@
         {
           "DTSTART": "20230919T090000Z",
           "DTEND": "20230919T100000Z",
-          "DTSTAMP": "20250702T101026Z",
+          "DTSTAMP": "20251025T095332Z",
           "UID": "5mg86v71qq8lncq5ia0l2sb4h8@google.com",
           "CREATED": "20231010T112629Z",
           "DESCRIPTION": "Grazie per esserti registrato al nostro webinar: Redis Enterprise come database vettoriale\\n\\nEcco i tuoi dati di registrazione:\\n\\nData e ora:  Martedì\\, 19 settembre 2023 alle 11:00 AM CEST\\n\\nDurata: 1 Ora\\n\\nControlla la tua e-mail di conferma per il link univoco di adesione",
@@ -471,7 +471,7 @@
         {
           "DTSTART": "20231017T130000Z",
           "DTEND": "20231017T190000Z",
-          "DTSTAMP": "20250702T101026Z",
+          "DTSTAMP": "20251025T095332Z",
           "UID": "6ja6q7d297r95v0h4ek0dsuqa6@google.com",
           "CREATED": "20231011T072158Z",
           "DESCRIPTION": "The first stop on our SpringOne Tour is a virtual session where we’ll be featuring the latest advancements\\, best practices\\, and tools and techniques that are quickly becoming industry-standard. Our technical advocates\\, Spring engineers\\, and application development experts will bring you an in-depth look into the beauty of open source\\, with Spring Framework\\, Spring Boot 3\\, Kubernetes\\, Progressive Delivery and more\\, so you can innovate faster.",
@@ -485,7 +485,7 @@
         {
           "DTSTART": "20231114T103000Z",
           "DTEND": "20231114T113000Z",
-          "DTSTAMP": "20250702T101026Z",
+          "DTSTAMP": "20251025T095332Z",
           "UID": "0a3fdop0l8dfrl53qq9hqdamoo@google.com",
           "CREATED": "20231031T101733Z",
           "DESCRIPTION": "TechByte: Accelerate cost savings with API management\\n\\nTuesday\\, November 14th\\n10:30 AM–11:30 AM GMT\\n\\nOnline\\n\\n<a href=https://cloudonair.withgoogle.com/events/techbyte-accelerate-cost-savings-with-api-management target=_blank>https://cloudonair.withgoogle.com/events/techbyte-accelerate-cost-savings-with-api-management</a>",
@@ -499,7 +499,7 @@
         {
           "DTSTART": "20231115T090000Z",
           "DTEND": "20231115T100000Z",
-          "DTSTAMP": "20250702T101026Z",
+          "DTSTAMP": "20251025T095332Z",
           "UID": "3givl48l1e36ugqlfdrc62srce@google.com",
           "CREATED": "20231031T101750Z",
           "DESCRIPTION": "TechByte: Code Like a Superhero with Gen AI\\n\\nWednesday\\, November 15th\\n9:00 AM–10:00 AM GMT\\n\\nOnline\\n\\n<a href=https://cloudonair.withgoogle.com/events/techbyte-code-like-superhero-gen-ai target=_blank>https://cloudonair.withgoogle.com/events/techbyte-code-like-superhero-gen-ai</a>",
@@ -513,7 +513,7 @@
         {
           "DTSTART": "20231115T140000Z",
           "DTEND": "20231115T160000Z",
-          "DTSTAMP": "20250702T101026Z",
+          "DTSTAMP": "20251025T095332Z",
           "UID": "3an4uvs4n8mhaijaunca18uia5@google.com",
           "CREATED": "20231113T224022Z",
           "DESCRIPTION": "<br><div dir=\"auto\">PRESENTAZIONE LIBRO \"Accessibilità museale. Le prospettive per il design della comunicazione\"<br><div dir=\"auto\"><div dir=\"auto\">Mercoledì 15 novembre dalle ore 15.00 alle 17.00\\, nel contesto della BookCity Milano\\, si svolgerà l'evento \"Un dialogo fra accessibilità\\, design\\, museo\" all'interno del quale sarà presentato il libro open access \"Accessibilità museale. Le prospettive per il design della comunicazione\"\\, a cura della professoressa Dina Riccò\\, FrancoAngeli\\, 2023\\, promosso dalla Fondazione Istituto <a></a>dei Ciechi di Milano e dal Corso di Studi in Design della comunicazione (Scuola del Design\\, Politecnico di Milano). <br><div dir=\"auto\"><div dir=\"auto\">Saremo presenti da remoto con Sauro Cesaretti e Stefano Ottaviani\\, autori di uno dei capitoli del libro in cui si parla di Accessibility Days e tecnologie digitali\\, e della nostra esperienza nell'organizzazione di eventi accessibili. <br><div dir=\"auto\"><div dir=\"auto\">CONTENUTI DELL'EVENTO <div dir=\"auto\">Durante l'incontro si svolgerà un dialogo sul tema dell’accessibilità con la curatrice del libro Dina Riccò (Politecnico di Milano)\\, Franco Lisi (Fondazione Istituto dei ciechi di Milano)\\, Salvatore Zingale (Politecnico di Milano)\\, autori e autrici dei saggi: Elisabetta Corradin\\, Francesco Cusati (Istituto dei Ciechi di Milano)\\, Maria Chiara Andriello (Rai Accessibilità)\\, Laura Carlucci (Università di Granada)\\, Fabio Fornasari (architetto museologo)\\, Sauro Cesaretti e Stefano Ottaviani (Accessiblity Days). Con un contributo di Patricia Monica Ocampo (disability manager).  <br><div dir=\"auto\">Sarà inoltre presente l’esposizione ControSenso\\, una raccolta di traduzioni tattili su opere presenti nei musei milanesi degli studenti del Corso di laurea magistrale in Design della comunicazione (Politecnico di Milano) 2022 e 2023. Docenti: G.L. Balzerano e D. Riccò. Cultori: A. Barone\\, A. Gonzalez\\, G. Martimucci\\, A. Zamperini. <br><div dir=\"auto\"><div dir=\"auto\">COME PARTECIPARE IN PRESENZA O IN STREAMING<div dir=\"auto\">Evento in presenza presso l'Istituto dei Ciechi di Milano e in diretta streaming sulla pagina Facebook della Fondazione Istituto dei Ciechi di Milano<br><div dir=\"auto\">L'esposizione ControSenso sarà fruibile solamente in presenza.<br><div dir=\"auto\"><div dir=\"auto\">Quando: Mercoledì 15 novembre\\, dalle ore 15.00 alle 17.00<br><div dir=\"auto\">Ingresso libero\\, è gradita l’iscrizione (anche per la diretta streaming).<br><div dir=\"auto\"><div dir=\"auto\">VAI AL FORM PER LA REGISTRAZIONE (GRATUITA)<div dir=\"auto\"><a href=\"https://forms.office.com/e/3XKXHypvwW?fbclid=IwAR0dbYkSnBaO3J11SSAEhm7gVhiJ1dY6Nys8B7K_LCrVsDxSh4ovll2U1z4\">https://forms.office.com/e/3XKXHypvwW</a>",
@@ -526,7 +526,7 @@
         {
           "DTSTART": "20231128T170000Z",
           "DTEND": "20231128T180000Z",
-          "DTSTAMP": "20250702T101026Z",
+          "DTSTAMP": "20251025T095332Z",
           "UID": "52bapjhjcbouhoh8qubd2rou93@google.com",
           "CREATED": "20231128T165935Z",
           "DESCRIPTION": "Entra da PC\\, Mac\\, iPad\\, iPhone o dispositivo Android:\\n    Fai clic su questo URL per entrare. https://starthubconsulting.zoom.us/w/88135806817?tk=5v6axhNFfVZFyRJpBpCRR5sUCnPYxOMjJuK5px4MoS4.DQYAAAAUhU2vYRZvT01iUlFzSlRWbUpHc3NYeTIzNS1RAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA&uuid=WN_2bJbG8W-QaWZ43UqXOk3qg\\nDescrizione: Perché i recruiter mi chiedono la RAL? Come capisco in selezione se è l'azienda giusta per me? Come gestisco la contrattazione per ricevere l’offerta migliore? Parleremo di questo e altro insieme a Guido Penta e Mariagiulia Nozzi per aiutare i professionisti in ambito IT a gestire la trattativa e... BE R$CH!\\n\\nArgomenti:\\n• Riconoscere il proprio valore sul mercato\\n• Consigli su come prepararsi a gestire una trattativa\\n• Case History: gli scenari più frequenti quando si chiede un aumento.\\n\\nDurante il webinar ampio spazio al Q&A!\\n\\nO entra tramite telefono:\\n    Componi (per una qualità migliore\\, componi un numero basato sulla tua posizione corrente):\\n        Italia: +39 069 480 6488  o +39 020 066 7245  o +39 021 241 28 823 \\n    ID webinar: 881 3580 6817\\n    Numeri internazionali disponibili: https://starthubconsulting.zoom.us/u/kdK07aneUO\\n\\n",
@@ -540,7 +540,7 @@
         {
           "DTSTART": "20240124T140000Z",
           "DTEND": "20240125T210000Z",
-          "DTSTAMP": "20250702T101026Z",
+          "DTSTAMP": "20251025T095332Z",
           "UID": "46a9be7u0p3a9h3fs5ik6mhf1a@google.com",
           "CREATED": "20231211T153811Z",
           "DESCRIPTION": "The largest and only 100% FREE Vue.js conference in the world!\\n\\nNetwork with 1000s of attendees from all over the world and learn directly from the Vue.js Core Team and the absolute best community and industry experts.",
@@ -554,7 +554,7 @@
         {
           "DTSTART": "20240110T170000Z",
           "DTEND": "20240110T173000Z",
-          "DTSTAMP": "20250702T101026Z",
+          "DTSTAMP": "20251025T095332Z",
           "UID": "29edf483au0v13uj439thd1ljd@google.com",
           "CREATED": "20240108T155352Z",
           "DESCRIPTION": "Vi aspettiamo mercoledì 10 alle 18.00 per parlare con <a href=\"https://www.linkedin.com/in/ACoAAAAC8EQBJBGMgtqsd7mpuVxcGoeAF-zXI9w\"></a><a href=\"https://www.linkedin.com/in/santomaggio/\">Gabriele Santomaggio</a> di Message Queue Broker e della loro importanza nel garantire una comunicazione fluida e affidabile all'interno di un sistema distribuito.<br><br>Quali le caratteristiche fondamentali? Quali i protocolli di comunicazione che consentono la gestione efficiente e sicura dei messaggi? E quali le strategie adottate per gestire carichi di lavoro crescenti e per garantire la continuità delle operazioni anche in scenari critici?<br><br>Non mancate! \\;)",
@@ -568,7 +568,7 @@
         {
           "DTSTART": "20240116T160000Z",
           "DTEND": "20240116T163000Z",
-          "DTSTAMP": "20250702T101026Z",
+          "DTSTAMP": "20251025T095332Z",
           "UID": "6m1td2mkuv9a39p2mfno52sue5@google.com",
           "CREATED": "20240111T115009Z",
           "DESCRIPTION": "In questa puntata\\, parleremo con <a href=\"https://www.linkedin.com/in/ACoAAAAC8EQBJBGMgtqsd7mpuVxcGoeAF-zXI9w\"></a><a href=\"https://www.linkedin.com/in/santomaggio/\">Gabriele Santomaggio</a> di alcune esperienze di vita reale su rilasci andati male in produzione. L'obiettivo è quello di trarne spunti di riflessione sul nostro lavoro come sviluppatori.",
@@ -582,7 +582,7 @@
         {
           "DTSTART": "20240124T170000Z",
           "DTEND": "20240124T180000Z",
-          "DTSTAMP": "20250702T101026Z",
+          "DTSTAMP": "20251025T095332Z",
           "UID": "cdh6adhg70p62bb36dj6ab9k6cr66b9p6srjib9k64o6ac1h74qmacb268@google.com",
           "CREATED": "20240123T133039Z",
           "DESCRIPTION": "In questa live cercheremo di capire le strategie e le best practices per velocizzare il ciclo di sviluppo\\, ridurre i costi e migliorare l'efficienza complessiva. Analizzeremo anche come scegliere servizi cloud appropriati\\, come implementare funzioni serverless e come ottimizzare le prestazioni.",
@@ -596,7 +596,7 @@
         {
           "DTSTART": "20240129T170000Z",
           "DTEND": "20240129T180000Z",
-          "DTSTAMP": "20250702T101026Z",
+          "DTSTAMP": "20251025T095332Z",
           "ORGANIZER;CN=no-reply@zoom.us": "mailto:no-reply@zoom.us",
           "UID": "b97kuj9o6ks3ac9i68pj0c1lf995it9ped7lil2ld573ieb98pj4edpk9lrgpe Pizzimenti;X-NUM-GUESTS=0:mailto:giuseppe.pizzimenti.seed@gmail.com",
           "CREATED": "20240124T114637Z",
@@ -611,7 +611,7 @@
         {
           "DTSTART": "20240411T182400Z",
           "DTEND": "20240411T192400Z",
-          "DTSTAMP": "20250702T101026Z",
+          "DTSTAMP": "20251025T095332Z",
           "UID": "2pj29oeos6knjumjjv391qi82v@google.com",
           "CREATED": "20240125T143408Z",
           "DESCRIPTION": "<h2><span style=\"font-weight: normal\\;\">The Full Stack Web Development Conference of Epic proportions</span><br></h2>",
@@ -625,7 +625,7 @@
         {
           "DTSTART": "20240205T180000Z",
           "DTEND": "20240205T190000Z",
-          "DTSTAMP": "20250702T101026Z",
+          "DTSTAMP": "20251025T095332Z",
           "UID": "350343c29m8rd707jm7ka1npo0@google.com",
           "CREATED": "20240205T171744Z",
           "DESCRIPTION": "<p>Exploring ORAMASEARCH with Michele Riva\\,</p>\\n<p>Roberto and Luciano will be hosting a coding live stream with Michele Riva\\, where they will explore ORAMASEARCH\\, an amazing solution to index content for search.</p>\\n<p>We will try to play around with it and possibly work on a real use case: add search functionality to a static blog.</p>\\n<p>Join us and take this opportunity to interact with Michele.</p>\\n<p></p>\\n<p>We will be live on Twitch at <a href=\"https://twitch.tv/loige\" target=\"_blank\" rel=\"noopener\">https://twitch.tv/loige</a></p>",
@@ -638,7 +638,7 @@
         {
           "DTSTART": "20240207T170000Z",
           "DTEND": "20240207T173000Z",
-          "DTSTAMP": "20250702T101026Z",
+          "DTSTAMP": "20251025T095332Z",
           "UID": "36or6ql2emc6efsl7jer6dunn7@google.com",
           "CREATED": "20240206T092831Z",
           "DESCRIPTION": "Per i dettagli\\, visita https://www.linkedin.com/events/linguaggidiprogrammazione-l-evo7160229537673273344/\\n\\nIn questa live\\, con ospite Paolo Caressa\\, faremo un viaggio nella storia dell'informatica esplorando…",
@@ -652,7 +652,7 @@
         {
           "DTSTART": "20240215T183000Z",
           "DTEND": "20240215T213000Z",
-          "DTSTAMP": "20250702T101026Z",
+          "DTSTAMP": "20251025T095332Z",
           "UID": "7vqp36gnnkjlfi5nv33ki5i36p@google.com",
           "CREATED": "20240209T163753Z",
           "DESCRIPTION": "For details\\, go here:\\nhttps://www.eventbrite.it/e/biglietti-la-vera-accessibilita-per-software-realmente-usabili-da-chiunque-811956903957",
@@ -666,7 +666,7 @@
         {
           "DTSTART": "20240228T170000Z",
           "DTEND": "20240228T180000Z",
-          "DTSTAMP": "20250702T101026Z",
+          "DTSTAMP": "20251025T095332Z",
           "UID": "6eo756slpp280tfm5qsc57vl3u@google.com",
           "CREATED": "20240228T171332Z",
           "DESCRIPTION": "In un'epoca dominata dall'innovazione tecnologica\\, le decisioni prese da tecnici e informatici giocano un ruolo cruciale nello sviluppo e nell'implementazione di soluzioni software e hardware. Ma la propria visione tecnologica e la competizione interna possano offuscare l'obiettivo di creare prodotti e servizi che rispondano efficacemente alle esigenze degli utenti e del mercato?<br><br>Ne parleremo mercoledì 28 con <a href=\"https://www.linkedin.com/in/ACoAAADwV4ABkvoJSXNM3ZCDKzsaahOjnjI4IpU\"></a><a href=\"https://www.linkedin.com/in/andysal/\">Andrea Saltarello</a> in questa intervista che metterà in luce anche le strategie per promuovere una cultura del lavoro più inclusiva e orientata al valore\\, suggerendo come dirigenti e professionisti del settore possono incoraggiare gli informatici a superare la propria visione personale a favore di una maggiore collaborazione e focalizzazione sugli obiettivi condivisi.",
@@ -680,7 +680,7 @@
         {
           "DTSTART": "20240320T090000Z",
           "DTEND": "20240320T140000Z",
-          "DTSTAMP": "20250702T101026Z",
+          "DTSTAMP": "20251025T095332Z",
           "UID": "1ku3sgek4rv8bdahehjhhmkhe4@google.com",
           "CREATED": "20240320T074446Z",
           "DESCRIPTION": "Get ready to take your web development skills to the next level!\\nWelcome to WeAreDevelopers LIVE - WebDev Day! Join us for an online event dedicated to exploring everything front-end (and probably some back-end) from HTML\\, CSS\\, and UX/UI design to JavaScript and its frameworks. Hear from true experts who want to share their knowledge and help you stay up-to-date with the latest trends in web development. Don't miss out on this opportunity to expand your skills and dive into the exciting world of web design. So get yourself comfortable and tune in!\\n\\nJoin the event <a href=\"https://www.wearedevelopers.com/event/webdev-day-march-2024\">here</a>!",
@@ -693,7 +693,7 @@
         {
           "DTSTART": "20240326T160000Z",
           "DTEND": "20240326T163000Z",
-          "DTSTAMP": "20250702T101026Z",
+          "DTSTAMP": "20251025T095332Z",
           "UID": "01s98qakqoeuaifnc5saaupddo@google.com",
           "CREATED": "20240326T111115Z",
           "DESCRIPTION": "Per i dettagli\\, visita https://www.linkedin.com/video/event/urn:li:ugcPost:7178293753709805569/<br><br>Che sviluppatori e accessibilità non vadano (ancora) d’amore e d’accordo lo sappiamo\\, eppure Tim Berners-Lee nel 1997 disse che il potere del Web sta nella sua universalità\\, cioè nella possibilità di accesso da parte di tutti indipendentemente dalla disabilità. Ma cosa è andato storto allora? Perché gran parte dei siti web inaccessibili?<br><br>In questo talk\\, <a href=\"https://www.linkedin.com/in/ACoAABAbf7UB4_FQ-uzt5TO0XqKT718HaDeponE\">Diana</a> introdurrà le WCAG (Web Content Accessibility Guidelines) e vedremo quanto sia facile/difficile fare un sito web accessibile.<br><br><a href=\"https://www.linkedin.com/feed/hashtag/?keywords=a11y&amp\\;highlightedUpdateUrns=urn%3Ali%3Aactivity%3A7178293836958339072\">#a11y</a> <a href=\"https://www.linkedin.com/feed/hashtag/?keywords=wcag&amp\\;highlightedUpdateUrns=urn%3Ali%3Aactivity%3A7178293836958339072\">#wcag</a> <a href=\"https://www.linkedin.com/feed/hashtag/?keywords=webaccessibile&amp\\;highlightedUpdateUrns=urn%3Ali%3Aactivity%3A7178293836958339072\">#webaccessibile</a>",
@@ -707,7 +707,7 @@
         {
           "DTSTART": "20240328T100000Z",
           "DTEND": "20240328T113000Z",
-          "DTSTAMP": "20250702T101026Z",
+          "DTSTAMP": "20251025T095332Z",
           "UID": "4uclf4l1nr2676l1p83n0qr0q4@google.com",
           "CREATED": "20240326T112223Z",
           "DESCRIPTION": "<strong>Dall'idea al codice. Come GitLab abilita la collaborazione tra pianificazione\\, sviluppo e operations - in collaborazione con Seacom</strong><br><h4>Data: Giovedì 28 marzo 2024<br>Orario: 11:00 - 12:00 CET</h4><p>Le pratiche migliori della collaborazione dovrebbero favorire il lavoro di squadra e accorciare i cicli di rilascio.<br><br>Riunire team interfunzionali è fondamentale per stabilire flussi di lavoro che minimizzino il rischio e ottimizzino il processo di sviluppo e manutenzione del software.<br><br>Una consegna più rapida inizia con una collaborazione senza soluzione di continuità e un impegno nell'utilizzare gli strumenti migliori.<br><br>In questo webinar approfondiremo:</p><ul><li>Come sfruttare le funzionalità di GitLab dedicate alla pianificazione</li><li>Come misurare l’intero processo di sviluppo del software grazie al singolo datastore</li><li>Quali sono le novità e la roadmap</li></ul>",
@@ -721,7 +721,7 @@
         {
           "DTSTART": "20240409T120000Z",
           "DTEND": "20240409T163000Z",
-          "DTSTAMP": "20250702T101026Z",
+          "DTSTAMP": "20251025T095332Z",
           "UID": "331vf4t4ug0r0p2fpe5atkv0ar@google.com",
           "CREATED": "20240328T095244Z",
           "DESCRIPTION": "Una panoramica alla creazione di app mobile fruibili da chiunque\\, partendo dalle tecnologie assistive utilizzabili nei dispositivi mobili e arrivando a parlare di ambienti come iOS e Android e framework come SwiftUI\\, Flutter\\, Xamarin e MAUI.\\n\\nFor details\\, go here:\\nhttps://www.eventbrite.it/e/biglietti-mobile-for-all-introduzione-allo-sviluppo-mobile-accessibile-865812728177\\n\\nTo access the online event page\\, go here:\\nhttps://www.eventbrite.it/x/biglietti-mobile-for-all-introduzione-allo-sviluppo-mobile-accessibile-865812728177",
@@ -734,7 +734,7 @@
         {
           "DTSTART": "20240417T070000Z",
           "DTEND": "20240417T160000Z",
-          "DTSTAMP": "20250702T101026Z",
+          "DTSTAMP": "20251025T095332Z",
           "UID": "0djqc8oio83ighs4eu8vc7k9a3@google.com",
           "CREATED": "20240328T095320Z",
           "DESCRIPTION": "Una panoramica per iniziare il percorso verso la creazione di siti web accessibili\\, parlando di tecnologie assistive\\, design\\, standard del W3C\\, componenti come accordion\\, caroselli e card\\, testi alternativi\\, valutazioni di accessibilità\\, e framework come Angular\\, React e VUE.\\n\\nFor details\\, go here:\\nhttps://www.eventbrite.it/e/biglietti-web-for-all-introduzione-allo-sviluppo-web-accessibile-865902336197\\n\\nTo access the online event page\\, go here:\\nhttps://www.eventbrite.it/x/biglietti-web-for-all-introduzione-allo-sviluppo-web-accessibile-865902336197",
@@ -747,7 +747,7 @@
         {
           "DTSTART": "20240425T134500Z",
           "DTEND": "20240426T180000Z",
-          "DTSTAMP": "20250702T101026Z",
+          "DTSTAMP": "20251025T095332Z",
           "UID": "40ihmikbuh78jijfeefrk79cqu@google.com",
           "CREATED": "20240328T111351Z",
           "DESCRIPTION": "CODE / CREATE / COMMUNICATE\\n\\n15+ TALKS & DISCUSSIONS\\, 5 WORKSHOPS\\n5000+ JOINING ONLINE GLOBALLY",
@@ -761,7 +761,7 @@
         {
           "DTSTART": "20240404T130000Z",
           "DTEND": "20240404T140000Z",
-          "DTSTAMP": "20250702T101026Z",
+          "DTSTAMP": "20251025T095332Z",
           "UID": "4085aoh73925h4q2a65tbbmvld@google.com",
           "CREATED": "20240328T115401Z",
           "DESCRIPTION": "Since 2015\\, Jeremy Singer-Vine has been publishing the weekly Data Is Plural newsletter\\, where he highlights useful and curious datasets available to the general public. In this hour-long workshop\\, Jeremy will share the many ways he finds data\\, and how he assesses them for quality and usefulness. He'll also discuss his work with the Data Liberation Project\\, and what he's learned about requesting data from the (US) government via FOIA.",
@@ -775,7 +775,7 @@
         {
           "DTSTART": "20240402T150000Z",
           "DTEND": "20240402T153000Z",
-          "DTSTAMP": "20250702T101026Z",
+          "DTSTAMP": "20251025T095332Z",
           "UID": "7tps665ej3rmifn2br6hccf4b8@google.com",
           "CREATED": "20240329T151102Z",
           "DESCRIPTION": "“Un sito accessibile non sarà tanto bello”. Quante volte abbiamo sentito questa frase durante una chiacchierata tra developer o\\, addirittura\\, in riunioni di design? Ma deve davvero essere così?<br><br>Noi non siamo d'accordo e\\, in questo webinar\\, <a href=\"https://www.linkedin.com/in/ACoAAAFBQPABCImVu9X-1zOk1ZWMCJTIP878HbQ\">Chiara Cielo Longobardi</a> ci mostrerà quanto sia infondata questa diffusa credenza che\\, oltretutto\\, si focalizza su una specifica disabilità\\, quella visiva\\, mentre\\, invece\\, il tema della accessibilità di siti ed applicazioni è ben più ampio.",
@@ -789,7 +789,7 @@
         {
           "DTSTART": "20240507T150000Z",
           "DTEND": "20240507T180000Z",
-          "DTSTAMP": "20250702T101026Z",
+          "DTSTAMP": "20251025T095332Z",
           "UID": "0a3f7on9d1spt1qnm1t52g2fl2@google.com",
           "CREATED": "20240404T075151Z",
           "DESCRIPTION": " On Tuesday May 7\\, we are organising another Smashing Meets. This upcoming Meets will be on Web Performance\\, with 2–3 speakers talking about what matters in modern day web performance. Looking forward to seeing you there soon! \\n\\n ✨ https://smashingconf.com/meets-performance/ \\n",
@@ -803,7 +803,7 @@
         {
           "DTSTART": "20240604T130000Z",
           "DTEND": "20240607T200000Z",
-          "DTSTAMP": "20250702T101026Z",
+          "DTSTAMP": "20251025T095332Z",
           "UID": "1m9k3ovcdpc2ll5vc5fcfo5eic@google.com",
           "CREATED": "20240405T142801Z",
           "DESCRIPTION": "THE LARGEST FREE ONLINE FRONTEND EVENT. EVER.\\n\\nThe epic online gathering for frontend developers! Master the latest frameworks\\, learn from the best\\, and connect with a global community. \\n\\nYou can expect 40+ Speakers\\, Hands-on Coding\\, Q&As\\, Panel Talks\\, and much more!\\n\\nIt's free. It's global. It's beyond epic.",
@@ -817,7 +817,7 @@
         {
           "DTSTART;VALUE=DATE": "20240514",
           "DTEND;VALUE=DATE": "20240515",
-          "DTSTAMP": "20250702T101026Z",
+          "DTSTAMP": "20251025T095332Z",
           "UID": "0dg32aojttsveqasjun156elu9@google.com",
           "CREATED": "20240417T073113Z",
           "DESCRIPTION": "Learn about the latest product launches and updates through keynotes and technical sessions.\\n\\nTry new Google products and solutions through self-directed codelabs and guided workshops.\\n\\nGrow your knowledge of Google technology through meetups\\, collaboration\\, and more.",
@@ -831,7 +831,7 @@
         {
           "DTSTART": "20240508T133000Z",
           "DTEND": "20240508T160000Z",
-          "DTSTAMP": "20250702T101026Z",
+          "DTSTAMP": "20251025T095332Z",
           "UID": "cdi32c1i6cqmabb26timab9k6sq6cb9ockqj0b9g60r66o9l6hj38cho68@google.com",
           "CREATED": "20240418T121639Z",
           "DESCRIPTION": "Tre interventi tra stereotipi e false credenze\\, tecniche e sperimentazioni per una comunicazione sempre più accessibile e inclusiva\\n\\nFor details\\, go here:\\nhttps://www.eventbrite.it/e/biglietti-disabilita-uditive-e-comunicative-metodi-e-esempi-di-accessibilita-883095411147\\n\\nTo access the online event page\\, go here:\\nhttps://www.eventbrite.it/x/biglietti-disabilita-uditive-e-comunicative-metodi-e-esempi-di-accessibilita-883095411147",
@@ -844,7 +844,7 @@
         {
           "DTSTART": "20240423T093000Z",
           "DTEND": "20240423T110000Z",
-          "DTSTAMP": "20250702T101026Z",
+          "DTSTAMP": "20251025T095332Z",
           "UID": "0e61o62hqkanrum3f0l4ggg1or@google.com",
           "CREATED": "20240419T131857Z",
           "DESCRIPTION": "Per i dettagli\\, visita https://www.linkedin.com/events/recruiting-formazioneedemployer7187025602581774337/\\n\\nIn questa live\\, assieme a Simone Torrisi\\, founder di Tomorrowdevs e Davide D'ambrogio\\, Career coach e formatore\\, approfondiremo alcune tematiche estremamente attuali nel mondo tech: formazione\\, soft skills\\, recruiting\\, personal/employer branding\\, e molto altro.\\nVi aspettiamo!",
@@ -858,7 +858,7 @@
         {
           "DTSTART": "20240423T123000Z",
           "DTEND": "20240423T141500Z",
-          "DTSTAMP": "20250702T101026Z",
+          "DTSTAMP": "20251025T095332Z",
           "UID": "6tgj4d9h6hj34b9l70o32b9k6pij0b9o64p68bb36tj38o9pcorm8p9p68@google.compe Pizzimenti;X-NUM-GUESTS=0:mailto:giuseppe.pizzimenti.seed@gmail.com",
           "CREATED": "20240409T213324Z",
           "DESCRIPTION": "Una panoramica sulla normativa riguardante l'accessibilità digitale: sui doveri delle aziende ed i diritti dei cittadini",
@@ -870,7 +870,7 @@
         },
         {
           "DTSTART": "20240423T150000Z",
-          "DTSTAMP": "20250702T101026Z",
+          "DTSTAMP": "20251025T095332Z",
           "UID": "6kpjae32c4qm8b9k6dh6ab9kcdhj0bb1c4o6cb9l60r64c1h60p3edphck@google.com",
           "CREATED": "20240419T124439Z",
           "DESCRIPTION": "28 GIUGNO 2025 \\n\\nÈ la data nella quale lo European Accessibility Act diventerà (finalmente\\, ci permettiamo di aggiungere). 🎉 \\n\\nLo sapevi già? Le tue applicazioni ed i tuoi servizi sono già pronti? 🤔\\n\\nIn ogni caso\\, nessun problema: nel prossimo webinar che organizziamo per l'hackathon \"AI for Inclusion\"\\, avremo la fortuna di avere con noi la super avvocata Haydée Longo che ci toglierà ogni dubbio 🚀\\n\\n#a11y #webinar",
@@ -884,7 +884,7 @@
         {
           "DTSTART": "20240429T190000Z",
           "DTEND": "20240429T210000Z",
-          "DTSTAMP": "20250702T101026Z",
+          "DTSTAMP": "20251025T095332Z",
           "UID": "6pi3ephgcdi32b9n6sqm2b9k75gjib9pcksm4bb56co3ccph6lijapb3c4@google.com",
           "CREATED": "20240427T082710Z",
           "DESCRIPTION": "In questa puntata ci dedichiamo all'universo frontend e alle sfide che ogni frontend developer ha oggi.\\nParleremo di framework\\, tecnologie\\, strumenti e tendenze\\, con un occhio alla loro evoluzione e al loro futuro.\\nOspiti:\\nFrancesco Sciuti - CEO @Devmy\\, Google Developer Expert (GDE)\\, Microsoft MVP\\, Codemotion Ambassador\\nSerena Sensini - Enterprise Architech @ Dedalus e Autrice @ Apogeo\\nSimone Torrisi - Founder & Mentor @ TomorrowDevs - Content Creator",
@@ -897,7 +897,7 @@
         {
           "DTSTART": "20240613T110000Z",
           "DTEND": "20240617T190000Z",
-          "DTSTAMP": "20250702T101026Z",
+          "DTSTAMP": "20251025T095332Z",
           "UID": "0vpmj44uj8ba014mq66ornr8p4@google.com",
           "CREATED": "20240427T152852Z",
           "DESCRIPTION": "<br><ul><li><br>50+ speakers\\,sharing their know-hows</li><li><br>1500 attendees\\,sharing common language</li><li><br>10K folks\\,joining remotely</li></ul><br>Understand the latest trends in JavaScript development. See what 10k+ JS developers are up to. Meet those who shape the present and the future of the prospering nation.",
@@ -911,7 +911,7 @@
         {
           "DTSTART": "20240506T110000Z",
           "DTEND": "20240506T120000Z",
-          "DTSTAMP": "20250702T101026Z",
+          "DTSTAMP": "20251025T095332Z",
           "ORGANIZER;CN=no-reply@zoom.us": "mailto:no-reply@zoom.us",
           "UID": "b97kuj9o6ksj6e9m60o3ie1p9gp4ici2e9ij0l33adi62cih65blaqidchrgpe Pizzimenti;X-NUM-GUESTS=0:mailto:giuseppe.pizzimenti.seed@gmail.com",
           "CREATED": "20240430T080304Z",
@@ -926,7 +926,7 @@
         {
           "DTSTART": "20240430T150000Z",
           "DTEND": "20240430T153000Z",
-          "DTSTAMP": "20250702T101026Z",
+          "DTSTAMP": "20251025T095332Z",
           "UID": "7qad39a9dnt4padkj4o1ckkcq2@google.com",
           "CREATED": "20240430T084528Z",
           "DESCRIPTION": "Per i dettagli\\, visita https://www.linkedin.com/video/event/urn:li:ugcPost:7190702381435666432/<br><br>Si avvicina il momento del pitch per i team partecipanti all'hackathon \"AI for Inclusion\"\\, e chi potevamo coinvolgere per un webinar \"Preparare un pitch\"\\, se non il mitico <a href=\"https://www.linkedin.com/in/ACoAAAFDAzcBHBpAJfqnEUhSPXfnbX3GGDV29kg\"></a><a href=\"https://www.linkedin.com/in/geniodelmale/\">👀 Lorenzo Barbieri</a>?",
@@ -940,7 +940,7 @@
         {
           "DTSTART": "20240508T160000Z",
           "DTEND": "20240508T190000Z",
-          "DTSTAMP": "20250702T101026Z",
+          "DTSTAMP": "20251025T095332Z",
           "UID": "3ldhdmufldrekcbu05qfqnvs17@google.com",
           "CREATED": "20240430T151654Z",
           "DESCRIPTION": "Per i dettagli\\, visita https://www.linkedin.com/events/roadtocoderful-3-cmsheadless-qu7188555765991817216/<br><br>Se ti sei sempre chiesto cosa accada quando il front-end e il back-end decidono di divorziare\\, questo meetup è per te!<br><br>La terza tappa di <a href=\"https://www.linkedin.com/feed/hashtag/?keywords=roadtocoderful&amp\\;highlightedUpdateUrns=urn%3Ali%3Aactivity%3A7188555768722243585\">hashtag#RoadtoCoderful</a> è un incontro in presenza\\, gratuito\\, che abbiamo organizzato nella sede catanese di <a href=\"https://www.linkedin.com/company/the-level-group/\">The Level Group</a>.<br>Con noi ci saranno <a href=\"https://www.linkedin.com/in/ACoAACgM6lsBX5SXDJ_cOQfW7dsKro_OfyKzneM\"></a><a href=\"https://www.linkedin.com/in/erikamolino/\">Erika Molino</a> e <a href=\"https://www.linkedin.com/in/ACoAABTOZeQB_ZYTqQgvlA_upMgDC0nofWWrctg\"></a><a href=\"https://www.linkedin.com/in/lucapagliaro/\">Luca Pagliaro</a>.",
@@ -954,7 +954,7 @@
         {
           "DTSTART": "20240515T160000Z",
           "DTEND": "20240515T163000Z",
-          "DTSTAMP": "20250702T101026Z",
+          "DTSTAMP": "20251025T095332Z",
           "UID": "3b6a68hnq7t8i7lense5ev2aab@google.com",
           "CREATED": "20240514T094552Z",
           "DESCRIPTION": "Come realizzare un'applicazione di frontend senza... backend. Eliminiamo API e logica di backend per accedere direttamente dai nostri frontend ai servizi cloud\\, sfruttando specifiche tecniche di autenticazione e interazione dei servizi.\\n\\nNon abbiamo più bisogno di una API che interroga un database\\, possiamo farlo direttamente dal nostro frontend Angular. Non ci serve un backend per il caricamento di file\\, possiamo caricarli direttamente in cloud dalla nostra applicazione mobile nativa. Non ci serve una interfaccia REST\\, possiamo interagire con i dati di proprietà dell'utente\\, in maniera sicura e selettiva\\, direttamente dal nostro gestionale React.\\n\\nGrazie agli accessi fine-grained\\, vediamo come creare una soluzione di frontend senza limiti\\, infinitamente scalabile e in grado di accedere a tutte le potenzialità del cloud.",
@@ -968,7 +968,7 @@
         {
           "DTSTART": "20240521T160000Z",
           "DTEND": "20240521T173000Z",
-          "DTSTAMP": "20250702T101026Z",
+          "DTSTAMP": "20251025T095332Z",
           "UID": "2bdmtb68vfh2jkjhq4h9qgcpth@google.com",
           "CREATED": "20240519T153433Z",
           "DESCRIPTION": "I conflitti sono parte integrante della vita quotidiana. Sorgono nelle relazioni personali\\, sul posto di lavoro e in qualsiasi contesto in cui le persone interagiscono. Ciò che conta davvero\\, però\\, è come decidiamo di affrontarli.<br><br>La gestione efficace dei conflitti\\, infatti\\, è fondamentale per promuovere la crescita personale e professionale\\, nonché per favorire relazioni sane e produttive.<br><br>Gestire i conflitti implica una serie di abilità e strategie: richiede apertura alla comunicazione\\, ascolto attivo\\, empatia e capacità di trovare soluzioni che soddisfino entrambe le parti.<br><br>Nel contesto professionale\\, può aumentare la produttività\\, migliorare la coesione di un team e favorire un clima lavorativo positivo. In ambito personale\\, può rafforzare i legami familiari\\, migliorare le relazioni di coppia e promuovere un senso di appartenenza e benessere all'interno di una comunità.<br><br>Per questo in <a href=\"https://www.linkedin.com/company/nenetcompany/\">NeNet</a> abbiamo creato il Webinar Gratuito “Strategie e Tecniche di gestione conflitti” con due super Host del calibro di <a href=\"https://www.linkedin.com/in/ACoAAC8HHCABfzg9V67LAeaFs67Erfc2gD246dY\"></a><a href=\"https://www.linkedin.com/in/davide-dambrogio/\">Davide D'Ambrogio</a> e <a href=\"https://www.linkedin.com/in/ACoAAAYBfJ0BZviHfOFPb0EdgtcxSwwIw0s_SKM\"></a><a href=\"https://www.linkedin.com/in/enricozanieri/\">Enrico Zanieri</a> che nella loro esperienza ventennale in aziende e come coach hanno aiutato molti professionisti a gestire in modo efficace team e a risolvere situazioni spinose.",
@@ -982,7 +982,7 @@
         {
           "DTSTART": "20240605T100000Z",
           "DTEND": "20240605T160000Z",
-          "DTSTAMP": "20250702T101026Z",
+          "DTSTAMP": "20251025T095332Z",
           "UID": "4uka17nrfbl3rvot4do5raorm6@google.com",
           "CREATED": "20240521T152224Z",
           "DESCRIPTION": "La sfida dell'Alt Text - generare immagini accessibili -lo stato attuale e le possibilità future.Un aggiornamento per professionisti dell'accessibilità\\,editori e bibliotecari interessati all'accessibilità.",
@@ -996,7 +996,7 @@
         },
         {
           "DTSTART": "20240524T163000Z",
-          "DTSTAMP": "20250702T101026Z",
+          "DTSTAMP": "20251025T095332Z",
           "UID": "6ko62d33ccpm6b9h71hm2b9k6kr32bb170o3ab9nc5ijeohjccpj0p336o@google.com",
           "CREATED": "20240523T172315Z",
           "DESCRIPTION": "I cambiamenti nel mondo del lavoro nel corso degli ultimi anni hanno segnato e segneranno il futuro del lavoro stesso. \\n \\nParliamoci chiaro: nulla è come prima\\, e niente sarà come lo avevamo immaginato: troppe le metamorfosi che hanno portato il mondo del lavoro finire\\, anch’esso\\, nel vortice di questi continui stravolgimenti. \\n \\nIl focus di discussione di venerdì\\, quindi\\, verterà su diversi temi\\, insieme al Guest della puntata che sarà Giuseppe Silvio L’Abbate autore del saggio “Lavoro e produttività in Italia” edito da Fides Edizioni. \\n \\nIl libro è stato presentato alla Camera dei Deputati lo scorso 17 aprile: insieme all’autore\\, l’onorevole Walter Rizzetto\\, Presidente della XI Commissione Lavoro Pubblico e Privato\\, Camera dei Deputati e che ha firmato la prefazione del libro. \\n \\nQualche anticipazione: \\n • Il mercato del lavoro in Italia \\n • Salute e sicurezza sul lavoro \\n • Produttività e salute mentale \\n • Conciliazione dei tempi di vita e di lavoro \\n \\nVi aspettiamo in diretta qui su LinkedIn\\, venerdì 24 maggio a partire dalle 18.30. \\nInutile ricordare che i protagonisti sarete voi con le vostre domande e sollecitazioni!",
@@ -1010,7 +1010,7 @@
         {
           "DTSTART": "20240605T123000Z",
           "DTEND": "20240605T131500Z",
-          "DTSTAMP": "20250702T101026Z",
+          "DTSTAMP": "20251025T095332Z",
           "UID": "0sject718lgt9j1atvo8k5ks2m@google.com",
           "CREATED": "20240529T130233Z",
           "DESCRIPTION": "<table><tbody><tr><td><table><tbody><tr><td><table><tbody><tr><td><table><tbody><tr><td><h3><strong>Ecco alcuni degli argomenti che tratteremo:</strong></h3><ul><li><strong>Come naviga il web una persona cieca</strong> via Desktop e mobile</li><li>Che cos’è uno <strong>Screen Reader</strong> e come funziona</li><li>Qual è la differenza fra Screen Reader e sintesi vocale</li><li>Cos’è un <strong>Display Braille</strong></li><li>Quante sono le persone cieche in Italia</li><li><strong>Quali sono le Barriere digitali più diffuse sui siti web e app</strong></li><li>Buone pratiche per <strong>creare e mantenere un sito web accessibile</strong></li></ul><ul></ul><ul></ul><ul></ul></td></tr></tbody></table></td></tr></tbody></table><table><tbody><tr><td></td></tr></tbody></table></td></tr></tbody></table></td></tr></tbody></table><table><tbody><tr><td><table><tbody><tr><td><table><tbody><tr><td></td></tr></tbody></table><table><tbody><tr><td><table><tbody><tr><td><h3><strong>Relatore del webinar:</strong></h3><p>Dott. Fabio Lotti\\, co-fondatore di Yeah Cooperativa sociale\\, “Web Accessibility Expert” ai sensi della norma UNI 11506 e della legge 4/2013\\, membro di IWA Italy e redattore di <a href=\"http://webaccessibile.org/\" target=\"_blank\">webaccessibile.org</a></p></td></tr></tbody></table></td></tr></tbody></table></td></tr></tbody></table></td></tr></tbody></table>",
@@ -1024,7 +1024,7 @@
         {
           "DTSTART": "20241118T140000Z",
           "DTEND": "20241121T223000Z",
-          "DTSTAMP": "20250702T101026Z",
+          "DTSTAMP": "20251025T095332Z",
           "UID": "57ao8lbslpk5g22klfk1drjgff@google.com",
           "CREATED": "20240530T145903Z",
           "DESCRIPTION": "<br><ul><li><br>50+ stellar thinkers\\,shaping JS’s future</li><li><br>700 explorers\\,immersed in dev discovery</li><li><br>10K devs\\,connected worldwide</li></ul><br>Step into our annual narrative\\, embraced by 10k+ JS developers globally. As JSNation unfolds in the USA\\, join us in a collective journey. Witness the trends\\, meet the architects of change\\, and become a part of JSNation.",
@@ -1038,7 +1038,7 @@
         {
           "DTSTART": "20240604T130000Z",
           "DTEND": "20240604T170000Z",
-          "DTSTAMP": "20250702T101026Z",
+          "DTSTAMP": "20251025T095332Z",
           "UID": "69h62o9jcoo3ab9mcor3gb9k6lij4bb170q30b9j70r3ephmcgq36c33c4@google.com",
           "CREATED": "20240603T152721Z",
           "DESCRIPTION": "Level up your front end! Dive into cutting-edge techniques like responsive design\\, interactive animations\\, and seamless integrations. Optimize your code with performance profiling\\, lazy loading\\, and caching strategies. Boost user experiences through intuitive interfaces\\, smooth transitions\\, and accessibility enhancements. Sounds interesting? Then don't forget to tune in! \\n\\n<strong>You can also join us in person at our new office (Schottenfeldgasse 23\\, 1070 Vienna) where we have prepared three Tech Talks for you! Afterwards\\, you can stay and network on our rooftop terrace!</strong>",
@@ -1051,7 +1051,7 @@
         {
           "DTSTART": "20240620T123000Z",
           "DTEND": "20240620T153000Z",
-          "DTSTAMP": "20250702T101026Z",
+          "DTSTAMP": "20251025T095332Z",
           "UID": "0bb18aosik1h3jg9i7mbp7pnvc@google.com",
           "CREATED": "20240613T102847Z",
           "DESCRIPTION": "<p>Per <strong>giovedì 20 giugno\\, dalle ore 14.30 alle 17.30</strong>\\, hanno organizzato un <strong>webinar</strong> in cui si parlerà delle competenze professionali di chi lavora nel web\\, incentrato sulle necessità di conoscenze e abilità richieste alle diverse professionalità operanti in rete in tema di <strong>accessibilità</strong>.</p><p>Non solo quindi la figura esperta di accessibilità\\, ma una serie di conoscenze\\, abilità e competenze che ogni professionista deve avere nei vari ambiti: del design\\, dello sviluppo\\, della creazione di contenuti\\, dell'e-commerce. Oggi nessun professionista può definirsi tale se non sa nulla di accessibilità.</p><p> </p>",
@@ -1064,7 +1064,7 @@
         {
           "DTSTART": "20240612T160000Z",
           "DTEND": "20240612T163000Z",
-          "DTSTAMP": "20250702T101026Z",
+          "DTSTAMP": "20251025T095332Z",
           "UID": "3hs64otj7gq9bunpt5r0pimbnv@google.com",
           "CREATED": "20240611T145614Z",
           "DESCRIPTION": "L’ultima tappa di <a href=\"https://www.linkedin.com/feed/hashtag/?keywords=roadtocoderful&highlightedUpdateUrns=urn%3Ali%3Aactivity%3A7205836514302287873\" target=\"_blank\">#</a>RoadToCOderful sarà una live con Francesco Strazzullo\\, Chief Operating Officer di <a href=\"https://www.linkedin.com/company/claranet-italy/\" target=\"_blank\">C</a>laranet Italia.<br><br>Parleremo di decisioni\\, di quanto sia importante la condivisione di conoscenze in un processo decisionale tecnologico e di come una gestione dal basso risulti essere l’approccio migliore\\, in diversi contesti.<br><br>Se hai già deciso di partecipare\\, l’appuntamento è online il 12 giugno\\, live qui e sul nostro canale YouTube.",
@@ -1078,7 +1078,7 @@
         {
           "DTSTART": "20240903T080000Z",
           "DTEND": "20240903T090000Z",
-          "DTSTAMP": "20250702T101026Z",
+          "DTSTAMP": "20251025T095332Z",
           "UID": "68ch5mkk2ov9slilt6th6rtgpi@google.com",
           "CREATED": "20240815T170736Z",
           "DESCRIPTION": "Learn More at https://cloudonair.withgoogle.com/events/the-generative-ai-boost",
@@ -1089,45 +1089,9 @@
           "TRANSP": "OPAQUE"
         },
         {
-          "DTSTART": "20240924T160000Z",
-          "DTEND": "20240924T193000Z",
-          "DTSTAMP": "20250702T101026Z",
-          "UID": "5vcnghl673oh5dh7jmd6677hi9@google.com",
-          "CREATED": "20240825T171801Z",
-          "DESCRIPTION": "When we think of accessibility\\, we often think about the usual suspects — colour contrast\\, legible font sizes\\, and mobile tap targets. However\\, <strong><b>accessible and inclusive design reaches far beyond that.</b></strong><br><br>Join <strong><b>Vitaly’s practical 3.5-hour workshop</b></strong> for an in-depth exploration of inclusive and accessible design patterns. You’ll walk away with a toolbox full of practical techniques to apply to any project!",
-          "LAST-MODIFIED": "20240825T171801Z",
-          "LOCATION": "https://smashingconf.com/online-workshops/workshops/inclusive-design-patterns-vitaly-friedman/",
-          "SEQUENCE": "0",
-          "STATUS": "CONFIRMED",
-          "SUMMARY": "Inclusive Design Patterns For ",
-          "TRANSP": "OPAQUE",
-          "VALARM": [
-            {
-              "ACTION": "DISPLAY",
-              "TRIGGER": "-P0DT0H30M0S",
-              "DESCRIPTION": "This is an event reminder"
-            },
-            {
-              "ACTION": "DISPLAY",
-              "TRIGGER": "-P1D",
-              "DESCRIPTION": "This is an event reminder"
-            },
-            {
-              "ACTION": "DISPLAY",
-              "TRIGGER": "-P2D",
-              "DESCRIPTION": "This is an event reminder"
-            },
-            {
-              "ACTION": "DISPLAY",
-              "TRIGGER": "-P7D",
-              "DESCRIPTION": "This is an event reminder"
-            }
-          ]
-        },
-        {
           "DTSTART": "20240910T093000Z",
           "DTEND": "20240910T103000Z",
-          "DTSTAMP": "20250702T101026Z",
+          "DTSTAMP": "20251025T095332Z",
           "UID": "1lb2b8eai72rj0kgu65pvjr1i4@google.com",
           "CREATED": "20240826T060447Z",
           "DESCRIPTION": "Learn More at https://cloudonair.withgoogle.com/events/gen-ai-ragu",
@@ -1140,7 +1104,7 @@
         {
           "DTSTART;VALUE=DATE": "20240826",
           "DTEND;VALUE=DATE": "20240829",
-          "DTSTAMP": "20250702T101026Z",
+          "DTSTAMP": "20251025T095332Z",
           "UID": "3rnselbj6se7p3enh0mlhlofqp@google.com",
           "CREATED": "20240827T175240Z",
           "DESCRIPTION": "Join us online for free or in person at <a href=\"https://www.vmware.com/explore/us\" target=\"_blank\">VMware Explore</a>. Our virtual conference format is back by popular demand\\, making it possible to reach even more of the Spring Community—no matter where you are. We are jazzed to share the latest Spring innovations and engaging technical content from members of the community and the team behind Spring with everyone\\, anywhere.",
@@ -1154,7 +1118,7 @@
         {
           "DTSTART": "20241024T130000Z",
           "DTEND": "20241024T210000Z",
-          "DTSTAMP": "20250702T101026Z",
+          "DTSTAMP": "20251025T095332Z",
           "UID": "1a1k9krle9u19n9pacbbn602ij@google.com",
           "CREATED": "20240905T073011Z",
           "DESCRIPTION": "<p>Ready to learn from top experts in the JavaScript community?</p><p> JetBrains JavaScript Day is back for its fourth year\\, and as always\\, we are ready to get you up to speed with the latest trends and answer all your questions about modern JavaScript and TypeScript development. Weve lined up an event full of interactive sessions and live coding demos where you can learn to write better code.</p><p>Join us for a day of learning and inspiration!</p>",
@@ -1168,7 +1132,7 @@
         {
           "DTSTART": "20240918T080000Z",
           "DTEND": "20240918T130000Z",
-          "DTSTAMP": "20250702T101026Z",
+          "DTSTAMP": "20251025T095332Z",
           "UID": "2gcc303rqfjso2ce1s497gvjn0@google.com",
           "CREATED": "20240911T102344Z",
           "DESCRIPTION": "Get ready to take your web development skills to the next level!\\n\\nWelcome to WeAreDevelopers LIVE - WebDev Day! Join us for an online event dedicated to exploring everything front-end (and probably some back-end) from HTML\\, CSS\\, and UX/UI design to JavaScript and its frameworks. Hear from true experts who want to share their knowledge and help you stay up-to-date with the latest trends in web development. Don't miss out on this opportunity to expand your skills and dive into the exciting world of web design. So get yourself comfortable and tune in!\\n\\n<a href=\"http://www.wearedevelopers.com/event/wearedevelopers-webdev-day-september-2024\">Join the event here.</a>",
@@ -1181,7 +1145,7 @@
         {
           "DTSTART": "20240911T080000Z",
           "DTEND": "20240911T130000Z",
-          "DTSTAMP": "20250702T101026Z",
+          "DTSTAMP": "20251025T095332Z",
           "UID": "29qkl1fk0jvtj10qmtnav1rbph@google.com",
           "CREATED": "20240911T102539Z",
           "DESCRIPTION": "All things Java!<br><br>When you think about Java you either think about beautiful tropical islands\\, a good cup of coffee or that’s right: one of the best-known and most important programming languages of all time. There’s nothing you can’t do with Java- therefore we have reached out to some real Java Pros to learn what’s on their mind! So grab your coffee and tune in for our WeAreDevelopers LIVE - Java Developer Day!<br><a href=\"https://www.wearedevelopers.com/en/live-events/9/java-developer-day-september-2024\" target=\"_blank\">Join the event here.</a>",
@@ -1194,7 +1158,7 @@
         {
           "DTSTART": "20241113T090000Z",
           "DTEND": "20241113T140000Z",
-          "DTSTAMP": "20250702T101026Z",
+          "DTSTAMP": "20251025T095332Z",
           "UID": "17abq4gtn5ra5ctb3puelq2lhq@google.com",
           "CREATED": "20240911T102609Z",
           "DESCRIPTION": "Explore cutting-edge tech for inclusivity!\\n\\nAccessibility is not a nice to have\\, but a legal requirement for any publication on the web or app stores. The sooner you start thinking about accessibility\\, the easier it is to create products that are easy to use and don’t block anyone out. Learn from leading experts in the accessibility space how to get started\\, what to avoid\\, and why it matters.\\n\\n<a href=\"http://www.wearedevelopers.com/event/accessibility-day-november-2024\">Join the event here.</a>",
@@ -1207,7 +1171,7 @@
         {
           "DTSTART": "20240925T080000Z",
           "DTEND": "20240925T130000Z",
-          "DTSTAMP": "20250702T101026Z",
+          "DTSTAMP": "20251025T095332Z",
           "UID": "37tcmi803irmmdqse1d5e3mu7p@google.com",
           "CREATED": "20240916T131724Z",
           "DESCRIPTION": "Unlock the future of software!\\n\\nExplore the latest best practices\\, cutting-edge techniques\\, and innovative tools for navigating the realms of data management\\, AI integration\\, and cybersecurity in your product. This event is for all developers\\, cloud engineers\\, DevOps specialists\\, architects\\, and anyone looking for new insights into databases\\, AI\\, and security in modern software development. Get comfortable and prepare to tune in for a transformative learning experience!\\n\\n<a href=\"http://www.wearedevelopers.com/event/data-and-security-day-september-2024\">Join the event here.</a>",
@@ -1220,7 +1184,7 @@
         {
           "DTSTART": "20241016T160000Z",
           "DTEND": "20241016T170000Z",
-          "DTSTAMP": "20250702T101026Z",
+          "DTSTAMP": "20251025T095332Z",
           "UID": "0pvej66gdv9djpe2cjmptk0fq6@google.com",
           "CREATED": "20241012T203159Z",
           "DESCRIPTION": "For details\\, go here:\\nhttps://www.eventbrite.com/e/from-technical-debt-to-technical-investment-tickets-1000929927357\\n\\nTo access the online event page\\, go here:\\nhttps://www.eventbrite.com/x/from-technical-debt-to-technical-investment-tickets-1000929927357",
@@ -1233,7 +1197,7 @@
         {
           "DTSTART": "20211109T120000Z",
           "DTEND": "20211111T180000Z",
-          "DTSTAMP": "20250702T101026Z",
+          "DTSTAMP": "20251025T095332Z",
           "UID": "7kukuqrfedlm2f9t028ubd2kbah2i2n5sogp5bd96ue3tbvur6kvdv8hefts7q26r0n0pe Pizzimenti;X-NUM-GUESTS=0:mailto:giuseppe.pizzimenti.seed@gmail.com",
           "CLASS": "PRIVATE",
           "CREATED": "20210929T082733Z",
@@ -1248,7 +1212,7 @@
         {
           "DTSTART": "20211117T180000Z",
           "DTEND": "20211117T193000Z",
-          "DTSTAMP": "20250702T101026Z",
+          "DTSTAMP": "20251025T095332Z",
           "UID": "7kukuqrfedlm2f9t24avtjuhud0b2igk346eadtunldavse6jlv1g7kqkg873ntaf2r0pe Pizzimenti;X-NUM-GUESTS=0:mailto:giuseppe.pizzimenti.seed@gmail.com",
           "CLASS": "PRIVATE",
           "CREATED": "20211109T090610Z",
@@ -1263,7 +1227,7 @@
         {
           "DTSTART": "20211019T173000Z",
           "DTEND": "20211019T190000Z",
-          "DTSTAMP": "20250702T101026Z",
+          "DTSTAMP": "20251025T095332Z",
           "UID": "7kukuqrfedlm2f9t2vv68fksn4crcakb9bq61hmsqidke21keq4ccrrcl0h1oneb8q00pe Pizzimenti;X-NUM-GUESTS=0:mailto:giuseppe.pizzimenti.seed@gmail.com",
           "CLASS": "PRIVATE",
           "CREATED": "20211007T093537Z",
@@ -1277,7 +1241,7 @@
         {
           "DTSTART": "20231026T170000Z",
           "DTEND": "20231026T183000Z",
-          "DTSTAMP": "20250702T101026Z",
+          "DTSTAMP": "20251025T095332Z",
           "UID": "7kukuqrfedlm2f9t8561r1f555mbfd1aibftfn52ukmc2k2bb2jmbffe3nn9052ddba0pe Pizzimenti;X-NUM-GUESTS=0:mailto:giuseppe.pizzimenti.seed@gmail.com",
           "CLASS": "PRIVATE",
           "CREATED": "20231016T164723Z",
@@ -1292,7 +1256,7 @@
         {
           "DTSTART": "20220623T170000Z",
           "DTEND": "20220623T183000Z",
-          "DTSTAMP": "20250702T101026Z",
+          "DTSTAMP": "20251025T095332Z",
           "UID": "7kukuqrfedlm2f9t8r9uhdqeba8cmc117ck8ej6gf0iejra3ff7snuuohbqmj226f5e0pe Pizzimenti;X-NUM-GUESTS=0:mailto:giuseppe.pizzimenti.seed@gmail.com",
           "CLASS": "PRIVATE",
           "CREATED": "20220610T164515Z",
@@ -1307,7 +1271,7 @@
         {
           "DTSTART": "20240516T073000Z",
           "DTEND": "20240517T163000Z",
-          "DTSTAMP": "20250702T101026Z",
+          "DTSTAMP": "20251025T095332Z",
           "UID": "7kukuqrfedlm2f9the3efjc0kj2q41h3vak4o0gsi6av7u9gnl7obank456uakpo0te0pe Pizzimenti;X-NUM-GUESTS=0:mailto:giuseppe.pizzimenti.seed@gmail.com",
           "CLASS": "PRIVATE",
           "CREATED": "20240328T105016Z",
@@ -1322,7 +1286,7 @@
         {
           "DTSTART": "20220310T083000Z",
           "DTEND": "20220310T173000Z",
-          "DTSTAMP": "20250702T101026Z",
+          "DTSTAMP": "20251025T095332Z",
           "UID": "7kukuqrfedlm2f9tn0e9iglei57o3m1pe6a1vl02v43jui03vhossmdqg0hrbfg4ua9gpe Pizzimenti;X-NUM-GUESTS=0:mailto:giuseppe.pizzimenti.seed@gmail.com",
           "CLASS": "PRIVATE",
           "CREATED": "20211228T144905Z",
@@ -1337,7 +1301,7 @@
         {
           "DTSTART": "20211214T180000Z",
           "DTEND": "20211214T190000Z",
-          "DTSTAMP": "20250702T101026Z",
+          "DTSTAMP": "20251025T095332Z",
           "UID": "7kukuqrfedlm2f9tu8g4qtbotuq2vsflj8dset7t7dnq714h4m0cjd39ulvl9st7muk0pe Pizzimenti;X-NUM-GUESTS=0:mailto:giuseppe.pizzimenti.seed@gmail.com",
           "CLASS": "PRIVATE",
           "CREATED": "20211206T142744Z",
@@ -1352,7 +1316,7 @@
         {
           "DTSTART": "20241025T070000Z",
           "DTEND": "20241025T113000Z",
-          "DTSTAMP": "20250702T101026Z",
+          "DTSTAMP": "20251025T095332Z",
           "UID": "281k7v1o36j36b77krvqcdupi9@google.com",
           "CREATED": "20241018T083548Z",
           "DESCRIPTION": "<p><em>Evento di collaborazione e divulgazione sull’attuazione della trasformazione digitale</em></p><p>Il <strong>25 ottobre</strong> presso la sede dell’Istituto Centrale per la digitalizzazione del patrimonio culturale – <strong>Digital Library </strong>si terrà l’evento <strong>I.PaC: verso un ecosistema digitale del patrimonio culturale</strong>. </p><p>L’incontro rappresenta un’importante occasione per <strong>approfondire i servizi</strong> offerti da <strong>I.PaC</strong> e per condividere lo stato dei lavori sulla trasformazione digitale in atto\\, finalizzata alla costruzione di un <strong>ecosistema digitale nazionale del patrimonio culturale</strong>. <br><br><em><a href=\"https://ipac.cultura.gov.it/wp-content/uploads/2024/10/A4-PROGRAMMA.pdf\"><u>Programma dell'evento</u></a></em></p>",
@@ -1366,7 +1330,7 @@
         {
           "DTSTART": "20241107T100000Z",
           "DTEND": "20241107T130000Z",
-          "DTSTAMP": "20250702T101026Z",
+          "DTSTAMP": "20251025T095332Z",
           "UID": "6ea0vo0leeth8j0gkmc9gi8fmd@google.com",
           "CREATED": "20241031T135324Z",
           "DESCRIPTION": "Here is your unique link - http://events.redis.io/redisreleasedworldwide117/virtual?guest-access-hash=NDU5MDc4NjQ1fDc1NDM5NDAwMnwxNzMwMzgxNjMwOzVhM2U0ZjNkMDU0ZThlOTczN2NjNjY1YTJjNjE3OGQ2ZDg1NDZkYzcyMDdhYTE3ZWQ0NjQwMjZmZjVhNWUyZjM%3D\\n\\nFor the best experience\\, join this meeting on your desktop.",
@@ -1380,7 +1344,7 @@
         {
           "DTSTART": "20241104T170000Z",
           "DTEND": "20241104T180000Z",
-          "DTSTAMP": "20250702T101026Z",
+          "DTSTAMP": "20251025T095332Z",
           "UID": "6vun7hbnvs8dqe4olnprpfvdkg@google.com",
           "CREATED": "20241031T141115Z",
           "DESCRIPTION": "Per i dettagli\\, visita https://www.linkedin.com/events/lavoriecompensitechinitalia-fac7257703448966549507/\\n\\nQual è davvero lo 𝘀𝘁𝗶𝗽𝗲𝗻𝗱𝗶𝗼 𝗺𝗲𝗱𝗶𝗼 per uno 𝘀𝘃𝗶𝗹𝘂𝗽𝗽𝗮𝘁𝗼𝗿𝗲 in Italia? E se il mio stipendio attuale non…",
@@ -1394,7 +1358,7 @@
         {
           "DTSTART": "20241105T081500Z",
           "DTEND": "20241105T160000Z",
-          "DTSTAMP": "20250702T101026Z",
+          "DTSTAMP": "20251025T095332Z",
           "UID": "7tslbeirphc8nlan6f7fncfe4t@google.com",
           "CREATED": "20241105T081437Z",
           "DESCRIPTION": "<strong>Cosa imparerai:</strong> <p>Nel 2023\\, l’Osservatorio ha evidenziato come nel concreto della vita aziendale è spesso l’esperienza nell’utilizzo dei dati e dei risultati delle analisi a fare la differenza nella capacità di generare benefici mediante soluzioni di Descriptive o Advanced Analytics. Una buona data experience per i data user è dunque il primario obiettivo di chi si occupa di Data Governance o Data Analytics nelle organizzazioni e\\, per raggiungerla\\, è necessario trovare il difficile connubio tra approccio culturale e utilizzo consapevole delle tecnologie a disposizione\\, tra Data Culture e\\, simbolicamente\\, Generative AI.</p><p>Il Convegno sarà l’occasione per presentare in maniera approfondita i risultati emersi dalla Ricerca 2024 dell’Osservatorio Big Data & Business Analytics.</p><p><em><strong>Il giorno dell’evento sarà possibile scaricare gratuitamente il booklet della Ricerca. </strong></em><em><strong>Gli atti completi\\, comprensivi del Video on demand del convegno\\, saranno invece disponibili in modalità premium dai giorni successivi all’evento.</strong></em></p><br><br><strong>Luogo:</strong> <a href=\"https://www.google.com/maps/search/?api=1&query=45.504466\\,9.164237&query_place_id=ChIJnbZYl5HGhkcRue6jSXhA4VI\" target=\"_blank\" rel=\"noopener\">https://www.google.com/maps/search/?api=1&query=45.504466\\,9.164237&query_place_id=ChIJnbZYl5HGhkcRue6jSXhA4VI</a><br><br><strong>Vai alla pagina dell'evento:</strong> <a href=\"https://www.osservatori.net/big-data-business-analytics/convegno-finale-osservatorio-big-data-business-analytics/\" target=\"_blank\" rel=\"noopener\">https://www.osservatori.net/big-data-business-analytics/convegno-finale-osservatorio-big-data-business-analytics/</a><br><br>",
@@ -1408,7 +1372,7 @@
         {
           "DTSTART": "20241108T113000Z",
           "DTEND": "20241108T123000Z",
-          "DTSTAMP": "20250702T101026Z",
+          "DTSTAMP": "20251025T095332Z",
           "ORGANIZER;CN=no-reply@zoom.us": "mailto:no-reply@zoom.us",
           "UID": "b97kuj9o68ojcdho6gojcchna1cmcobee52n4kahe5kkoeb2b9n4eqj6918gppe Pizzimenti;X-NUM-GUESTS=0:mailto:giuseppe.pizzimenti.seed@gmail.com",
           "CREATED": "20241107T113019Z",
@@ -1423,7 +1387,7 @@
         {
           "DTSTART": "20241126T083000Z",
           "DTEND": "20241126T120000Z",
-          "DTSTAMP": "20250702T101026Z",
+          "DTSTAMP": "20251025T095332Z",
           "UID": "6coj4c1i68sjib9n6gr38b9k6com2b9o6ti34bb1c5hmap1l6ks38o9i6s@google.com",
           "CREATED": "20241112T163135Z",
           "DESCRIPTION": "For details\\, go here:\\nhttps://www.eventbrite.it/e/biglietti-creator-digital-ed-influencer-marketing-progetti-tendenze-ed-opportunita-1075521857829",
@@ -1437,7 +1401,7 @@
         {
           "DTSTART": "20250327T140000Z",
           "DTEND": "20250328T190000Z",
-          "DTSTAMP": "20250702T101026Z",
+          "DTSTAMP": "20251025T095332Z",
           "ORGANIZER;CN=hi@gitnation.org": "mailto:hi@gitnation.org",
           "UID": "2856fb0e-81ec-4835-8794-512e874372e4pe Pizzimenti;X-NUM-GUESTS=0:mailto:giuseppe.pizzimenti.seed@gmail.com",
           "CREATED": "20241209T085352Z",
@@ -1452,7 +1416,7 @@
         {
           "DTSTART": "20250121T170000Z",
           "DTEND": "20250121T190000Z",
-          "DTSTAMP": "20250702T101026Z",
+          "DTSTAMP": "20251025T095332Z",
           "UID": "35e5he89bmc77q5c07evrhu1t8@google.com",
           "CREATED": "20250115T072910Z",
           "DESCRIPTION": "<p>Welcome to the first Func Prog Sweden MeetUp 2025 – Online</p><p>This MeetUp will be streamed live online on the Func Prog Sweden YouTube channel: <a href=\"https://www.youtube.com/c/FuncProgSweden\">https://www.youtube.com/c/FuncProgSweden</a></p><p>The program starts at 18:00.</p><ul><li>Intro by Magnus Sedlacek</li><li>Local-first software development with Elixir by James Arthur</li><li>Transforming Composition by Kyle Simpson</li><li>Post-show chat</li></ul><p><span>#funcprogsweden</span></p><br>For full details\\, including the address\\, and to RSVP see: https://www.meetup.com/func-prog-sweden/events/304197127",
@@ -1466,7 +1430,7 @@
         {
           "DTSTART": "20250410T160000Z",
           "DTEND": "20250410T180000Z",
-          "DTSTAMP": "20250702T101026Z",
+          "DTSTAMP": "20251025T095332Z",
           "UID": "5ik337ei02nrnrbi94addt08kb@google.com",
           "CREATED": "20250206T210728Z",
           "DESCRIPTION": "<p>Our brains take shortcuts. Sometimes\\, that’s useful. Sometimes\\, it leads to biased decisions. These biases influence how users behave on websites. They also influence how we conduct research\\, and team dynamics within a project.<br><br>This free session will help you recognize some biases\\, understand how they shape user behavior and decision-making\\, and learn how to work with (and around) them to improve your projects.<br><br>Here’s What You Should Be Expecting:<br>Interactive live session<br>A free\\, 1.5h-long live session<br><br>Practical insights into<br>Understand user behavior and decision-making<br><br>Improve your projects<br>Learn to work with (and around)<br><br>Dedicated Q&amp\\;A time<br>To ask all your questions!</p>",
@@ -1480,7 +1444,7 @@
         {
           "DTSTART": "20250220T160000Z",
           "DTEND": "20250220T190000Z",
-          "DTSTAMP": "20250702T101026Z",
+          "DTSTAMP": "20251025T095332Z",
           "ORGANIZER;CN=help@smashingmagazine.com": "mailto:help@smashingmagazine.com",
           "UID": "yy8MoApe Pizzimenti;X-NUM-GUESTS=0:mailto:giuseppe.pizzimenti.seed@gmail.com",
           "URL": "https://ti.to/smashingmagazine/meets-accessibility",
@@ -1496,7 +1460,7 @@
         {
           "DTSTART": "20250212T170000Z",
           "DTEND": "20250212T200000Z",
-          "DTSTAMP": "20250702T101026Z",
+          "DTSTAMP": "20251025T095332Z",
           "UID": "1orkk5v7spef79bls6g9f0paj1@google.com",
           "CREATED": "20250208T142516Z",
           "DESCRIPTION": "Frustrating design patterns are everywehere! Not a day passes by without painful fire hydrant puzzles\\, inaccessible navigation menus\\, confusing Cancel/X buttons\\, disabled copy-paste\\, rigorous password requirements\\, deceptive progress indicators and unreadable charts. They confuse and disrupt people\\, but they are also remarkably expensive for businesses — often dismissed\\, overlooked\\, ignored.\\n\\n In this workshop\\, we’ll take a closer look at some frustrating design patterns and explore effective alternatives — to improve UX and accessibility\\, but also help businesses save on costs and increase revenue.",
@@ -1510,7 +1474,7 @@
         {
           "DTSTART": "20240605T123000Z",
           "DTEND": "20240605T131500Z",
-          "DTSTAMP": "20250702T101026Z",
+          "DTSTAMP": "20251025T095332Z",
           "ORGANIZER;CN=no-reply@zoom.us": "mailto:no-reply@zoom.us",
           "UID": "b97kuj9o6os3ed1p64sj8c9idpgk4qrg75s66kreelqkcr2g9cql8qi68prguseppe Pizzimenti;X-NUM-GUESTS=0:mailto:giuseppe.pizzimenti.seed@gmail.com",
           "CREATED": "20250211T122023Z",
@@ -1525,7 +1489,7 @@
         {
           "DTSTART": "20250226T100000Z",
           "DTEND": "20250226T103000Z",
-          "DTSTAMP": "20250702T101026Z",
+          "DTSTAMP": "20251025T095332Z",
           "UID": "51am44c66b1phusnrniridmldt@google.com",
           "CREATED": "20250211T122113Z",
           "DESCRIPTION": "<table><tbody><tr><td><table><tbody><tr><td><table><tbody><tr><td><table><tbody><tr><td><p>L’accessibilità digitale è una tematica sempre più cruciale per <strong>aziende</strong> e <strong>pubbliche amministrazioni</strong>\\, in vista dell’entrata in vigore degli obblighi previsti dall’<strong>European Accessibility Act (EAA)</strong>. Infatti\\, a partire dal 28 giugno 2025\\, molte imprese dovranno adeguarsi alle nuove normative per garantire che i loro prodotti e servizi digitali siano accessibili a tutti\\, comprese le persone con <strong>disabilità</strong>.</p><p>Questo webinar è pensato per aiutarti a fare chiarezza sui nuovi obblighi dell’<strong>EAA</strong> e su come arrivare preparati alla scadenza. Scoprirai quali sono i settori coinvolti\\, le principali scadenze e quali passi intraprendere per conformarti senza difficoltà\\, trasformando l’accessibilità in un’opportunità per la tua azienda.</p></td></tr></tbody></table></td></tr></tbody></table><table><tbody><tr><td></td></tr></tbody></table></td></tr></tbody></table></td></tr></tbody></table><table><tbody><tr><td><table><tbody><tr><td><table><tbody><tr><td></td></tr></tbody></table><table><tbody><tr><td><table><tbody><tr><td><h3><strong>Ecco alcuni degli argomenti che tratteremo:</strong></h3><ul><li>Che cos’è l’European Accessibility Act</li><li>Quali prodotti e servizi devono essere conformi</li><li>Scadenze e obblighi per le aziende</li><li>Strategie per adeguarsi in tempo ed evitare sanzioni</li><li>Suggerimenti pratici per implementare l’accessibilità digitale</li></ul><ul></ul><ul></ul><ul></ul><ul></ul></td></tr></tbody></table></td></tr></tbody></table><table><tbody><tr><td></td></tr></tbody></table></td></tr></tbody></table></td></tr></tbody></table><table><tbody><tr><td><table><tbody><tr><td><table><tbody><tr><td></td></tr></tbody></table><table><tbody><tr><td><table><tbody><tr><td><h3><strong>Relatore del webinar:</strong></h3><p><strong><strong></strong>Dott. Fabio Lotti</strong>\\, co-fondatore di Yeah Impresa Sociale\\, “Web Accessibility Expert” ai sensi della norma UNI 11506 e della legge 4/2013\\, membro di IWA Italy e redattore di <a href=\"http://webaccessibile.org/\" target=\"_blank\">webaccessibile.org</a></p></td></tr></tbody></table></td></tr></tbody></table></td></tr></tbody></table></td></tr></tbody></table>",
@@ -1539,7 +1503,7 @@
         {
           "DTSTART": "20250219T173000Z",
           "DTEND": "20250219T220000Z",
-          "DTSTAMP": "20250702T101026Z",
+          "DTSTAMP": "20251025T095332Z",
           "ORGANIZER;CN=calendar-invite@crowdcast.io": "mailto:calendar-invite@crowdcast.io",
           "UID": "c8f430e4-4531-42c8-a2f4-fa70b9e0d7cb-270798pe Pizzimenti;X-NUM-GUESTS=0:mailto:giuseppe.pizzimenti.seed@gmail.com",
           "CREATED": "20250218T215835Z",
@@ -1554,7 +1518,7 @@
         {
           "DTSTART": "20250612T110000Z",
           "DTEND": "20250616T190000Z",
-          "DTSTAMP": "20250702T101026Z",
+          "DTSTAMP": "20251025T095332Z",
           "UID": "06fksari3k13lo164cbgnqgi7p@google.com",
           "CREATED": "20250225T194547Z",
           "DESCRIPTION": "<br><ul><li><br>50+ speakers\\, shaping the nation`s future</li><li><br>1500 attendees\\, sharing common language</li><li><br>10K folks\\, joining remotely</li></ul><br>Understand the latest trends in JavaScript development. See what 10k+ JS developers are up to. Meet those who shape the present and the future of the prospering nation.",
@@ -1568,7 +1532,7 @@
         {
           "DTSTART;VALUE=DATE": "20240220",
           "DTEND;VALUE=DATE": "20240223",
-          "DTSTAMP": "20250702T101026Z",
+          "DTSTAMP": "20251025T095332Z",
           "UID": "49hmphr9p85aiov2u7q5tfp3nu@google.com",
           "CREATED": "20240122T145056Z",
           "DESCRIPTION": "Content from the Leading Minds in JS Development",
@@ -1582,7 +1546,7 @@
         {
           "DTSTART": "20250326T130000Z",
           "DTEND": "20250326T220000Z",
-          "DTSTAMP": "20250702T101026Z",
+          "DTSTAMP": "20251025T095332Z",
           "UID": "275ac8lgprj8n8qpd53r7aa646@google.com",
           "CREATED": "20250326T153424Z",
           "DESCRIPTION": "The Full Stack Web Development Conference of Epic proportions",
@@ -1596,7 +1560,7 @@
         {
           "DTSTART;VALUE=DATE": "20250520",
           "DTEND;VALUE=DATE": "20250522",
-          "DTSTAMP": "20250702T101026Z",
+          "DTSTAMP": "20251025T095332Z",
           "UID": "0g2djhfrdsk4jbv261lnb73994@google.com",
           "CREATED": "20250327T151428Z",
           "DESCRIPTION": "<p>Join us live on May 20 and 21 from Shoreline Amphitheatre in Mountain View and online at <a href=\"http://io.google/\" target=\"_blank\">io.google</a>. At I/O\\, you’ll learn more about Google’s newest products\\, technologies\\, and innovations in AI\\, Android and more.</p><p>We’ll start day one with keynotes\\, followed by sessions\\, demos\\, networking opportunities and more continuing on day two. </p>",
@@ -1610,7 +1574,7 @@
         {
           "DTSTART;VALUE=DATE": "20240319",
           "DTEND;VALUE=DATE": "20240321",
-          "DTSTAMP": "20250702T101026Z",
+          "DTSTAMP": "20251025T095332Z",
           "UID": "354hifp9sm5lgh6ol29ph7pjg2@google.com",
           "CREATED": "20240122T185311Z",
           "DESCRIPTION": "Codemotion Workshop Fest ITALIA 2024 Un evento online di 2 giorni che raccoglie fino a 20 workshop della durata di 90 minuti in cui verranno approfonditi\\, con taglio molto pratico\\, tecnologie e prodotti.",
@@ -1624,7 +1588,7 @@
         {
           "DTSTART": "20250410T100000Z",
           "DTEND": "20250410T104500Z",
-          "DTSTAMP": "20250702T101026Z",
+          "DTSTAMP": "20251025T095332Z",
           "UID": "26ui9fq1kji5fitcojb72uink8@google.com",
           "CREATED": "20250401T142752Z",
           "DESCRIPTION": "Garantire l'accessibilità digitale è diventato un aspetto cruciale non solo per rispettare le normative\\, ma anche per offrire un'esperienza inclusiva e migliorare la performance del sito. Con l'entrata in vigore dell'European Accessibility Act 2025\\, diventa essenziale essere pronti a garantire la conformità. In questo webinar\\, Fabio Rotondi (Senior Customer Success Manager in UNGUESS) e Alessandro Caliandro (Head of UX in UNGUESS) condivideranno esperienze e strategie per affrontare le sfide dell'accessibilità digitale. Scopriremo come i test realizzati da utenti reali tramite il Crowdtesting siano una soluzione concreta ed efficace per migliorare la user experience\\, aumentare le conversioni e rispondere alle normative in modo completo.",
@@ -1638,7 +1602,7 @@
         {
           "DTSTART": "20250403T140000Z",
           "DTEND": "20250403T143000Z",
-          "DTSTAMP": "20250702T101026Z",
+          "DTSTAMP": "20251025T095332Z",
           "UID": "1mjc1rmrn5dvnvm8gttktrl4va@google.com",
           "CREATED": "20250402T112700Z",
           "DESCRIPTION": "Ti piace il progetto Dev Dojo? Sostienici: <a href=\"https://lnkd.in/dNW89sta\">https://lnkd.in/dNW89sta</a><br>Il workshop: <a href=\"https://lnkd.in/d-xQh9P7\">https://lnkd.in/d-xQh9P7</a><br><br>C'è un tema che\\, a noi del Dojo\\, sta particolarmente a cuore: l'accessibilità. Ecco perché abbiamo pensato di fare un webinar gratuito che vi introdurrà a questo tema. Questo appuntamento precederà il nostro workshop\\, pensato per coloro che vogliono comprendere meglio il futuro della progettazione accessibile\\, specialmente in vista dell'entrata in vigore dell'European Accessibility Act\\, il 28 giugno.<br><br>Il webinar non sarà di natura tecnica ed è aperto a tutti\\, inclusi CEO\\, CTO e Technical Leaders. Durante l'evento scoprirete perché l'accessibilità non riguarda solo le persone con disabilità\\, ma tocca tanti aspetti della nostra vita quotidiana. Comprenderete come un sito non accessibile possa escludere fino al 20% dei potenziali clienti e come etica e business possano andare di pari passo\\, generando valore per tutti.<br><br>Non perdete questa occasione per approfondire un tema cruciale e per prepararvi al workshop che seguirà. Unitevi a noi!<br><br><a href=\"https://www.linkedin.com/feed/hashtag/?keywords=europeanaccessibilityact&amp\\;highlightedUpdateUrns=urn%3Ali%3Aactivity%3A7311067674363502593\">hashtag#EuropeanAccessibilityAct</a> <a href=\"https://www.linkedin.com/feed/hashtag/?keywords=accessibility&amp\\;highlightedUpdateUrns=urn%3Ali%3Aactivity%3A7311067674363502593\">hashtag#accessibility</a> <a href=\"https://www.linkedin.com/feed/hashtag/?keywords=developers&amp\\;highlightedUpdateUrns=urn%3Ali%3Aactivity%3A7311067674363502593\">hashtag#developers</a> <a href=\"https://www.linkedin.com/feed/hashtag/?keywords=softwaredevelopment&amp\\;highlightedUpdateUrns=urn%3Ali%3Aactivity%3A7311067674363502593\">hashtag#softwaredevelopment</a> <a href=\"https://www.linkedin.com/feed/hashtag/?keywords=webinar&amp\\;highlightedUpdateUrns=urn%3Ali%3Aactivity%3A7311067674363502593\">hashtag#webinar</a> <a href=\"https://www.linkedin.com/feed/hashtag/?keywords=accessibilit%C3%A0&amp\\;highlightedUpdateUrns=urn%3Ali%3Aactivity%3A7311067674363502593\">hashtag#accessibilità</a> <a href=\"https://www.linkedin.com/feed/hashtag/?keywords=devdojo&amp\\;highlightedUpdateUrns=urn%3Ali%3Aactivity%3A7311067674363502593\">hashtag#devdojo</a> <a href=\"https://www.linkedin.com/feed/hashtag/?keywords=devdojo_it&amp\\;highlightedUpdateUrns=urn%3Ali%3Aactivity%3A7311067674363502593\">hashtag#devdojo_it</a> <a href=\"https://www.linkedin.com/feed/hashtag/?keywords=devdojoacademy&amp\\;highlightedUpdateUrns=urn%3Ali%3Aactivity%3A7311067674363502593\">hashtag#devdojoacademy</a> <a href=\"https://www.linkedin.com/feed/hashtag/?keywords=inclusionedigitale&amp\\;highlightedUpdateUrns=urn%3Ali%3Aactivity%3A7311067674363502593\">hashtag#inclusionedigitale</a> <a href=\"https://www.linkedin.com/feed/hashtag/?keywords=designinclusivo&amp\\;highlightedUpdateUrns=urn%3Ali%3Aactivity%3A7311067674363502593\">hashtag#designinclusivo</a> <a href=\"https://www.linkedin.com/feed/hashtag/?keywords=inclusivit%C3%A0&amp\\;highlightedUpdateUrns=urn%3Ali%3Aactivity%3A7311067674363502593\">hashtag#inclusività</a>",
@@ -1652,7 +1616,7 @@
         {
           "DTSTART": "20250416T090000Z",
           "DTEND": "20250416T094500Z",
-          "DTSTAMP": "20250702T101026Z",
+          "DTSTAMP": "20251025T095332Z",
           "UID": "1k6tlhb5kofgae8ahn0st3asf6@google.com",
           "CREATED": "20250402T113616Z",
           "DESCRIPTION": "<table><tbody><tr><td><table><tbody><tr><td><table><tbody><tr><td><table><tbody><tr><td><p>L’<strong>European Accessibility Act (EAA)</strong> impone nuovi obblighi alle aziende per garantire l’accessibilità digitale dei loro prodotti e servizi\\, obblighi che entreranno in vigore a partire dal <strong>28 giugno 2025</strong>.</p><p>Ma come affrontare questa sfida in modo efficace? La risposta sta nell’<strong>accessibilità by design</strong>.</p><p>L’accessibilità by design significa integrare l’accessibilità fin dalle prime fasi di progettazione di prodotti e servizi digitali\\, evitando <strong>costosi interventi</strong> di rimediazione a posteriori. Questo approccio può essere adottato per nuovi siti e applicativi\\, ma anche per singole pagine e funzioni. Non solo garantisce conformità normativa\\, ma migliora l’esperienza utente per tutti.</p><p>In questo webinar esploreremo come adottare l’accessibilità by design per rispettare l’EAA assumendo una prospettiva strategica e volta alla riduzione dei costi.</p></td></tr></tbody></table></td></tr></tbody></table><table><tbody><tr><td></td></tr></tbody></table></td></tr></tbody></table></td></tr></tbody></table><table><tbody><tr><td><table><tbody><tr><td><table><tbody><tr><td></td></tr></tbody></table><table><tbody><tr><td><table><tbody><tr><td><h3><strong>Ecco alcuni degli argomenti che tratteremo:</strong></h3><ul><li>European Accessibility Act e la normativa italiana</li><li>Soggetti interessati\\, obblighi e scadenze</li><li>Accessibilità by design come strumento per la compliance</li><li>Vantaggi dell’approccio by design</li><li>Strategie pratiche per testare mockup e Figma</li></ul><ul></ul><ul></ul><ul></ul><ul></ul></td></tr></tbody></table></td></tr></tbody></table><table><tbody><tr><td></td></tr></tbody></table></td></tr></tbody></table></td></tr></tbody></table><table><tbody><tr><td><table><tbody><tr><td><table><tbody><tr><td></td></tr></tbody></table><table><tbody><tr><td><table><tbody><tr><td><h3><strong>Relatori del webinar:</strong></h3><p><strong><strong></strong>Dott. Marco Andreoli</strong>\\, PhD\\, co-fondatore di Yeah Impresa Sociale\\, esperto di accessibilità digitale\\, membro di IWA Italy e coordinatore dei test di accessibilità digitale.</p><p><strong>Clara Meattini</strong>\\, Digital Accessibility Specialist di Yeah Impresa sociale</p></td></tr></tbody></table></td></tr></tbody></table></td></tr></tbody></table></td></tr></tbody></table>",
@@ -1666,7 +1630,7 @@
         {
           "DTSTART": "20250409T150000Z",
           "DTEND": "20250409T163000Z",
-          "DTSTAMP": "20250702T101026Z",
+          "DTSTAMP": "20251025T095332Z",
           "UID": "09r8e05h3d6cru2bnvetnmk5ba@google.com",
           "CREATED": "20250404T104512Z",
           "DESCRIPTION": "Creare progetti digitali realmente accessibili e competitivi richiede una sinergia tra competenze diverse. Questo webinar esplorerà come la collaborazione tra figure che si occupano di normative\\, sviluppo di soluzioni digitali e tecnologie assistive\\, unita a un dialogo continuo con le persone utilizzatrici finali\\, possa trasformarsi in un processo efficace di co-creazione. Saranno approfondite strategie e strumenti per progettare soluzioni digitali inclusive\\, capaci di rispondere alle esigenze di un pubblico ampio e diversificato\\, garantendo un'esperienza utente di qualità e generando un impatto positivo sul mercato.",
@@ -1680,7 +1644,7 @@
         {
           "DTSTART": "20250625T170000Z",
           "DTEND": "20250625T180000Z",
-          "DTSTAMP": "20250702T101026Z",
+          "DTSTAMP": "20251025T095332Z",
           "UID": "5ur9e71utco759inp6kd5hid06@google.com",
           "CREATED": "20250625T084850Z",
           "DESCRIPTION": "Ospite Speciale: Andrea Giannantonio\\, Principal of DevX a <a href=\"http://immobiliare.it/\">Immobiliare.it</a>\\, ci guiderà attraverso il mondo affascinante e complesso dell'Open Source. <br><br>Cosa scopriremo insieme?<br><br>L'Open Source è davvero gratis?<br><br>Come le aziende possono trarre vantaggio dall'ecosistema open.<br><br>Netiquette e buone pratiche per contribuire in modo efficace.<br><br>Il valore della contribuzione e come diventare maintainer.<br><br>Sei uno sviluppatore curioso\\, un manager IT o un appassionato di tecnologia? <br><br>Questa live ti offrirà spunti unici\\, dai costi nascosti dell'Open Source alle strategie per renderlo sostenibile.<br><br>Non perderti questa occasione per interagire in diretta e porre le tue domande!<br><br>Per i dettagli\\, visita https://www.linkedin.com/events/andreagiannantonio-openssourcee7341486542617505793/",
@@ -1694,7 +1658,7 @@
         {
           "DTSTART": "20250625T150000Z",
           "DTEND": "20250625T163000Z",
-          "DTSTAMP": "20250702T101026Z",
+          "DTSTAMP": "20251025T095332Z",
           "UID": "0o1q0e60shu5b71otii93639iu@google.com",
           "CREATED": "20250625T151750Z",
           "DESCRIPTION": "Grab your cup and prepare to get Kafka-Nated! In this series we’ll be digging into everything from Apache Kafka®\\, from the pre history of Kafka to the latest Kafka Improvement Proposal (KIP). We’ll be joined by a range of guests who have been at the forefront of Kafka for many years. And to ensure you don’t kip (I know - we’re sorry) we’re offering every attendee a free coffee voucher. \\n\\nWhat We’ll Cover in Episode 1:\\n\\n- Early days: Starting as an internal tool for LinkedIn how has Kafka become the backbone of modern infrastructure?\\n\\n- Major Architectural Shifts: How major changes like KIP-500 (removing Zookeeper) and now KIP-1150 (diskless topics) reflect the changing demands on streaming infrastructure.\\n\\n- Enterprise Adoption Patterns: In 12 years of working with Kafka Filip will discuss how enterprise adoption has changed\\, and how the problems that existed in 2012 were different from those in 2025. \\n\\n- The Innovation Cycles: Kafka has gone through distinct phases - early adoption\\, enterprise scaling\\, cloud-native transformation. What drives these major shifts\\, and what stage we’re in now. \\n\\nIs this session for you? \\n\\nIf you’re interested in Kafka and how and why it came to be\\, this is the session for you.",
@@ -1704,6 +1668,125 @@
           "STATUS": "CONFIRMED",
           "SUMMARY": "Get Kafka-Nated - Episode 1: Apache Kafka®'s Evolution: 14 Yrs of Streaming",
           "TRANSP": "OPAQUE"
+        },
+        {
+          "DTSTART": "20250802T080000Z",
+          "DTEND": "20250802T090000Z",
+          "DTSTAMP": "20251025T095332Z",
+          "UID": "c8r62phi6kq30b9i6orjab9k74s64bb274p30bb1ccqj2o9hcgrjedhick@google.com",
+          "CREATED": "20250801T132339Z",
+          "LAST-MODIFIED": "20250801T132350Z",
+          "SEQUENCE": "1",
+          "STATUS": "CONFIRMED",
+          "SUMMARY": "Giulio",
+          "TRANSP": "OPAQUE"
+        },
+        {
+          "DTSTART": "20240924T160000Z",
+          "DTEND": "20240924T193000Z",
+          "DTSTAMP": "20251025T095332Z",
+          "UID": "5vcnghl673oh5dh7jmd6677hi9@google.com",
+          "CREATED": "20240825T171801Z",
+          "DESCRIPTION": "When we think of accessibility\\, we often think about the usual suspects — colour contrast\\, legible font sizes\\, and mobile tap targets. However\\, <strong><b>accessible and inclusive design reaches far beyond that.</b></strong><br><br>Join <strong><b>Vitaly’s practical 3.5-hour workshop</b></strong> for an in-depth exploration of inclusive and accessible design patterns. You’ll walk away with a toolbox full of practical techniques to apply to any project!",
+          "LAST-MODIFIED": "20250928T105402Z",
+          "LOCATION": "https://smashingconf.com/online-workshops/workshops/inclusive-design-patterns-vitaly-friedman/",
+          "SEQUENCE": "0",
+          "STATUS": "CONFIRMED",
+          "SUMMARY": "Inclusive Design Patterns For ",
+          "TRANSP": "OPAQUE"
+        },
+        {
+          "DTSTART": "20251016T083000Z",
+          "DTEND": "20251017T173000Z",
+          "DTSTAMP": "20251025T095332Z",
+          "UID": "20251016T103000603941-fooevents@sudinnovationsummit.it",
+          "CLASS": "PUBLIC",
+          "CREATED": "20251003T133433Z",
+          "DESCRIPTION": "AI for Future 2025.<br>Formazione\\, innovazione e competenze per il domani<br><br><p>Fondato dall’imprenditore e innovatore <strong>Roberto Ruggeri</strong>\\, promosso dal <strong>Comune di Messina</strong> e realizzato dalla <strong>Sud Innovation APS</strong>\\, il Sud Innovation Summit è un forum d’eccellenza dove le menti più brillanti della scena tecnologica nazionale e internazionale si riuniscono nel Sud Italia per discutere di innovazione\\, digital e tendenze future.</p><p>Catalizzatore di cambiamento che accende lo spirito di innovazione e crocevia simbolico\\, il Summit vuole essere un punto di contatto privilegiato con quella parte di paese che vogliamo celebrare e arricchire di opportunità di crescita.<br><br><a href=\"https://sudinnovationsummit.it/\">https://sudinnovationsummit.it/</a></p>",
+          "LAST-MODIFIED": "20251004T165702Z",
+          "LOCATION": "Università degli studi di Messina - Dipartimento di Scienze Matematiche e Informatiche\\, Scienze Fisiche e Scienze della Terra (MIFT)",
+          "SEQUENCE": "0",
+          "STATUS": "CONFIRMED",
+          "SUMMARY": "Sud Innovation Summit 2025",
+          "TRANSP": "OPAQUE",
+          "VALARM": [
+            {
+              "ACTION": "DISPLAY",
+              "TRIGGER": "-P0DT0H15M0S",
+              "DESCRIPTION": "This is an event reminder"
+            },
+            {
+              "ACTION": "DISPLAY",
+              "TRIGGER": "-P0DT1H0M0S",
+              "DESCRIPTION": "This is an event reminder"
+            },
+            {
+              "ACTION": "DISPLAY",
+              "TRIGGER": "-P1D",
+              "DESCRIPTION": "This is an event reminder"
+            },
+            {
+              "ACTION": "DISPLAY",
+              "TRIGGER": "-P7D",
+              "DESCRIPTION": "This is an event reminder"
+            }
+          ]
+        },
+        {
+          "DTSTART": "20251120T160000Z",
+          "DTEND": "20251120T210000Z",
+          "DTSTAMP": "20251025T095332Z",
+          "UID": "22667di1ih9db2e4bq5ro0cu5v@google.com",
+          "CREATED": "20251016T080344Z",
+          "DESCRIPTION": "What would the web be without media – things like images\\, video\\, audio and documents? They are what make the web interactive and exciting\\, but also weigh it down and hurt accessibility and performance when not used properly. PixelPalooza will explore all the best practices we\\, as developers\\, can leverage media across our sites and applications.",
+          "LAST-MODIFIED": "20251016T080344Z",
+          "LOCATION": "https://cfe.dev/events/pixelpalooza-2025/",
+          "SEQUENCE": "0",
+          "STATUS": "CONFIRMED",
+          "SUMMARY": "PixelPalooza 2025",
+          "TRANSP": "OPAQUE",
+          "VALARM": [
+            {
+              "ACTION": "DISPLAY",
+              "TRIGGER": "-P0DT0H30M0S",
+              "DESCRIPTION": "This is an event reminder"
+            },
+            {
+              "ACTION": "DISPLAY",
+              "TRIGGER": "-P1D",
+              "DESCRIPTION": "This is an event reminder"
+            }
+          ]
+        },
+        {
+          "DTSTART": "20251024T133000Z",
+          "DTEND": "20251024T170000Z",
+          "DTSTAMP": "20251025T095332Z",
+          "UID": "0dfj9qlh14g97593smub6of904@google.com",
+          "CREATED": "20251016T080451Z",
+          "DESCRIPTION": "Linux Day 2025 celebra l'open source con talk su GNU/Linux\\, AI\\, cloud\\, DevOps e gaming. Un evento per scoprire come il software libero sta rivoluzionando la tecnologia moderna. 24 Ottobre 2025\\, IIS Verona Trento. Ingresso libero.",
+          "LAST-MODIFIED": "20251016T080451Z",
+          "LOCATION": "Via Giuseppe Natoli\\, 72 - 72 Via Giuseppe Natoli Messina\\, 98123",
+          "SEQUENCE": "0",
+          "STATUS": "CONFIRMED",
+          "SUMMARY": "Linux Day 2025: Open Source\\, AI e Cloud - Il Futuro della Tecnologia Libera",
+          "TRANSP": "OPAQUE"
+        },
+        {
+          "DTSTART": "20251212T080000Z",
+          "DTEND": "20251214T170000Z",
+          "DTSTAMP": "20251025T095332Z",
+          "ORGANIZER;CN=unknownorganizer@calendar.google.com": "mailto:unknownorganizer@calendar.google.com",
+          "UID": "google/102262/Event/Bevype Pizzimenti;X-NUM-GUESTS=0:mailto:giuseppe.pizzimenti.seed@gmail.com",
+          "CREATED": "20251004T170338Z",
+          "DESCRIPTION": "Dal 12 al 14 dicembre a Sant’Agata di Militello si terrà la conferenza DevFest Mediterranean 2025\\, con focus sull’intelligenza artificiale. Relatori italiani e internazionali\\, workshop e networking renderanno l’evento un’occasione unica per sviluppatori\\, professionisti\\, startup e studenti del Mediterraneo.",
+          "LAST-MODIFIED": "20251025T095215Z",
+          "LOCATION": "Sant'Agata di Militello\\, Via Medici\\, Sant'Agata di Militello\\, 98076",
+          "SEQUENCE": "1761385931",
+          "STATUS": "CONFIRMED",
+          "SUMMARY": "DevFest Mediterranean 2025",
+          "TRANSP": "OPAQUE",
+          "ATTACH;FILENAME=GOOGA252226795.pdf": "https://mail.google.com/?view=att&th=19a1ac8677a08eaf&attid=0.2&disp=attd&zw"
         }
       ]
     }

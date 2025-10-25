@@ -1,5 +1,4 @@
 import {
-  debounce,
   hasTouch,
   nextFrame,
   setIntersectionObserverItems,
@@ -33,8 +32,6 @@ export function setScroller(scrollingContainer) {
     threshold: 0.8, //edit
   });
 
-  let scrollingTimer;
-
   const btnPrev =
     document.getElementById('btnPrev') ||
     scrollingContainer.querySelector('.btn-prev');
@@ -42,35 +39,25 @@ export function setScroller(scrollingContainer) {
     document.getElementById('btnNext') ||
     scrollingContainer.querySelector('.btn-prev');
 
-  /*const debouncedCheckScroller = () =>
-    checkScroller(scrollingContainer, btnPrev, btnNext);*/
-  const debouncedCheckScroller = debounce(
-    () => checkScroller(scrollingContainer, btnPrev, btnNext),
-    50,
-  );
-
+  
   const resizeObserver = new ResizeObserver((entries) => {
-    debouncedCheckScroller();
+    checkScroller(scrollingContainer, btnPrev, btnNext)
   });
 
   resizeObserver.observe(scrollingContainer);
 
   scrollingContainer.addEventListener(
+    'scrollend',
+    () => {
+      scrollingContainer.classList.remove('scrolling');
+      checkScroller(scrollingContainer, btnPrev, btnNext);
+  });
+
+
+  scrollingContainer.addEventListener(
     'scroll',
     () => {
       scrollingContainer.classList.add('scrolling');
-
-      clearTimeout(scrollingTimer);
-      scrollingTimer = setTimeout(() => {
-        scrollingContainer.classList.remove('scrolling');
-
-        const evt = new CustomEvent('scrollStop', {
-          detail: scrollingContainer,
-        });
-        scrollingContainer.dispatchEvent(evt);
-      }, 100);
-
-      debouncedCheckScroller();
     },
     {
       passive: true,
@@ -202,13 +189,11 @@ const setDesktopScroller = function setDesktopScroller(scrollingContainer) {
   const SCROLL_SPEED = 4;
 
   let isDown = false;
+  let hasMoved = false;
   let startX;
   let scrollLeft;
-  let startPos = [0, 0];
-  let elapsedTime;
-  let startTime = new Date().getTime();
-  let wheelingTimer;
   let edging = 0;
+  let wheelingTimer;
 
   slider.addEventListener(
     'wheel',
@@ -258,25 +243,22 @@ const setDesktopScroller = function setDesktopScroller(scrollingContainer) {
     },
   );
 
-  slider.querySelectorAll('a').forEach((element) => {
-    element.addEventListener(
-      'mousedown',
-      (e) => {
-        e.preventDefault();
-      },
-      { passive: false },
-    );
-  });
+  slider.addEventListener('click', (e) => {
+    if (hasMoved) {
+      e.preventDefault();
+      e.stopPropagation();
+    }
+  }, true);  
+
 
   slider.addEventListener(
     'mousedown',
     (e) => {
       isDown = true;
+      hasMoved = false;
       slider.classList.add('dragging');
       startX = e.pageX - slider.offsetLeft;
       scrollLeft = slider.scrollLeft;
-      startPos = [e.pageX, e.pageY, slider.scrollLeft];
-      startTime = new Date().getTime();
     },
     { passive: true },
   );
@@ -284,21 +266,7 @@ const setDesktopScroller = function setDesktopScroller(scrollingContainer) {
     'mouseup',
     (e) => {
       isDown = false;
-      elapsedTime = new Date().getTime();
       slider.classList.remove('dragging');
-
-      if (
-        elapsedTime - startTime < 500 &&
-        e.pageX === startPos[0] &&
-        e.pageY === startPos[1] &&
-        slider.scrollLeft === startPos[2]
-      ) {
-        return true;
-        // biome-ignore lint/nursery/noUselessElse: <explanation>
-      } else {
-        e.preventDefault();
-        e.stopImmediatePropagation();
-      }
     },
     { passive: false },
   );
@@ -307,18 +275,26 @@ const setDesktopScroller = function setDesktopScroller(scrollingContainer) {
     isDown = false;
     slider.classList.remove('dragging');
   });
+
   slider.addEventListener(
     'mousemove',
     (e) => {
       if (!isDown) return;
+
       const x = e.pageX - slider.offsetLeft;
       const walk = (x - startX) * SCROLL_SPEED;
+
+    if (Math.abs(walk) > 5) {
+         hasMoved = true;
+      }
+
       nextFrame(() => {
         slider.scrollLeft = scrollLeft - walk;
       });
     },
     { passive: false },
   );
+
   slider.addEventListener(
     'dragstart',
     (e) => {
