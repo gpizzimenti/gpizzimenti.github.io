@@ -275,8 +275,7 @@ const setup = function setup() {
 
   const startSection = location.hash ? location.hash.substring(1) : 'chisono';
   setTimeout(() => softExec(() => navigate(startSection)), 200);
-
-  softExec(() => fetchResource(config.urls.schema, 'jsonld', 'schema'));
+  setTimeout(() => softExec(() => fetchResource(config.urls.schema, 'jsonld', 'schema')), 200);
 };
 
 /*-----------------------------------------------------------------------------------------------*/
