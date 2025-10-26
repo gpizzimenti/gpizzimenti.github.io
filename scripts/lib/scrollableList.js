@@ -124,6 +124,7 @@ export function setScroller(scrollingContainer) {
   }
 
   setDesktopScroller(scrollingContainer);
+  loadScrollendPolyfill();
 }
 
 /*---------------------------------------------------------------------------------------*/
@@ -309,5 +310,15 @@ const setDesktopScroller = function setDesktopScroller(scrollingContainer) {
 
   slider.classList.add('swipeable');
 };
+
+/*-----------------------------------------------------------------------------------------------*/
+
+async function loadScrollendPolyfill() {
+  if (!('onscrollend' in window)) {
+    await import('./polyfills/scrollend.polyfill.min.js');
+
+    slider.classList.add('scrollend-polyfilled');
+  }
+}
 
 /*-----------------------------------------------------------------------------------------------*/
