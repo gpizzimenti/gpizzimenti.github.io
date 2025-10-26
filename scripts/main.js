@@ -511,16 +511,18 @@ const setEvents = function setEvents() {
     } else navigate();
   });
 
-  const canSwipe = hasTouch() && import(config.urls.libs.swiperjs);
+  if (hasTouch()) {
+    const canSwipe = import(config.urls.libs.swiperjs);
 
-  if (canSwipe)
-    canSwipe.then((swiper) => {
-      swiper.setSwiper({
-        element: context.elementsCache.scrollingContainer,
-        onSwipeRight: (event) => handleSwipe(event.target, 'R'),
-        onSwipeLeft: (event) => handleSwipe(event.target, 'L'),
+    if (canSwipe)
+      canSwipe.then((swiper) => {
+        swiper.setSwiper({
+          element: context.elementsCache.scrollingContainer,
+          onSwipeRight: (event) => handleSwipe(event.target, 'R'),
+          onSwipeLeft: (event) => handleSwipe(event.target, 'L'),
+        });
       });
-    });
+  }
 
   window.addEventListener('offline', () => {
     notify(context.labels[context.state.lang].offline, 'warning');
