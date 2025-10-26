@@ -58,6 +58,7 @@
       as="fetch"
       type="text/html"
       href="./includes/it/chisono.inc.min.html"
+      crossorigin
     />    
     <script
       fetchpriority="high"
