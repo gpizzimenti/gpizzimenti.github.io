@@ -1176,6 +1176,7 @@
 
   article details[open]::details-content {
       opacity: 1;
+      content-visibility: auto;
       height: auto;
   }
 }
@@ -1183,7 +1184,8 @@
 /* Fallback for browsers with no interpolate-size support */
 @supports not (interpolate-size: allow-keywords) {
   article details[open]::details-content {
-      height: fit-content;
+    opacity: 1;  
+    height: fit-content;
   }
 }
   
