@@ -181,6 +181,7 @@ const scripts_lib = [
   '/scripts/lib/scrollableList.min.js',
   '/scripts/lib/swiper.min.js',
   '/scripts/lib/utils.min.js',
+  '/scripts/lib/polyfills/scrollend.polyfill.min.js'
 ];
 
 const scripts_ids = [
