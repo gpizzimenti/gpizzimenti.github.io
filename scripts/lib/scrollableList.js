@@ -124,7 +124,7 @@ export function setScroller(scrollingContainer) {
   }
 
   setDesktopScroller(scrollingContainer);
-  loadScrollendPolyfill();
+  loadScrollendPolyfill(scrollingContainer);
 }
 
 /*---------------------------------------------------------------------------------------*/
@@ -313,11 +313,11 @@ const setDesktopScroller = function setDesktopScroller(scrollingContainer) {
 
 /*-----------------------------------------------------------------------------------------------*/
 
-async function loadScrollendPolyfill() {
+async function loadScrollendPolyfill(scrollingContainer) {
   if (!('onscrollend' in window)) {
     await import('./polyfills/scrollend.polyfill.min.js');
 
-    slider.classList.add('scrollend-polyfilled');
+    scrollingContainer.classList.add('scrollend-polyfilled');
   }
 }
 
