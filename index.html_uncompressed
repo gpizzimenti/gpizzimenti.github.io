@@ -13,7 +13,7 @@
       content="roQENuK0FQ3XRKQLITB2NhsvBOYm4Rgy2fJfwgWhjKM"
     />
     <title>Giuseppe Pizzimenti - Software Developer</title>
-    <link rel="preconnect" href="https://gpizzimenti.github.io/">
+    <link rel="preconnect" href="https://gpizzimenti.github.io">
     <link
       fetchpriority="high"
       rel="preload"
@@ -49,8 +49,16 @@
       fetchpriority="high"
       rel="preload stylesheet"
       as="style"
+      type="text/css"
       href="./styles/css/style.min.css"
     />
+    <link
+      fetchpriority="high"
+      rel="preload"
+      as="fetch"
+      type="text/html"
+      href="./includes/it/chisono.inc.min.html"
+    />    
     <script
       fetchpriority="high"
       type="module"
