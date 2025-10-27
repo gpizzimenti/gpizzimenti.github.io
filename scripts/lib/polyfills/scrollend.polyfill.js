@@ -1,13 +1,10 @@
 /**
  * Polyfill for the 'scrollend' event
- * Only activates if the native scrollend event is not supported
+ * ES Module version - only activates if native scrollend is not supported
  */
-(function() {
-  // Check if scrollend is already supported
-  if ('onscrollend' in window) {
-    return; // Native support exists, no polyfill needed
-  }
 
+// Check if scrollend is already supported
+if (!('onscrollend' in window)) {
   const scrollEndDelay = 100; // ms to wait after last scroll event
   const scrollTimers = new WeakMap();
 
@@ -117,4 +114,12 @@
     enumerable: true,
     configurable: true
   });
-})();
+}
+
+// Export a function to check if polyfill was applied
+export function isPolyfilled() {
+  return !('onscrollend' in EventTarget.prototype);
+}
+
+// Export for side-effect import
+export default {};
