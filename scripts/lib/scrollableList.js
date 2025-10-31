@@ -280,7 +280,7 @@ const setDesktopScroller = function setDesktopScroller(scrollingContainer) {
   slider.addEventListener(
     'mousemove',
     (e) => {
-      if (!isDown) return;
+      if (!isDown || !e.buttons) return;
 
       const x = e.pageX - slider.offsetLeft;
       const walk = (x - startX) * SCROLL_SPEED;
