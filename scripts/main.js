@@ -229,6 +229,7 @@ const config = {
     },
     datalists: {
       corsi: [
+        '../data/corsi/2026.min.json',
         '../data/corsi/2025.min.json',
         '../data/corsi/2024.min.json',
         '../data/corsi/2023.min.json',
