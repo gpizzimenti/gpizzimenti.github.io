@@ -11,6 +11,7 @@ const corsi = [
   '2023.min.json',
   '2024.min.json',
   '2025.min.json',
+  '2026.min.json',
 ].map((el) => `/data/corsi/${el}`);
 
 const eventi_codemotion = [
