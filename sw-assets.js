@@ -76,6 +76,7 @@ const images_social = [
   'email.svg',
   'facebook.svg',
   'gdevs.svg',
+  'gskills.svg',
   'github.svg',
   'instagram.svg',
   'linkedin.svg',
