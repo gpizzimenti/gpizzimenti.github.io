@@ -17,5 +17,60 @@
         "link": "https://www.maxiferreira.com/"
       }
     ]
-  }
+  },
+  {
+    "titolo": "5-Day AI Agents: Intensive Vibe Coding Course With Google",
+    "link": "https://www.kaggle.com/competitions/5-day-ai-agents-intensive-vibecoding-course-with-google",
+    "inizio": "2026-06-17 11:00:00",
+    "fine": "2026-06-22 11:00:00",
+    "online": true,
+    "piattaforme": [
+      {
+        "nome": "Kaggle",
+        "link": "https://www.kaggle.com/"
+      },
+      {
+        "nome": "Google",
+        "link": "https://developers.google.com/"
+      }
+
+    ],
+    "relatori": [
+      {
+        "nome": "Anant Nawalgaria",
+        "link": "https://www.linkedin.com/in/anant-nawalgaria/"
+      },
+      {
+        "nome": "Brenda Flynn",
+        "link": "https://www.linkedin.com/in/brendajflynn/"
+      },
+      {
+        "nome": "Smitha Kolan",
+        "link": "https://www.linkedin.com/in/smithakolan/"
+      }
+     ],
+    "certificati": [
+      {
+        "link": "https://developers.google.com/profile/badges/events/cloud/five-day-ai-agents?u=giuseppepizzimenti"
+      }
+    ]     
+  },
+  {
+    "titolo": "Learn AI",
+    "link": "https://web.dev/learn/ai",
+    "inizio": "2026-06-26 11:00:00",
+    "fine": "2026-06-26 17:00:00",
+    "online": true,
+    "piattaforme": [
+      {
+        "nome": "Google",
+        "link": "https://developers.google.com/"
+      }
+    ],
+    "certificati": [
+      {
+        "link": "https://developers.google.com/profile/badges/playlists/webdev/learn-ai?u=giuseppepizzimenti"
+      }
+    ] 
+  }  
 ]

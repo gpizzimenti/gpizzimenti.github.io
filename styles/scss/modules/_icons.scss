@@ -156,6 +156,11 @@
   background-image: url("../../images/tech/java.svg");
 }
 
+.javafx::before {
+  background-image: url("../../images/tech/javafx.svg");
+  top: 50% !important;
+}
+
 .net::before {
   background-image: url("../../images/tech/net.svg");
 }
