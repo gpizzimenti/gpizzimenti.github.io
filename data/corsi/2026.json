@@ -19,6 +19,24 @@
     ]
   },
   {
+    "titolo": "Create Your First Gemini Enterprise Application",
+    "link": "https://www.skills.google/course_templates/1586",
+    "inizio": "2026-04-10 11:00:00",
+    "fine": "2026-04-10 17:00:00",
+    "online": true,
+    "piattaforme": [
+      {
+        "nome": "Google",
+        "link": "https://developers.google.com/"
+      }
+    ],
+    "certificati": [
+      {
+        "link": "https://www.credly.com/badges/fb4fd023-db81-450d-86a1-3536a59b97ec/"
+      }
+    ] 
+  },
+  {
     "titolo": "5-Day AI Agents: Intensive Vibe Coding Course With Google",
     "link": "https://www.kaggle.com/competitions/5-day-ai-agents-intensive-vibecoding-course-with-google",
     "inizio": "2026-06-17 11:00:00",
