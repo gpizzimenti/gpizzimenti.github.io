@@ -90,5 +90,41 @@
         "link": "https://developers.google.com/profile/badges/playlists/webdev/learn-ai?u=giuseppepizzimenti"
       }
     ] 
-  }  
+  },
+  {
+    "titolo": "Getting started with Google AI Studio, Gemini AI and NodeJS",
+    "link": "https://developers.google.com/learn/pathways/solution-ai-gemini-101",
+    "inizio": "2026-06-28 18:00:00",
+    "fine": "2026-06-28 19:00:00",
+    "online": true,
+    "piattaforme": [
+      {
+        "nome": "Google",
+        "link": "https://developers.google.com/"
+      }
+    ],
+    "certificati": [
+      {
+        "link": "https://developers.google.com/profile/badges/playlists/solutions/ai-gemini-101?u=giuseppepizzimenti"
+      }
+    ] 
+  },
+  {
+    "titolo": "Getting started with the Gemini API and Web Apps",
+    "link": "https://developers.google.com/learn/pathways/solution-ai-gemini-getting-started-web",
+    "inizio": "2026-06-28 19:00:00",
+    "fine": "2026-06-28 19:30:00",
+    "online": true,
+    "piattaforme": [
+      {
+        "nome": "Google",
+        "link": "https://developers.google.com/"
+      }
+    ],
+    "certificati": [
+      {
+        "link": "https://developers.google.com/profile/badges/playlists/solutions/ai-gemini-getting-started-web?u=giuseppepizzimenti"
+      }
+    ] 
+  }   
 ]
