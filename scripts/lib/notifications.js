@@ -30,6 +30,7 @@ const _baseStyle = `
     }
 
     :host output {
+        max-height: fit-content;
         max-inline-size: min(65ch, 90vw);
         padding-block: .5ch;
         padding-inline: 1ch;
@@ -129,6 +130,7 @@ export default class Notifications extends HTMLElement {
       this.shadowRoot.appendChild(el);
 
       setTimeout(() => el.classList.add('show'), 50);
+
 
       setTimeout(() => {
         el.classList.remove('show');
