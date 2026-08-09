@@ -896,10 +896,10 @@
               </h1>
             </header>
             <menu
+              role="menu"
               aria-controls="list"
               aria-expanded="false"
               tabindex="-1"
-              focusgroup
             ></menu>
             <footer>
               <search role="search" lang="it" data-nrresults="0"
